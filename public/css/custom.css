@@ -43,6 +43,10 @@ h5, h6{
 	font-family: "Poppins", sans-serif;
 }
 
+.text-secondary-color{
+	color: #C69160;
+}
+
 .decorative{
     font-family: "Oooh Baby", cursive;
 	color: #C69160;
@@ -91,18 +95,28 @@ a:focus-visible {
 	background: transparent;
 }
 
+/* Padding Estandar */
+
+.std-p{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
 /* Text Styles */
 
 .display-1{
 	font-size: 128px;
+	letter-spacing: -4px;
 }
 
 .display-2{
 	font-size: 96px;
+	letter-spacing: -4px;
 }
 
 .display-3{
 	font-size: 64px;
+	letter-spacing: -4px;
 }
 
 .h1{
@@ -147,6 +161,16 @@ a:focus-visible {
 	opacity: .8;
 }
 
+/* Separadores de Título */
+
+.top-mr{
+	margin-top: 60px;
+}
+
+.btm-mr{
+	margin-bottom: 60px;
+}
+
 .title-group{
 	position: relative;
 }
@@ -157,7 +181,21 @@ a:focus-visible {
 
 .title-group .decorative{
 	position: relative;
-	top: -40px;
+	top: -50px;
+	margin-bottom: -60px;
+}
+
+.display-title{
+	position: relative;
+}
+
+.display-title h4{
+	line-height: 1;
+}
+
+.display-title .decorative{
+	position: relative;
+	top: -50px;
 	margin-bottom: -60px;
 }
 
@@ -374,6 +412,25 @@ body.toggled .right-nav{
 	margin-right: 77px;
 }
 
+/* Estilos de Botones */
+/* Btn styles */
+
+.btn-primary{
+	width: 180px;
+	height: 180px;
+	background-color: #A75E41;
+	color: #fff;
+	text-align: center;
+	line-height: 180px;
+	border-radius: 100%;
+	border: none;
+	padding: 0px;
+}
+
+.btn-link{
+	padding: 0px;
+	text-decoration: underline;
+}
 
 .btn-menu ion-icon{
 	margin-right: 5px;
@@ -434,6 +491,45 @@ body.toggled .right-nav{
 	z-index: -1;
 	line-height: 1.2;
 	letter-spacing: -5px;
+}
+
+.section-intro .info-data-row{
+	margin-top: 135px;
+}
+
+.info-data{
+	position: relative;
+	margin: 0 30px;
+}
+
+.info-data h4,
+.info-data p{
+	margin-bottom: 0px;
+}
+
+.info-data .small-add{
+	position: absolute;
+	top: 7px;
+	right: -25px;
+	font-size: 13px;
+}
+
+/* Detalles sección, raices */
+
+.decorative-root{
+	position: absolute;
+	
+	z-index: 0;
+}
+
+.root-1{
+	top: 0px;
+	left: -10px;
+}
+
+.root-2{
+	bottom: 0px;
+	right: -10px;
 }
 
 .section-columns {
@@ -501,6 +597,38 @@ body.toggled .right-nav{
 	will-change: transform;
 }
 
+.section-gastro{
+	position: relative;
+	padding: 180px 0px 300px 0px;
+}
+
+.section-gastro .btn-primary{
+	position: absolute;
+	right: -140px;
+	bottom: -140px;
+}
+
+.gastro-plate{
+	position: absolute;
+	z-index: 1;
+}
+
+.plate-1{
+	top: 20%;
+	left: -30px;
+}
+
+.plate-2{
+	top: -20%;
+	right: 0px;
+}
+
+.plate-3{
+	bottom: -30%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
 .section-terraza{
 	background: url(../img/terraza.png);
 	background-position: center center;
@@ -511,6 +639,56 @@ body.toggled .right-nav{
 	padding: 350px 0px 120px 0px;
 	color: #fff;
 }
+
+.section-letters{
+	position: relative;
+	padding: 180px 0px 300px 0px;
+}
+
+.falling-letter{
+	position: absolute;
+	z-index: 0;
+}
+
+.letter-1{
+	top: 0;
+	left: 0px;
+}
+
+.letter-2{
+	top: -10%;
+	right: 0px;
+}
+
+.letter-3{
+	bottom: 0px;
+	left: 0px;
+}
+
+.letter-4{
+	bottom: 0px;
+	right: 0px;	
+}
+
+/* Estilo Carruseles */
+
+.owl-prev,
+.owl-next{
+	width: 71px;
+	height: 71px;
+	background-color: #fff !important;
+	color: #000;
+	display: block;
+	border-radius: 100%;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.owl-prev span,
+.owl-next span{
+	font-size: 20px;
+}
+
+/* Estilos pie de página */
 
 footer{
 	background-color: #A75E41;
@@ -535,6 +713,59 @@ footer .address{
 	color: #fff;
 }
 
+/* CTA Video */
+
+.video-cta{
+	position: relative;
+	padding: 180px 0px;
+	overflow: hidden;
+	color: #fff;
+}
+
+.video-cta .container{
+	position: relative;
+	z-index: 2;
+}
+
+.video-cta .description{
+	width: 35vw;
+	display: block;
+	margin: 20px auto;
+}
+
+.video-cta .decorative{
+	color: #C69160;
+	opacity: 1;
+}
+
+.video-cta video{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: auto;
+
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%,-50%);
+}
+
+/* Efecto Scroll en Texto */
+
 .scroll-text{
 	overflow: hidden;
+	display: flex;
+	position: relative;
+	padding: 20px 0px;
+}
+
+.scroll-left {
+    width: 8000px;
+    left: -10%;
+}
+
+.scroll-text h1{
+	font-size: 64px;
+	margin: 0px 10px;
+	letter-spacing: -4px;
 }

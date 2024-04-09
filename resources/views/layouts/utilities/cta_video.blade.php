@@ -8,9 +8,13 @@
                         <h2 class="display-3">Un oasis de descanso en donde echar raices.</h2>
                     </div>
 
-                    <p>Toma un descanso y recupera tu energía a través del relajante murmullo de agua, del contacto con nuestras raíces mexicanas y la calidez momento en familia, pareja o amigos.</p>
+                    <p class="description">Toma un descanso y recupera tu energía a través del relajante murmullo de agua, del contacto con nuestras raíces mexicanas y la calidez momento en familia, pareja o amigos.</p>
                 </div>
             </div>
         </div>
     </div>
+
+    <video muted loop autoplay poster="https://www.haciendacatrina.com.mx/assets/img/hc_r_room3.jpg">
+        <source src="{{ asset('video/footer-video.mp4') }}" type="video/mp4">
+    </video> 
 </section>

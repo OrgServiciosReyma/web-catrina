@@ -26,7 +26,12 @@ class FrontController extends Controller
         return view('business');
     }
 
-    public function events()
+    public function eventWedding()
+    {
+        return view('events');
+    }
+
+    public function eventGeneral()
     {
         return view('events');
     }
@@ -34,6 +39,11 @@ class FrontController extends Controller
     public function experiencies()
     {
         return view('experiencies');
+    }
+
+    public function gastro()
+    {
+        return view('gastro');
     }
 
     public function rooms()

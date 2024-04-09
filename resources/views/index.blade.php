@@ -7,6 +7,8 @@
 
 @section('content')
   <section class="section section-intro">
+    
+
     <img class="left-img" src="{{ asset('img/section-img-1.png') }}" alt="">
     <h5 class="special-welcome decorative">Bienvenido querido amigo. Preparate para el mejor momento de tu semana.</h5>
 
@@ -20,20 +22,20 @@
           <p class="intro-description">Ubicado en uno de los centros económicos más vibrantes del Bajío, nuestra Hacienda Catrina es una mezcla entre el estilo tradicional y contemporeaneo que hace de México un vibrante espacio para crear memorias.</p>
         </div>
 
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 text-center info-data-row">
           <div class="d-flex justify-content-center text-center">
             <div class="info-data">
-              <h4>{{ Carbon\Carbon::now()->format('d') }}</h4>
-              <p>{{ Carbon\Carbon::now()->translatedFormat('M, Y') }}</p>
+              <h4 class="h1">{{ Carbon\Carbon::now()->format('d') }}</h4>
+              <p>{{ Carbon\Carbon::now()->translatedFormat('M Y') }}</p>
             </div>
 
             <div class="info-data">
-              <h4>{{ Carbon\Carbon::now()->format('H:i') }}</h4>
+              <h4 class="h1">{{ Carbon\Carbon::now()->format('h:i') }} <span class="small-add">{{ Carbon\Carbon::now()->format('a') }}</span></h4>
               <p>hora local</p>
             </div>
 
             <div class="info-data">
-              <h4>14º</h4>
+              <h4 class="h1">14º</h4>
               <p>despejado</p>
             </div>
           </div>
@@ -42,6 +44,9 @@
     </div>
 
     <img class="right-img" src="{{ asset('img/section-img-2.png') }}" alt="">
+
+    <img class="decorative-root root-1" src="{{ asset('img/root-1.svg') }}" alt="">
+    <img class="decorative-root root-2" src="{{ asset('img/root-2.svg') }}" alt="">
   </section>
 
   <section class="section-columns">
@@ -91,11 +96,11 @@
     </div>
   </section>
 
-  <section class="section section-events">
+  <section class="section section-events std-p">
     <div class="container">
-      <div class="row align-items-end">
+      <div class="row align-items-end btm-mr">
         <div class="col-md-6">
-          <div class="title-group">
+          <div class="title-group ">
             <p class="wide">Eventos y Sociales</p>
             <h2 class="display-3">Cartelera</h2>
             <p class="decorative display-3">el lugar para ser</p>
@@ -103,9 +108,11 @@
         </div>
 
         <div class="col-md-6 text-end">
-          <a href="">Conoce más sobre nuestra cartelera y eventos ></a>
+          <a href="" class="btn-link">Conoce más sobre nuestra cartelera y eventos ></a>
         </div>
+      </div>
 
+      <div class="row">
         <div class="col-md-12">
           <div class="owl-carousel event-carousel">
             <div class="item">
@@ -227,19 +234,20 @@
   </section>
 
   <section class="section section-gastro">
-    <img src="{{ asset('img/gastro-1.png') }}" alt="">
-    <img src="{{ asset('img/gastro-2.png') }}" alt="">
-    <img src="{{ asset('img/gastro-3.png') }}" alt="">
+    <img class="decorative-root root-1" src="{{ asset('img/root-1.svg') }}" alt="">
+    <img class="gastro-plate plate-1" src="{{ asset('img/gastro-1.png') }}" alt="">
+    <img class="gastro-plate plate-2" src="{{ asset('img/gastro-2.png') }}" alt="">
+    <img class="gastro-plate plate-3" src="{{ asset('img/gastro-3.png') }}" alt="">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="text-center">
-            <h1>Gastronomía</h1>
-            <h5>el mayor regalo del día</h5>
+          <div class="display-title btm-mr text-center">
+            <h1 class="display-1">Gastronomía</h1>
+            <p class="display-3 decorative">el mayor regalo del día</p>
           </div>
         </div>
 
-        <div class="col-md-3 offset-md-6">
+        <div class="col-md-3 offset-md-6 position-relative">
           <p><strong>Un destino para los amantes de la gastronomía dirigido por el chef con dos estrellas Michelin Leondres Lour’d du León. Esta hacienda ofrece 2 restaurantes y 2 bares.</strong></p>
           <p>El arte culinario es parte importante de la experiencia inolvidable preparada para cada uno de ustedes.</p>
           <p>El mundo del sabor pleno es una inspiración infinita para nuestro chef y su equipo. Recetas tradicionales. Productos de temporada de calidad. Ver. Sentir. Disfrútala. Y déjate mimar.</p>
@@ -268,15 +276,19 @@
   </section>
 
   <div class="section section-letters">
-    <img src="{{ asset('img/letter-1.png') }}" alt="">
-    <img src="{{ asset('img/letter-2.png') }}" alt="">
-    <img src="{{ asset('img/letter-3.png') }}" alt="">
-    <img src="{{ asset('img/letter-4.png') }}" alt="">
+    <img class="falling-letter letter-1" src="{{ asset('img/letter-1.png') }}" alt="">
+    <img class="falling-letter letter-2" src="{{ asset('img/letter-2.png') }}" alt="">
+    <img class="falling-letter letter-3" src="{{ asset('img/letter-3.png') }}" alt="">
+    <img class="falling-letter letter-4" src="{{ asset('img/letter-4.png') }}" alt="">
 
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>Queremos ser parte de un <br><span>Capitulo único de tu vida</span></h1>
+          <div class="display-title btm-mr">
+            <h4 class="display-3">Queremos ser parte de un</h4>
+            <h4 class="display-3 text-secondary-color text-end">Capitulo único de tu vida</h4>
+          </div>
+          
         </div>
 
         <div class="col-md-3 offset-md-2">
@@ -304,7 +316,7 @@
     </div>
   </div>
 
-  <section class="section section-members">
+  <section class="section section-members std-p">
     <div class="container">
       <div class="row align-items-center">
           <div class="col-md-6">
@@ -312,7 +324,7 @@
           </div>
 
           <div class="col-md-6">
-            <div class="title-group">
+            <div class="title-group btm-mr">
               <p class="wide">Catrina Insider</p>
               <h2 class="display-3">Exclusivo para miembros</h2>
               <p class="decorative display-3">el lugar para ser</p>
@@ -321,7 +333,7 @@
             <div class="ps-5">
               <p><strong>Un escondite íntimo con un estilo e influencias profundamente arraigadas en su herencia cultural.</strong></p>
               <p>Toma un descanso y recupera tu energía a través del relajante murmullo de agua, del contacto con nuestras raíces mexicanas y la calidez momento en familia, pareja o amigos.</p>
-              <a href="">Este es un link de prueba ></a>
+              <a href="" class="btn-link mt-5">Este es un link de prueba ></a>
             </div>
           </div>
       </div>

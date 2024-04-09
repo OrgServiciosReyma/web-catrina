@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <img class="logo-footer" src="{{ asset('img/logo-footer.png') }}" alt="Logo">
+                <a href="{{ route('index') }}"><img class="logo-footer" src="{{ asset('img/logo-footer.png') }}" alt="Logo"></a>
                 <p class="address">Blvd. Mineral de Peñafiel Sur #600, Col, Guanajuato Puerto Interior, 36275 Silao, Gto. 472 145 0510</p>
             </div>
 
@@ -27,9 +27,9 @@
                 </div>
                 <div class="col-md-8 text-end">
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="">Aviso de Privacidad</a></li>
-                        <li class="list-inline-item"><a href="">Uso de Cookies</a></li>
-                        <li class="list-inline-item"><a href="">Términos y Condiciones</a></li>
+                        <li class="list-inline-item"><a href="{{ route('privacy') }}">Aviso de Privacidad</a></li>
+                        <li class="list-inline-item"><a href="{{ route('cookies') }}">Uso de Cookies</a></li>
+                        <li class="list-inline-item"><a href="{{ route('terms') }}">Términos y Condiciones</a></li>
                     </ul>
                 </div>
             </div>

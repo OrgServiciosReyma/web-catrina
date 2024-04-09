@@ -5,12 +5,12 @@
         <a href="javascript:void(0)" class="close-btn"><ion-icon name="close-outline"></ion-icon></a>
 
         <div class="sidebar-menu">
-            <a href=""><h4><span>I</span> Boutique</h4></a>
-            <a href=""><h4><span>II</span> Hospitalidad</h4></a>
-            <a href=""><h4><span>III</span> Sabor</h4></a>
-            <a href=""><h4><span>IV</span> Bodas</h4></a>
-            <a href=""><h4><span>V</span> Celebración</h4></a>
-            <a href=""><h4><span>VI</span> Negocios</h4></a>
+            <a href="{{ route('boutique') }}"><h4><span>I</span> Boutique</h4></a>
+            <a href="{{ route('nosotros') }}"><h4><span>II</span> Hospitalidad</h4></a>
+            <a href="{{ route('gastro') }}"><h4><span>III</span> Sabor</h4></a>
+            <a href="{{ route('bodas') }}"><h4><span>IV</span> Bodas</h4></a>
+            <a href="{{ route('events') }}"><h4><span>V</span> Celebración</h4></a>
+            <a href="{{ route('business') }}"><h4><span>VI</span> Negocios</h4></a>
         </div>
     </div>
 
@@ -36,8 +36,8 @@
             
 
             <ul class="list-unstyled mt-auto">
-                <li><a href="">Aviso de Privacidad</a></li>
-                <li><a href="">Términos y Condiciones</a></li>
+                <li><a href="{{ route('privacy') }}">Aviso de Privacidad</a></li>
+                <li><a href="{{ route('terms') }}">Términos y Condiciones</a></li>
             </ul>
         </div>
     </div>
