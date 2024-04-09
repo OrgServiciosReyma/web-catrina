@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Libre+Caslon+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Libre+Caslon+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *,
 *::after,
@@ -34,28 +34,22 @@ body {
 	overflow-x: hidden;
 }
 
-h1{
+h1, h2, h3, h4{
     font-family: "Libre Caslon Display", serif;
+	text-transform: uppercase;
 }
 
-h2{
-    font-family: "Libre Caslon Display", serif;
+h5, h6{
+	font-family: "Poppins", sans-serif;
 }
 
-h3{
-    font-family: "Libre Caslon Display", serif;
-}
-
-h4{
-    font-family: "Libre Caslon Display", serif;
-}
-
-h5{
-    font-family: "La Belle Aurore", cursive;
-}
-
-h6{
-    font-family: "Poppins", sans-serif;
+.decorative{
+    font-family: "Oooh Baby", cursive;
+	color: #C69160;
+	opacity: .5;
+	letter-spacing: -3px;
+	margin-bottom: 0px;
+  	line-height: 1;
 }
 
 p, label, span{
@@ -97,17 +91,74 @@ a:focus-visible {
 	background: transparent;
 }
 
-.unbutton {
-	background: none;
-	border: 0;
-	padding: 0;
-	margin: 0;
-	font: inherit;
-	cursor: pointer;
+/* Text Styles */
+
+.display-1{
+	font-size: 128px;
 }
 
-.unbutton:focus {
-	outline: none;
+.display-2{
+	font-size: 96px;
+}
+
+.display-3{
+	font-size: 64px;
+}
+
+.h1{
+	font-size: 48px;
+}
+
+.h2{
+	font-size: 40px;
+}
+
+.h3{
+	font-size: 33px;
+}
+
+.h4{
+	font-size: 27px;
+}
+
+.h5{
+	font-size: 23px;
+}
+
+.h6{
+	font-size: 20px;
+}
+
+.p{
+	font-size: 16px;
+}
+
+.wide{
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+.small{
+	font-size: 13px;
+}
+
+.small-help-text{
+	font-size: 11px;
+	opacity: .8;
+}
+
+.title-group{
+	position: relative;
+}
+
+.title-group .wide{
+	margin-bottom: 0px;
+}
+
+.title-group .decorative{
+	position: relative;
+	top: -40px;
+	margin-bottom: -60px;
 }
 
 .section, footer, nav{
@@ -119,11 +170,271 @@ a:focus-visible {
     min-height: auto;
 }
 
-.section-intro {
-	margin-bottom: 100vh;
-	height: 100vh;
+nav{
+	position: fixed;
+	z-index: 99;
+	background: transparent;
+	transition: .4s ease-in-out all;
+	height: 225px;
 }
 
+nav .logo-sm{
+	display: none;
+	width: 170px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+nav .logo{
+	width: 170px;
+	padding-top: 30px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+nav.scroll{
+	background: var(--color-bg);
+	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.2);
+	height: 80px;
+}
+
+nav.scroll .logo{
+	display: none;
+}
+
+nav.scroll .logo-sm{
+	display: block;
+}
+
+nav .booking-btn{
+	background-color: #A75E41;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	border-radius: 100%;
+	color: #fff;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	line-height: 450px;
+	top: -150px;
+	right: -50px;
+	font-size: 18px;
+	letter-spacing: -1px;
+	padding-right: 30px;
+	transition: .6s ease-in-out all;
+}
+
+nav.scroll .booking-btn{
+	width: 200px;
+	height: 200px;
+	line-height: 250px;
+	top: -85px;
+}
+
+nav .btn-menu{
+	background-color: #F3F2EB;
+	color: #675132;
+	border: 2px solid #675132;
+	padding: 12px 35px;
+	border-radius: 24px;
+	font-weight: bold;
+	transition: .2s ease-in-out all;
+	line-height: 1;
+	display: inline-flex;
+  	align-items: center;
+}
+
+.left-nav{
+	position: fixed;
+	width: 70%;
+	height: 100vh;
+	left: -70%;
+	padding: 80px 40px;
+	background: url(../img/catrina-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: 1s ease-in-out all;
+	z-index: 3000;
+}
+
+.left-nav .overlay{
+	position: absolute;
+	background: rgba(30, 30, 30, 0.57);
+	background-blend-mode: multiply;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	top: 0px;
+	left: 0px;
+}
+
+.left-nav .sidebar-menu{
+	position: absolute;
+	z-index: 3;
+	top: 50%;
+	left: 120px;
+	transform: translateY(-50%);
+	color: #fff;
+}
+
+.right-nav{
+	position: fixed;
+	width: 30%;
+	height: 100vh;
+	right: -30%;
+	padding: 80px;
+	background-color: #A75E41;
+	color: #fff;
+	transition: 1s ease-in-out all;
+	z-index: 3000;
+}
+
+.right-nav .d-flex{
+	height: 100%;
+}
+
+.right-nav a{
+	color: #fff;
+}
+
+.right-nav h4{
+	margin-bottom: 30px;
+}
+
+.right-nav p{
+	opacity: .8;
+	margin-bottom: 50px;
+}
+
+.right-nav img{
+	width: 200px;
+	margin: 0 auto;
+}
+
+.right-nav ul li{
+	margin-top: 15px;
+}
+
+.right-nav .social-icons{
+	margin-top: 30px;
+}
+
+.social-icons a{
+	padding: 0px 15px;
+	font-size: 1.5em;
+}
+
+.left-nav .close-btn{
+	background-color: #fff;
+	color: #A75E41;
+	border:3px solid #fff;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 60px;
+	font-size: 1.2em;
+	position: relative;
+	z-index: 4;
+	display: block;
+}
+
+body.toggled .left-nav{
+	left: 0;
+}
+
+
+body.toggled .right-nav{
+	right: 0;
+}
+
+
+.sidebar-menu a{
+	color: #fff;
+	font-size: 40px;
+	margin-bottom: 30px;
+	display: block;
+}
+
+.sidebar-menu a h4{
+	font-size: 40px;
+	display: flex;
+  	align-items: center;
+  	margin-bottom: 0px;
+}
+
+.sidebar-menu a span{
+	font-size: 16px !important;
+	display: inline-block;
+	width: 16px;
+	margin-right: 77px;
+}
+
+
+.btn-menu ion-icon{
+	margin-right: 5px;
+	position: relative;
+	font-size: 20px;
+}
+
+.btn-menu:hover{
+	background-color: #675132;
+	color: #fff;
+	border-color: #fff;
+}
+
+.booking-btn:hover{
+	background-color: #fff;
+	color: #A75E41;
+}
+
+.section-intro {
+	margin-bottom: 100vh;
+	height: 120vh;
+	position: relative;
+	padding-bottom: 80px;
+}
+
+.section-intro .intro-title{
+	width: 45vw;
+	margin: 320px auto 30px auto;
+	display: block;
+}
+
+.section-intro .intro-description{
+	padding-right: 5vw;
+}
+
+.section-intro .left-img,
+.section-intro .right-img{
+	position: absolute;
+}
+
+.section-intro .left-img{
+	bottom: 120px;
+	left: -80px;
+}
+
+.section-intro .right-img{
+	top: -150px;
+	right: -80px;
+}
+
+.section-intro .special-welcome{
+	position: absolute;
+	left: 10%;
+	bottom: 25%;
+	font-size: 70px;
+	width: 700px;
+	opacity: .2;
+	z-index: -1;
+	line-height: 1.2;
+	letter-spacing: -5px;
+}
 
 .section-columns {
 	position: fixed;
@@ -197,12 +508,31 @@ a:focus-visible {
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	padding: 250px 0px 60px 0px;
+	padding: 350px 0px 120px 0px;
 	color: #fff;
 }
 
 footer{
 	background-color: #A75E41;
+	padding: 70px 0px 35px 0px;
+	color: #fff;
+}
+
+footer .logo-footer{
+	margin-bottom: 65px;
+}
+
+footer .address{
+	width: 350px;
+}
+
+.post-footer{
+	margin-top: 60px;	
+}
+
+.post-footer .list-inline-item a{
+	margin-left: 35px;
+	color: #fff;
 }
 
 .scroll-text{

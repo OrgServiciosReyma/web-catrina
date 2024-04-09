@@ -7,29 +7,29 @@
 
 @section('content')
   <section class="section section-intro">
-    <img src="{{ asset('img/section-img-1.png') }}" alt="">
-    <h5>Bienvenido querido amigo. Preparate para el mejor momento de tu semana.</h5>
+    <img class="left-img" src="{{ asset('img/section-img-1.png') }}" alt="">
+    <h5 class="special-welcome decorative">Bienvenido querido amigo. Preparate para el mejor momento de tu semana.</h5>
 
     <div class="container">
       <div class="row">
         <div class="col-md-8 offset-md-2">
-          <h2>La belleza y <br> comodidad <br> del auténtico <br> lujo mexicano</h2>
+          <img class="intro-title" src="{{ asset('img/intro-title.svg') }}" alt="">
         </div>
 
         <div class="col-md-4 offset-md-6">
-          <p>Ubicado en uno de los centros económicos más vibrantes del Bajío, nuestra Hacienda Catrina es una mezcla entre el estilo tradicional y contemporeaneo que hace de México un vibrante espacio para crear memorias.</p>
+          <p class="intro-description">Ubicado en uno de los centros económicos más vibrantes del Bajío, nuestra Hacienda Catrina es una mezcla entre el estilo tradicional y contemporeaneo que hace de México un vibrante espacio para crear memorias.</p>
         </div>
 
         <div class="col-md-12 text-center">
           <div class="d-flex justify-content-center text-center">
             <div class="info-data">
               <h4>{{ Carbon\Carbon::now()->format('d') }}</h4>
-              <p>{{ Carbon\Carbon::now()->translatedFormat('m, Y') }}</p>
+              <p>{{ Carbon\Carbon::now()->translatedFormat('M, Y') }}</p>
             </div>
 
             <div class="info-data">
               <h4>{{ Carbon\Carbon::now()->format('H:i') }}</h4>
-              <p>hora loca</p>
+              <p>hora local</p>
             </div>
 
             <div class="info-data">
@@ -41,7 +41,7 @@
       </div>
     </div>
 
-    <img src="{{ asset('img/section-img-2.png') }}" alt="">
+    <img class="right-img" src="{{ asset('img/section-img-2.png') }}" alt="">
   </section>
 
   <section class="section-columns">
@@ -96,9 +96,9 @@
       <div class="row align-items-end">
         <div class="col-md-6">
           <div class="title-group">
-            <h6>Eventos y Sociales</h6>
-            <h2>Cartelera</h2>
-            <h5>el lugar para ser</h5>
+            <p class="wide">Eventos y Sociales</p>
+            <h2 class="display-3">Cartelera</h2>
+            <p class="decorative display-3">el lugar para ser</p>
           </div>
         </div>
 
@@ -256,11 +256,11 @@
         <div class="col-md-3">
           <p>Toma un descanso y recupera tu energía a través del relajante murmullo de agua, del contacto con nuestras raíces mexicanas y la calidez momento en familia, pareja o amigos.</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 offset-md-3">
           <div class="title-group text-end">
-            <h6>Catrina Insider</h6>
-            <h2>Terraza Bar</h2>
-            <h5>el lugar para ser</h5>
+            <p class="wide">Catrina Insider</p>
+            <h2 class="display-3">Terraza Bar</h2>
+            <p class="decorative display-3">el lugar para ser</p>
           </div>
         </div>
       </div>
@@ -313,9 +313,9 @@
 
           <div class="col-md-6">
             <div class="title-group">
-              <h6>Catrina Insider</h6>
-              <h2>Exclusivo para miembros</h2>
-              <h5>el lugar para ser</h5>
+              <p class="wide">Catrina Insider</p>
+              <h2 class="display-3">Exclusivo para miembros</h2>
+              <p class="decorative display-3">el lugar para ser</p>
             </div>
 
             <div class="ps-5">

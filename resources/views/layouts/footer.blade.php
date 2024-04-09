@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <img src="" alt="Logo">
-                <p>Blvd. Mineral de Peñafiel Sur #600, Col, Guanajuato Puerto Interior, 36275 Silao, Gto. 472 145 0510</p>
+                <img class="logo-footer" src="{{ asset('img/logo-footer.png') }}" alt="Logo">
+                <p class="address">Blvd. Mineral de Peñafiel Sur #600, Col, Guanajuato Puerto Interior, 36275 Silao, Gto. 472 145 0510</p>
             </div>
 
             <div class="col-md-6 text-end">
