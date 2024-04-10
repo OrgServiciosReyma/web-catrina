@@ -7,8 +7,6 @@
 
 @section('content')
   <section class="section section-intro">
-    
-
     <img class="left-img" src="{{ asset('img/section-img-1.png') }}" alt="">
     <h5 class="special-welcome decorative">Bienvenido querido amigo. Preparate para el mejor momento de tu semana.</h5>
 
@@ -100,7 +98,7 @@
     <div class="container">
       <div class="row align-items-end btm-mr">
         <div class="col-md-6">
-          <div class="title-group ">
+          <div class="title-group">
             <p class="wide">Eventos y Sociales</p>
             <h2 class="display-3">Cartelera</h2>
             <p class="decorative display-3">el lugar para ser</p>
@@ -227,7 +225,7 @@
                 </div>
               </div>
             </div>
-        </div>
+          </div>
         </div>
       </div>
     </div>
@@ -296,6 +294,7 @@
           <p>Ubicado en uno de los centros económicos más vibrantes del Bajío, nuestra Hacienda Catrina es una mezcla entre el estilo tradicional y contemporeaneo que hace de México un vibrante espacio para crear memorias.</p>
         </div>
       </div>
+      
       <div class="row">
         <div class="col-md-5 offset-md-6">
           <div class="d-flex">

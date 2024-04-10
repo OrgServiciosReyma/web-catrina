@@ -449,6 +449,10 @@ body.toggled .right-nav{
 	color: #A75E41;
 }
 
+.intro-section{
+	padding-top: 320px !important;
+}º
+
 .section-intro {
 	margin-bottom: 100vh;
 	height: 120vh;
@@ -768,4 +772,8 @@ footer .address{
 	font-size: 64px;
 	margin: 0px 10px;
 	letter-spacing: -4px;
+}
+
+.white-scroll-text h1{
+	color: #fff;
 }
