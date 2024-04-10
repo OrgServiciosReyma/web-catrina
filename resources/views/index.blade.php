@@ -231,6 +231,73 @@
     </div>
   </section>
 
+  <section class="section section-rooms std-p">
+    <p class="special-welcome decorative">Bienvenido querido amigo. Preparate para el mejor momento de tu semana.</p>
+    <p class="special-text display-2">Habitaciones</p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="owl-carousel boutique-carousel">
+            <div class="item">
+              <div class="boutique-card">
+                  <div class="row align-items-center">
+                    <div class="col-md-5">
+                      <div class="title-group">
+                        <p class="wide">Hacienda Catrina</p>
+                        <h2 class="display-3">Doble Queen Suite</h2>
+                      </div>
+                      <p>Nuestras espaciosas habitaciones están impecablemente diseñadas con comodidades residenciales y comodidades modernas.</p>
+                    </div>
+                    <div class="col-md-7 position-relative">
+                      <img src="{{ asset('img/boutique-placeholder.png') }}" class="img-fluid" alt="">
+                      <a href="" class="btn btn-primary">Conoce más</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="boutique-card">
+                  <div class="row align-items-center">
+                    <div class="col-md-5">
+                      <div class="title-group">
+                        <p class="wide">Hacienda Catrina</p>
+                        <h2 class="display-3">Gran Class King</h2>
+                      </div>
+                      <p>Nuestras espaciosas habitaciones están impecablemente diseñadas con comodidades residenciales y comodidades modernas.</p>
+                    </div>
+                    <div class="col-md-7 position-relative">
+                      <img src="{{ asset('img/boutique-placeholder.png') }}" class="img-fluid" alt="">
+                      <a href="" class="btn btn-primary">Conoce más</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="boutique-card">
+                  <div class="row align-items-center">
+                    <div class="col-md-5">
+                      <div class="title-group">
+                        <p class="wide">Hacienda Catrina</p>
+                        <h2 class="display-3">Master Suite</h2>
+                      </div>
+                      <p>Nuestras espaciosas habitaciones están impecablemente diseñadas con comodidades residenciales y comodidades modernas.</p>
+                    </div>
+                    <div class="col-md-7 position-relative">
+                      <img src="{{ asset('img/boutique-placeholder.png') }}" class="img-fluid" alt="">
+                      <a href="" class="btn btn-primary">Conoce más</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="section section-gastro">
     <img class="decorative-root root-1" src="{{ asset('img/root-1.svg') }}" alt="">
     <img class="gastro-plate plate-1" src="{{ asset('img/gastro-1.png') }}" alt="">
@@ -246,11 +313,11 @@
         </div>
 
         <div class="col-md-3 offset-md-6 position-relative">
-          <p><strong>Un destino para los amantes de la gastronomía dirigido por el chef con dos estrellas Michelin Leondres Lour’d du León. Esta hacienda ofrece 2 restaurantes y 2 bares.</strong></p>
+          <p class="p"><strong>Un destino para los amantes de la gastronomía dirigido por el chef con dos estrellas Michelin Leondres Lour’d du León. Esta hacienda ofrece 2 restaurantes y 2 bares.</strong></p>
           <p>El arte culinario es parte importante de la experiencia inolvidable preparada para cada uno de ustedes.</p>
           <p>El mundo del sabor pleno es una inspiración infinita para nuestro chef y su equipo. Recetas tradicionales. Productos de temporada de calidad. Ver. Sentir. Disfrútala. Y déjate mimar.</p>
 
-          <a href="" class="btn btn-primary">Conoce más</a>
+          <a href="{{ route('gastro') }}" class="btn btn-primary">Conoce más</a>
         </div>
       </div>
     </div>
@@ -290,7 +357,7 @@
         </div>
 
         <div class="col-md-3 offset-md-2">
-          <p><strong>Hacienda Catrina ofrece a las parejas un refugio con encanto para evadirse, con jardines románticos y espacios íntimos.</strong></p>
+          <p class="p"><strong>Hacienda Catrina ofrece a las parejas un refugio con encanto para evadirse, con jardines románticos y espacios íntimos.</strong></p>
           <p>Ubicado en uno de los centros económicos más vibrantes del Bajío, nuestra Hacienda Catrina es una mezcla entre el estilo tradicional y contemporeaneo que hace de México un vibrante espacio para crear memorias.</p>
         </div>
       </div>
@@ -349,6 +416,13 @@
 <script src="{{ asset('vendor/owl-carousel/dist/owl.carousel.min.js') }}"></script>
 
 <script>
+  $('.boutique-carousel').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:true,
+    items:1,
+  });
+
   $('.event-carousel').owlCarousel({
     loop:true,
     margin:30,
@@ -364,6 +438,6 @@
             items:4
         }
     }
-  })
+  });
 </script>
 @endpush

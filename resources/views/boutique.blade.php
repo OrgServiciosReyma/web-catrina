@@ -6,7 +6,7 @@
 @endpush
 
 @section('content')
-<section class="section intro-section">
+<section class="section section-boutique intro-section">
     <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -17,7 +17,7 @@
         </div>
     </div>
 
-    <div class="full-image-wrap">
+    <div class="full-image-wrap boutique-banner">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 offset-md-8">
@@ -29,42 +29,45 @@
 
     <div class="pickup-badge">
         <p class="pickup-badge-title">Servicio de Pickup</p>
-        <p>Hotel - Aeropuerto - Hotel</p>
+        <p class="mb-0">Hotel - Aeropuerto - Hotel</p>
     </div>
 
     <p class="special-welcome decorative">Con un diseno elegante y atemporal, el salon ofrece un ambiente acogedor y relajado, lo que lo convierte en el lugar pespecial.</p>
 </section>
 
-<section class="section std-p">
+<section class="section offset-mr-top">
     <div class="container">
         <div class="row">
             <div class="col-md-4 offset-md-1">
-                <p><strong>Lo más importante son nuestros huéspedes</strong></p>
+                <p class="text-alt-color h5"><strong>Lo más importante son nuestros huéspedes</strong></p>
                 <p>Las habitaciones, cuidadosamente restauradas con una perfecta acústica, combinan historia, elegancia y modernas comodidades, están equipadas con aire acondicionado, conexión Wi-Fi gratuito, TV por cable, conector para dispositivos y minibar. Se ofrece servicio a las habitaciones las 24 horas.</p>
             </div>
 
             <div class="col-md-6 offset-md-1">
-                <ul class="list-unstyled">
+              <div class="offset-mr-top">
+                  <ul class="list-unstyled list-attributes mb-5">
                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> 2 Master Suite</li>
                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> 7 Grand Class King</li>
                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> 19 Grand Class Doble Queen</li>
-                </ul>
+                  </ul>
 
-                <h4 class="display-3 mb-0 mt-4">Check-in: 3:00 PM</h4>
-                <h4 class="display-3">Check-out: 12:00 PM</h4>
+                  <h4 class="display-3 mb-0 mt-4">Check-in: 3:00 PM</h4>
+                  <h4 class="display-3">Check-out: 12:00 PM</h4>
+              </div>
+                
             </div>
         </div>
     </div>
 </section>
 
-<section class="section">
+<section class="section std-p">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <p class="wide">Habitaciones</p>
 
                 <div class="room-collapse">
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#masterSuite" aria-expanded="false" aria-controls="masterSuite">
+                    <button class="btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#masterSuite" aria-expanded="false" aria-controls="masterSuite">
                         Master Suite
                       </button>
                     
@@ -74,51 +77,52 @@
                               <div class="owl-carousel gallery-carousel">
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-1.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-2.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-3.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-4.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-1.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-3.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-2.png') }}" alt="">
                                   </div>
                                 </div>
                               </div>
-                            </div>
                         </div>
 
-                        <div class="row align-items-center mt-5">
+                        <div class="row align-items-center mt-5 position-relative">
+                            <a href="" class="btn btn-primary">Conoce más</a>
+
                             <div class="col-md-5">
-                                <p><strong>Lo más importante son nuestros huéspedes</strong></p>
+                                <p class="text-alt-color h5"><strong>Lo más importante son nuestros huéspedes</strong></p>
                                 <p>Las habitaciones, cuidadosamente restauradas con una perfecta acústica, combinan historia, elegancia y modernas comodidades, están equipadas con aire acondicionado, conexión Wi-Fi gratuito, TV por cable, conector para dispositivos y minibar. Se ofrece servicio a las habitaciones las 24 horas.</p>
                             </div>
 
                             <div class="col-md-2 offset-md-2">
-                                <ul class="list-unstyled">
+                                <ul class="list-unstyled list-attributes">
                                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Servicio 24/7</li>
                                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Tina de Baño</li>
                                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Cama King Size</li>
@@ -129,9 +133,9 @@
                 </div>
 
                 <div class="room-collapse">
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#GranClassDobleQueen" aria-expanded="false" aria-controls="GranClassDobleQueen">
-                        Gran Class Doble Queen
-                      </button>
+                    <button class="btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#GranClassDobleQueen" aria-expanded="false" aria-controls="GranClassDobleQueen">
+                      Gran Class Doble Queen
+                    </button>
                     
                     <div class="collapse" id="GranClassDobleQueen">
                         <div class="row">
@@ -139,51 +143,52 @@
                               <div class="owl-carousel gallery-carousel">
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-1.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-2.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-3.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-4.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-1.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-3.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-2.png') }}" alt="">
                                   </div>
                                 </div>
                               </div>
-                            </div>
                         </div>
 
-                        <div class="row align-items-center mt-5">
+                        <div class="row align-items-center mt-5 position-relative">
+                            <a href="" class="btn btn-primary">Conoce más</a>
+
                             <div class="col-md-5">
-                                <p><strong>Lo más importante son nuestros huéspedes</strong></p>
+                                <p class="text-alt-color h5"><strong>Lo más importante son nuestros huéspedes</strong></p>
                                 <p>Las habitaciones, cuidadosamente restauradas con una perfecta acústica, combinan historia, elegancia y modernas comodidades, están equipadas con aire acondicionado, conexión Wi-Fi gratuito, TV por cable, conector para dispositivos y minibar. Se ofrece servicio a las habitaciones las 24 horas.</p>
                             </div>
 
                             <div class="col-md-2 offset-md-2">
-                                <ul class="list-unstyled">
+                                <ul class="list-unstyled list-attributes">
                                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Servicio 24/7</li>
                                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Tina de Baño</li>
                                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Cama King Size</li>
@@ -194,9 +199,9 @@
                 </div>
 
                 <div class="room-collapse">
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#GranClassKing" aria-expanded="false" aria-controls="GranClassKing">
+                    <button class="btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#GranClassKing" aria-expanded="false" aria-controls="GranClassKing">
                         Gran Class King
-                      </button>
+                    </button>
                     
                     <div class="collapse" id="GranClassKing">
                         <div class="row">
@@ -204,51 +209,52 @@
                               <div class="owl-carousel gallery-carousel">
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-1.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-2.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-3.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-4.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-1.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-3.png') }}" alt="">
                                   </div>
                                 </div>
                                 <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                                      <img src="{{ asset('img/banner-2.png') }}" alt="">
                                   </div>
                                 </div>
                               </div>
                             </div>
                         </div>
 
-                        <div class="row align-items-center mt-5">
+                        <div class="row align-items-center mt-5 position-relative">
+                            <a href="" class="btn btn-primary">Conoce más</a>
                             <div class="col-md-5">
-                                <p><strong>Lo más importante son nuestros huéspedes</strong></p>
+                                <p class="text-alt-color h5"><strong>Lo más importante son nuestros huéspedes</strong></p>
                                 <p>Las habitaciones, cuidadosamente restauradas con una perfecta acústica, combinan historia, elegancia y modernas comodidades, están equipadas con aire acondicionado, conexión Wi-Fi gratuito, TV por cable, conector para dispositivos y minibar. Se ofrece servicio a las habitaciones las 24 horas.</p>
                             </div>
 
                             <div class="col-md-2 offset-md-2">
-                                <ul class="list-unstyled">
+                                <ul class="list-unstyled list-attributes">
                                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Servicio 24/7</li>
                                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Tina de Baño</li>
                                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Cama King Size</li>

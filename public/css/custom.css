@@ -47,6 +47,10 @@ h5, h6{
 	color: #C69160;
 }
 
+.text-alt-color{
+	color: #A75E41;
+}
+
 .decorative{
     font-family: "Oooh Baby", cursive;
 	color: #C69160;
@@ -102,6 +106,13 @@ a:focus-visible {
 	padding-bottom: 80px;
 }
 
+.offset-mr-top{
+	margin-top: 220px;
+}
+
+.list-attributes li{
+	margin: 10px 0px;
+}
 /* Text Styles */
 
 .display-1{
@@ -141,6 +152,10 @@ a:focus-visible {
 
 .h6{
 	font-size: 20px;
+}
+
+.title-p{
+	font-size: 18px;
 }
 
 .p{
@@ -197,6 +212,16 @@ a:focus-visible {
 	position: relative;
 	top: -50px;
 	margin-bottom: -60px;
+}
+
+.display-title .line-detail{
+	width: 300px;
+	display: inline-block;
+	position: absolute;
+	height: 2px;
+	background: #675132;
+	left: -300px;
+	top: 50%;
 }
 
 .section, footer, nav{
@@ -451,7 +476,7 @@ body.toggled .right-nav{
 
 .intro-section{
 	padding-top: 320px !important;
-}º
+}
 
 .section-intro {
 	margin-bottom: 100vh;
@@ -601,6 +626,65 @@ body.toggled .right-nav{
 	will-change: transform;
 }
 
+.boutique-carousel{
+
+}
+
+.section-rooms{
+	position: relative;
+}
+
+.section-rooms .special-text{
+	position: absolute;
+	left: 10%;
+	top: 0%;
+	font-size: 8vw;
+  	opacity: .4;
+	z-index: -1;
+	line-height: 1;
+	letter-spacing: -4px;
+	font-family: "Libre Caslon Display", serif;
+	text-transform: uppercase;
+}
+
+.section-rooms .special-welcome{
+	position: absolute;
+	left: 10%;
+	bottom: 0%;
+	font-size: 70px;
+	width: 700px;
+	opacity: .2;
+	z-index: -1;
+	line-height: 1.2;
+	letter-spacing: -5px;
+}
+
+.boutique-card .col-md-5{
+	padding: 0px 90px;
+}
+
+.boutique-card .title-group{
+	margin-bottom: 30px;
+}
+
+.boutique-carousel .owl-stage-outer{
+	overflow: initial;
+}
+
+.boutique-carousel .btn-primary{
+	position: absolute;
+	bottom: -35px;
+	right: 90px;
+}
+
+.boutique-carousel .owl-item{
+	opacity: .1;
+}
+
+.boutique-carousel .owl-item.active{
+	opacity: 1;
+}
+
 .section-gastro{
 	position: relative;
 	padding: 180px 0px 300px 0px;
@@ -685,11 +769,25 @@ body.toggled .right-nav{
 	display: block;
 	border-radius: 100%;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	position: absolute;
+	z-index: 2;
 }
 
 .owl-prev span,
 .owl-next span{
 	font-size: 20px;
+}
+
+.owl-prev{
+	top: 50%;
+	transform: translateY(-50%);
+	left: -30px;
+}
+
+.owl-next{
+	top: 50%;
+	transform: translateY(-50%);
+	right: -30px;
 }
 
 /* Estilos pie de página */
@@ -776,4 +874,105 @@ footer .address{
 
 .white-scroll-text h1{
 	color: #fff;
+}
+
+/* Pantallas internas */
+.full-image-wrap{
+	padding-top: 68px;
+	min-height: 60vh;
+	z-index: 2;
+	position: relative;
+	color: #fff;
+}
+
+.boutique-banner{
+	background: url(../img/banner-boutique.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+/* Section Boutique */
+.section-boutique .display-title{
+	margin-bottom: -60px;
+}
+
+.section-boutique .special-welcome{
+	position: absolute;
+	left: 10%;
+	bottom: -20%;
+	font-size: 70px;
+	width: 800px;
+	opacity: .2;
+	z-index: 2;
+	line-height: 1.2;
+	letter-spacing: -5px;
+}
+
+.pickup-badge{
+	background-color: #A75E41;
+	color: #fff;
+	padding: 35px 60px 35px 20vw;
+	border-radius: 0px 100px 100px 0px;
+	position: absolute;
+	z-index: 3;
+}
+
+.pickup-badge-title{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.section-boutique .pickup-badge{
+	left: 0px;
+	bottom: -75px;
+}
+
+.btn-collapse{
+	border: none;
+	width: 100%;
+	border-bottom: 2px solid #675132;
+	padding: 40px 0px;
+	font-size: 96px;
+	font-family: "Libre Caslon Display", serif;
+	text-transform: uppercase;
+	background-color: transparent;
+	text-align: left;
+	color: #675132;
+	letter-spacing: -4px;
+	transition: .2s ease-in-out all;
+	padding-right: 50%;
+	line-height: 1;
+	position: relative;
+}
+
+.btn-collapse:after{
+	content: '+';
+	position: absolute;
+	right: 0px;
+	font-size: 200px;
+	line-height: 86px;
+}
+
+.btn-collapse:hover{
+	background: #675132;
+	padding: 40px 20px;
+	padding-right: 50%;
+	color: #fff;
+}
+
+.btn-collapse:hover:after{
+	content: '-';
+}
+
+.room-collapse .btn-primary{
+	position: absolute;
+	top: -220px;
+	right: 35%;
+	z-index: 2;
+}
+
+.room-collapse .collapse,
+.room-collapse .collapsing{
+	padding-top: 30px;
 }

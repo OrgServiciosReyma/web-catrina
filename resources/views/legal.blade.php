@@ -11,10 +11,12 @@
         background-color: #1E1E1E !important;
     }
 
-    
-
     nav .logo{
         mix-blend-mode:difference;
+    }
+
+    nav a{
+        color: #fff;
     }
 </style>
 @endpush
