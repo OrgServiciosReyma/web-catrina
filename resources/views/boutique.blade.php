@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="display-title btm-mr text-center">
+            <div class="display-title btm-mr text-center parallax" data-rellax-speed="-2">
               <h1 class="display-1"><span class="line-detail"></span> Descanso y Placer</h1>
             </div>
           </div>
@@ -27,12 +27,12 @@
         </div>
     </div>
 
-    <div class="pickup-badge">
+    <div class="pickup-badge parallax" data-rellax-speed="-2">
         <p class="pickup-badge-title">Servicio de Pickup</p>
         <p class="mb-0">Hotel - Aeropuerto - Hotel</p>
     </div>
 
-    <p class="special-welcome decorative">Con un diseno elegante y atemporal, el salon ofrece un ambiente acogedor y relajado, lo que lo convierte en el lugar pespecial.</p>
+    <p class="special-welcome decorative parallax" data-rellax-speed="-1">Con un diseno elegante y atemporal, el salon ofrece un ambiente acogedor y relajado, lo que lo convierte en el lugar pespecial.</p>
 </section>
 
 <section class="section offset-mr-top">

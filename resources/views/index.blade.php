@@ -7,8 +7,8 @@
 
 @section('content')
   <section class="section section-intro">
-    <img class="left-img" src="{{ asset('img/section-img-1.png') }}" alt="">
-    <h5 class="special-welcome decorative">Bienvenido querido amigo. Preparate para el mejor momento de tu semana.</h5>
+    <img class="left-img parallax" data-rellax-speed="2" src="{{ asset('img/section-img-1.png') }}" alt="">
+    <h5 class="special-welcome decorative parallax" data-rellax-speed="4">Bienvenido querido amigo. Preparate para el mejor momento de tu semana.</h5>
 
     <div class="container">
       <div class="row">
@@ -41,16 +41,16 @@
       </div>
     </div>
 
-    <img class="right-img" src="{{ asset('img/section-img-2.png') }}" alt="">
+    <img class="right-img parallax" data-rellax-speed="-1" src="{{ asset('img/section-img-2.png') }}" alt="">
 
-    <img class="decorative-root root-1" src="{{ asset('img/root-1.svg') }}" alt="">
-    <img class="decorative-root root-2" src="{{ asset('img/root-2.svg') }}" alt="">
+    <img class="decorative-root root-1 parallax" data-rellax-speed="-2" src="{{ asset('img/root-1.svg') }}" alt="">
+    <img class="decorative-root root-2 parallax" data-rellax-speed="-2" src="{{ asset('img/root-2.svg') }}" alt="">
   </section>
 
   <section class="section-columns">
     <div class="columns">
       <div class="column-wrap">
-        <div class="column">
+        <div class="column parallax" data-rellax-speed="-4">
           <div class="column__item">
             <div class="column__item-img" style="background-image:url(https://www.haciendacatrina.com.mx/assets/img/hc_r_room0.jpg)"></div>
           </div>
@@ -63,7 +63,7 @@
         </div>
       </div>
       <div class="column-wrap">
-        <div class="column">
+        <div class="column parallax" data-rellax-speed="4">
           <div class="column__item">
             <div class="column__item-img" style="background-image:url(https://www.haciendacatrina.com.mx/assets/img/hc_r_room7.jpg)"></div>
           </div>
@@ -79,7 +79,7 @@
         </div>
       </div>
       <div class="column-wrap">
-        <div class="column">
+        <div class="column parallax" data-rellax-speed="-4">
           <div class="column__item">
             <div class="column__item-img" style="background-image:url(https://www.haciendacatrina.com.mx/assets/img/hc_g_img9.jpg)"></div>
           </div>
@@ -232,8 +232,8 @@
   </section>
 
   <section class="section section-rooms std-p">
-    <p class="special-welcome decorative">Bienvenido querido amigo. Preparate para el mejor momento de tu semana.</p>
-    <p class="special-text display-2">Habitaciones</p>
+    <p class="special-welcome decorative parallax" data-rellax-speed="2">Bienvenido querido amigo. Preparate para el mejor momento de tu semana.</p>
+    <p class="special-text display-2 parallax" data-rellax-speed="1">Habitaciones</p>
 
     <div class="container">
       <div class="row">
@@ -300,9 +300,9 @@
 
   <section class="section section-gastro">
     <img class="decorative-root root-1" src="{{ asset('img/root-1.svg') }}" alt="">
-    <img class="gastro-plate plate-1" src="{{ asset('img/gastro-1.png') }}" alt="">
-    <img class="gastro-plate plate-2" src="{{ asset('img/gastro-2.png') }}" alt="">
-    <img class="gastro-plate plate-3" src="{{ asset('img/gastro-3.png') }}" alt="">
+    <img class="gastro-plate plate-1 parallax" data-rellax-speed="2" src="{{ asset('img/gastro-1.png') }}" alt="">
+    <img class="gastro-plate plate-2 parallax" data-rellax-speed="-2" src="{{ asset('img/gastro-2.png') }}" alt="">
+    <img class="gastro-plate plate-3 parallax" data-rellax-speed="2"src="{{ asset('img/gastro-3.png') }}" alt="">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -341,19 +341,19 @@
   </section>
 
   <div class="section section-letters">
-    <img class="falling-letter letter-1" src="{{ asset('img/letter-1.png') }}" alt="">
-    <img class="falling-letter letter-2" src="{{ asset('img/letter-2.png') }}" alt="">
-    <img class="falling-letter letter-3" src="{{ asset('img/letter-3.png') }}" alt="">
-    <img class="falling-letter letter-4" src="{{ asset('img/letter-4.png') }}" alt="">
+    <img class="falling-letter letter-1 parallax" data-rellax-speed="4" src="{{ asset('img/letter-1.png') }}" alt="">
+    <img class="falling-letter letter-2 parallax" data-rellax-speed="-2" src="{{ asset('img/letter-2.png') }}" alt="">
+    <img class="falling-letter letter-3 parallax" data-rellax-speed="2" src="{{ asset('img/letter-3.png') }}" alt="">
+    <img class="falling-letter letter-4 parallax" data-rellax-speed="1" src="{{ asset('img/letter-4.png') }}" alt="">
 
-    <div class="container">
+    <div class="container position-relative">
+      <img class="event-image parallax" data-rellax-speed="2" src="{{ asset('img/index-event.png') }}" alt="">
       <div class="row">
         <div class="col-md-12">
           <div class="display-title btm-mr">
             <h4 class="display-3">Queremos ser parte de un</h4>
-            <h4 class="display-3 text-secondary-color text-end">Capitulo único de tu vida</h4>
+            <h4 class="display-3 text-secondary-color text-end position-relative" style="z-index: 2;">Capitulo único de tu vida</h4>
           </div>
-          
         </div>
 
         <div class="col-md-3 offset-md-2">
@@ -396,8 +396,8 @@
               <p class="decorative display-3">el lugar para ser</p>
             </div>
 
-            <div class="ps-5">
-              <p><strong>Un escondite íntimo con un estilo e influencias profundamente arraigadas en su herencia cultural.</strong></p>
+            <div class="ps-5 pe-5">
+              <p class="title-p"><strong>Un escondite íntimo con un estilo e influencias profundamente arraigadas en su herencia cultural.</strong></p>
               <p>Toma un descanso y recupera tu energía a través del relajante murmullo de agua, del contacto con nuestras raíces mexicanas y la calidez momento en familia, pareja o amigos.</p>
               <a href="" class="btn-link mt-5">Este es un link de prueba ></a>
             </div>

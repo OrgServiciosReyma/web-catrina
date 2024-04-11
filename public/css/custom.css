@@ -421,6 +421,7 @@ body.toggled .right-nav{
 	font-size: 40px;
 	margin-bottom: 30px;
 	display: block;
+	
 }
 
 .sidebar-menu a h4{
@@ -428,7 +429,14 @@ body.toggled .right-nav{
 	display: flex;
   	align-items: center;
   	margin-bottom: 0px;
+	transition: .2s ease-in-out all;
 }
+
+
+.sidebar-menu a:hover h4{
+	font-size: 60px;
+}
+
 
 .sidebar-menu a span{
 	font-size: 16px !important;
@@ -627,7 +635,7 @@ body.toggled .right-nav{
 }
 
 .boutique-carousel{
-
+	position: relative;
 }
 
 .section-rooms{
@@ -688,6 +696,7 @@ body.toggled .right-nav{
 .section-gastro{
 	position: relative;
 	padding: 180px 0px 300px 0px;
+	z-index: 5;
 }
 
 .section-gastro .btn-primary{
@@ -702,19 +711,19 @@ body.toggled .right-nav{
 }
 
 .plate-1{
-	top: 20%;
+	top: 50%;
 	left: -30px;
 }
 
 .plate-2{
-	top: -20%;
+	top: -25%;
 	right: 0px;
 }
 
 .plate-3{
-	bottom: -30%;
-	left: 50%;
-	transform: translateX(-50%);
+	bottom: -45%;
+	left: 30%;
+	/*transform: translateX(-50%);*/ /* No aplica al usar animación parallax */
 }
 
 .section-terraza{
@@ -733,13 +742,21 @@ body.toggled .right-nav{
 	padding: 180px 0px 300px 0px;
 }
 
+.section-letters .event-image{
+	position: absolute;
+	right: 150px;
+	top: 25%;
+	z-index: 1;
+	width: 320px;
+}
+
 .falling-letter{
 	position: absolute;
 	z-index: 0;
 }
 
 .letter-1{
-	top: 0;
+	top: 40%;
 	left: 0px;
 }
 
@@ -758,6 +775,18 @@ body.toggled .right-nav{
 	right: 0px;	
 }
 
+.social-2{
+	margin-top: 240px;
+}
+
+.section-social{
+	position: relative;
+	padding-top: 120px;
+}
+
+.section-social .display-title{
+	margin-top: 120px;
+}
 /* Estilo Carruseles */
 
 .owl-prev,
@@ -892,9 +921,17 @@ footer .address{
 	background-position: center center;
 }
 
+.business-banner{
+	background: url(../img/banner-business.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	margin-top: 130px;
+}
+
 /* Section Boutique */
 .section-boutique .display-title{
-	margin-bottom: -60px;
+	margin-bottom: -30px;
 }
 
 .section-boutique .special-welcome{
@@ -905,6 +942,18 @@ footer .address{
 	width: 800px;
 	opacity: .2;
 	z-index: 2;
+	line-height: 1.2;
+	letter-spacing: -5px;
+}
+
+.section-places .special-welcome{
+	position: absolute;
+	left: 40%;
+	bottom: 0%;
+	font-size: 70px;
+	width: 650px;
+	opacity: .2;
+	z-index: 1;
 	line-height: 1.2;
 	letter-spacing: -5px;
 }
@@ -976,3 +1025,109 @@ footer .address{
 .room-collapse .collapsing{
 	padding-top: 30px;
 }
+
+/* Section business */
+
+.section-business .special-welcome{
+	position: absolute;
+	left: 45%;
+	bottom: 15%;
+	font-size: 70px;
+	width: 500px;
+	opacity: 9;
+	z-index: 3;
+	line-height: 1.2;
+	letter-spacing: -5px;
+}
+
+.section-business .description{
+	margin-top: 160px;
+}
+
+.section-business img{
+	z-index: 2;
+	position: relative;
+}
+
+.section-business .main-img{
+	margin-top: -200px;
+  	z-index: 1;
+}
+
+.section-business .decorative-root{
+	position: absolute;
+	top: 0px;
+	right: 8vw;
+}
+
+/* Experiencias SPA */
+
+.section-experiences .display-title{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	transform: translate(-50%,-50%);
+}
+
+.section-experiences .special-welcome{
+	position: fixed;
+	left: 20%;
+	bottom: 20%;
+	font-size: 60px;
+	width: 700px;
+	opacity: .2;
+	z-index: 3;
+	line-height: 1.2;
+	letter-spacing: -5px;
+}
+
+/* Eventos */
+
+.section-events .special-welcome{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	font-size: 60px;
+	width: 500px;
+	opacity: .2;
+	z-index: 3;
+	line-height: 1.2;
+	letter-spacing: -5px;
+}
+
+.section-events .decorative-root{
+	top: -11%;
+	right: 0px;
+	width: 600px;
+}
+
+.section-enterprise{
+	position: relative;
+	margin-bottom: 250px;
+}
+
+.section-enterprise .container{
+	position: relative;
+}
+
+.section-enterprise .row{
+	position: relative;
+	z-index: 2;
+}
+
+.business-image{
+	position: absolute;
+}
+
+.section-enterprise .business-1{
+	left: 0px;
+	top: -100px;
+	z-index: 1;
+}
+
+.section-enterprise .business-2{
+	top: 0px;
+	right: 100px;
+	z-index: 1;
+}	

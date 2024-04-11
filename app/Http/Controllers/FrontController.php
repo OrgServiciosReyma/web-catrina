@@ -36,9 +36,9 @@ class FrontController extends Controller
         return view('events');
     }
 
-    public function experiencies()
+    public function spa()
     {
-        return view('experiencies');
+        return view('spa');
     }
 
     public function gastro()

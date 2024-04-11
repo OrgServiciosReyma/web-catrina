@@ -18,6 +18,10 @@
     nav a{
         color: #fff;
     }
+
+    nav.scroll{
+        background-color: #1E1E1E !important;
+    }
 </style>
 @endpush
 

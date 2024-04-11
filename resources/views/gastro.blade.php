@@ -7,9 +7,9 @@
 @section('content')
 <section class="section section-gastro intro-section">
     <img class="decorative-root root-1" src="{{ asset('img/root-1.svg') }}" alt="">
-    <img class="gastro-plate plate-1" src="{{ asset('img/gastro-1.png') }}" alt="">
-    <img class="gastro-plate plate-2" src="{{ asset('img/gastro-2.png') }}" alt="">
-    <img class="gastro-plate plate-3" src="{{ asset('img/gastro-3.png') }}" alt="">
+    <img class="gastro-plate plate-1 parallax" data-rellax-speed="5" src="{{ asset('img/gastro-1.png') }}" alt="">
+    <img class="gastro-plate plate-2 parallax" data-rellax-speed="-4" src="{{ asset('img/gastro-2.png') }}" alt="">
+    
     <div class="container">
       <div class="row">
         <div class="col-md-12">

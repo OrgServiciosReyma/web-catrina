@@ -7,7 +7,7 @@
                     <h2 class="display-3">Descanso y placer</h2>
                 </div>
 
-                <p>Ofrecemos acomodación y descanso para tus invitados o socios comerciales.</p>
+                <p class="mb-0">Ofrecemos acomodación y descanso para tus invitados o socios comerciales.</p>
             </div>
 
             <div class="col-md-2 offset-md-2">
