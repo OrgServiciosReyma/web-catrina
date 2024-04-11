@@ -43,7 +43,7 @@ sudo apt-get install unzip
 ### Instalar CURL + Composer
 
 ```
-sudo apt-get install curl php8.1-curl php8.1-xml php8.1-gd php8.1-opcache php8.1-mbstring
+sudo apt-get install curl php8.2-curl php8.2-xml php8.2-gd php8.2-opcache php8.2-mbstring
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 ```

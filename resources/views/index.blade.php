@@ -386,7 +386,7 @@
     <div class="container">
       <div class="row align-items-center">
           <div class="col-md-6">
-            <img src="{{ asset('img/collage.png') }}" alt="">
+            <img src="{{ asset('img/collage.png') }}" alt="" class="img-fluid">
           </div>
 
           <div class="col-md-6">

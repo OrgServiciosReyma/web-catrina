@@ -6,12 +6,12 @@
             </div>
             <div class="col-md-8">
                 <div class="d-flex justify-content-center align-items-center">
-                    <a href="{{ route('nosotros') }}">Acerca de nosotros</a>
+                    <a class="hide-res" href="{{ route('nosotros') }}">Acerca de nosotros</a>
 
                     <a href="{{ route('index') }}"><img class="logo" src="{{ asset('img/logo.svg') }}" alt="Logo"></a>
                     <a href="{{ route('index') }}"><img class="logo-sm" src="{{ asset('img/logo-sm.svg') }}" alt="Logo"></a>
 
-                    <a href=""><ion-icon name="card-outline"></ion-icon> Catrina Insiders</a>
+                    <a class="hide-res" href=""><ion-icon name="card-outline"></ion-icon> Catrina Insiders</a>
                 </div>
             </div>
             <div class="col-md-2">
