@@ -11,11 +11,11 @@
                     <a href="{{ route('index') }}"><img class="logo" src="{{ asset('img/logo.svg') }}" alt="Logo"></a>
                     <a href="{{ route('index') }}"><img class="logo-sm" src="{{ asset('img/logo-sm.svg') }}" alt="Logo"></a>
 
-                    <a class="hide-res" href=""><ion-icon name="card-outline"></ion-icon> Catrina Insiders</a>
+                    <a class="hide-res" href=""><ion-icon name="star"></ion-icon> Social Club</a>
                 </div>
             </div>
             <div class="col-md-2">
-                <a href="" class="booking-btn">Reserva</a>
+                <a href="" class="booking-btn"><ion-icon name="bookmark-outline"></ion-icon> Reserva</a>
             </div>
         </div>
     </div>

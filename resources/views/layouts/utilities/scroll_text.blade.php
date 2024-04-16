@@ -1,6 +1,6 @@
 <section class="scroll-text scroll-left d-flex">
-    <h1 class="mb-0 me-4">Un espacio que te transporta a un nuevo mundo</h1>
-    <h1 class="mb-0">Un espacio que te transporta a un nuevo mundo</h1>
+    <h1 class="mb-0 me-4">Toda una experiencia del auténtico lujo mexicano.</h1>
+    <h1 class="mb-0">Toda una experiencia del auténtico lujo mexicano.</h1>
 </section>
 
 @push('scripts')

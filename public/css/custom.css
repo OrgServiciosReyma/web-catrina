@@ -62,6 +62,8 @@ h5, h6{
 
 p, label, span{
     font-family: "Poppins", sans-serif;
+	line-height: 170%; /* 27.2px */
+	letter-spacing: -0.32px;
 }
 
 a {
@@ -297,6 +299,12 @@ nav.scroll .booking-btn{
 	top: -85px;
 }
 
+.booking-btn ion-icon{
+	position: relative;
+	top: 3px;
+	margin-right: 4px;
+}
+
 nav .btn-menu{
 	background-color: #F3F2EB;
 	color: #675132;
@@ -313,6 +321,7 @@ nav .btn-menu{
 .left-nav{
 	position: fixed;
 	width: 70%;
+	min-height: 830px;
 	height: 100vh;
 	left: -70%;
 	padding: 80px 40px;
@@ -322,6 +331,7 @@ nav .btn-menu{
 	background-position: center center;
 	transition: 1s ease-in-out all;
 	z-index: 3000;
+	overflow-y: scroll;
 }
 
 .left-nav .overlay{
@@ -347,13 +357,15 @@ nav .btn-menu{
 .right-nav{
 	position: fixed;
 	width: 30%;
+	min-height: 830px;
 	height: 100vh;
 	right: -30%;
-	padding: 80px;
+	padding: 80px 50px;
 	background-color: #A75E41;
 	color: #fff;
 	transition: 1s ease-in-out all;
 	z-index: 3000;
+	overflow-y: scroll;
 }
 
 .right-nav .d-flex{
@@ -374,13 +386,18 @@ nav .btn-menu{
 }
 
 .right-nav img{
-	width: 200px;
+	width: 160px;
 	margin: 0 auto;
 }
 
 .right-nav ul li{
 	margin-top: 15px;
 }
+
+.right-nav .legal-list a{
+	text-decoration: underline;
+}
+
 
 .right-nav .social-icons{
 	margin-top: 30px;
@@ -430,13 +447,61 @@ body.toggled .right-nav{
   	align-items: center;
   	margin-bottom: 0px;
 	transition: .2s ease-in-out all;
+	width: 450px;
 }
 
 
+.sidebar-element{
+	position: relative;
+}
+
+.sidebar-element .hover-card{
+	position: absolute;
+	left: 120%;
+	padding: 20px 80px;
+	background-color: transparent;
+	opacity: 0;
+	transition: .7s ease-in-out all;
+	z-index: -1;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+
+.hover-card .hover-line{
+	border-left: 2px solid #fff;
+	padding: 20px;
+}
+
+.hover-card .hover-line:before{
+	content: "";
+	height: 2px;
+	background-color: #fff;
+	width: 100px;
+	display: block;
+	position: absolute;
+	left: -20px;
+	top: 50%;
+}
+
+.hover-card a{
+	font-size: 20px;
+	margin-bottom: 5px;
+	letter-spacing: -2px;
+	margin-left: 40px;
+}
+
+.sidebar-element:hover .hover-card{
+	opacity: 1;
+	left: 100%;
+	z-index: 1;
+}
+
+/*
 .sidebar-menu a:hover h4{
 	font-size: 60px;
 }
-
+*/
 
 .sidebar-menu a span{
 	font-size: 16px !important;
@@ -458,6 +523,7 @@ body.toggled .right-nav{
 	border-radius: 100%;
 	border: none;
 	padding: 0px;
+	font-size: 20px;
 }
 
 .btn-link{
@@ -488,7 +554,7 @@ body.toggled .right-nav{
 
 .section-intro {
 	margin-bottom: 100vh;
-	height: 120vh;
+	min-height: 120vh;
 	position: relative;
 	padding-bottom: 80px;
 }

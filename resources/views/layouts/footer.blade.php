@@ -8,11 +8,11 @@
 
             <div class="col-md-6 text-end">
                 <ul class="list-inline">
-                    <li class="list-inline-item">
-                        <img src="" alt="logo travellers choice">
+                    <li class="list-inline-item me-4">
+                        <img height="70" src="{{ asset('img/logo-header-1.png') }}" alt="logo tesoros de méxico">
                     </li>
                     <li class="list-inline-item">
-                        <img src="" alt="logo members">
+                        <img height="70" src="{{ asset('img/logo-header-2.png') }}" alt="logo gastro & resorts">
                     </li>
                 </ul>
             </div>
@@ -23,12 +23,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <p class="mb-0">Hacienda Catrina 2024 - Todos los derechos reservados</p>
+                    <p class="mb-0">Todos los derechos reservados  {{ Carbon\Carbon::now()->format('Y') }}. Prohibida su reproducción total o parcial sin autorización.</p>
                 </div>
                 <div class="col-md-8 text-end">
                     <ul class="list-inline">
                         <li class="list-inline-item"><a href="{{ route('privacy') }}">Aviso de Privacidad</a></li>
-                        <li class="list-inline-item"><a href="{{ route('cookies') }}">Uso de Cookies</a></li>
+                        {{--  <li class="list-inline-item"><a href="{{ route('cookies') }}">Uso de Cookies</a></li> --}}
                         <li class="list-inline-item"><a href="{{ route('terms') }}">Términos y Condiciones</a></li>
                     </ul>
                 </div>

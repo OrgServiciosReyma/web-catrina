@@ -17,10 +17,12 @@
         </div>
 
         <div class="col-md-4 offset-md-6">
-          <p class="intro-description">Ubicado en uno de los centros económicos más vibrantes del Bajío, nuestra Hacienda Catrina es una mezcla entre el estilo tradicional y contemporeaneo que hace de México un vibrante espacio para crear memorias.</p>
+          <p class="intro-description">Disfrutarás del descanso y tranquilidad rodeado de hermosos jardines, vivirás las magníficas travesías diseñadas en nuestro centro de bienestar para reconectar con el origen y descubrirás todos los sabores en nuestra cocina creativa con tradición. Permítenos consentirte con nuestra hospitalidad para una estancia excepcional.</p>
         </div>
+      </div>
 
-        <div class="col-md-12 text-center info-data-row">
+      <div class="row info-data-row">
+        <div class="col-md-6 offset-md-3 text-center">
           <div class="d-flex justify-content-center text-center">
             <div class="info-data">
               <h4 class="h1">{{ Carbon\Carbon::now()->format('d') }}</h4>
@@ -36,6 +38,13 @@
               <h4 class="h1">14º</h4>
               <p>despejado</p>
             </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="d-flex align-items-center justify-content-end">
+            <img class="me-5" src="{{ asset('img/logo-header-1.png') }}" alt="" height="70">
+            <img src="{{ asset('img/logo-header-2.png') }}" alt="" height="70">
           </div>
         </div>
       </div>
@@ -99,9 +108,9 @@
       <div class="row align-items-end btm-mr">
         <div class="col-md-6">
           <div class="title-group">
-            <p class="wide">Eventos y Sociales</p>
-            <h2 class="display-3">Cartelera</h2>
-            <p class="decorative display-3">el lugar para ser</p>
+            <p class="wide">Hacienda Catrina</p>
+            <h2 class="display-3">Experiencias</h2>
+            <p class="decorative display-3">es celebración</p>
           </div>
         </div>
 
@@ -307,15 +316,15 @@
       <div class="row">
         <div class="col-md-12">
           <div class="display-title btm-mr text-center">
-            <h1 class="display-1">Gastronomía</h1>
-            <p class="display-3 decorative">el mayor regalo del día</p>
+            <h1 class="display-1">Sabor</h1>
+            <p class="display-3 decorative">Cocina creativa con tradición</p>
           </div>
         </div>
 
         <div class="col-md-3 offset-md-6 position-relative">
-          <p class="p"><strong>Un destino para los amantes de la gastronomía dirigido por el chef con dos estrellas Michelin Leondres Lour’d du León. Esta hacienda ofrece 2 restaurantes y 2 bares.</strong></p>
-          <p>El arte culinario es parte importante de la experiencia inolvidable preparada para cada uno de ustedes.</p>
-          <p>El mundo del sabor pleno es una inspiración infinita para nuestro chef y su equipo. Recetas tradicionales. Productos de temporada de calidad. Ver. Sentir. Disfrútala. Y déjate mimar.</p>
+          <p class="p"><strong>Nuestra gastronomía es un honor a la tierra mexicana. Cocina tradicional y regional, cocina de autor y de temporada preparada desde nuestro horno y parilla para una experiencia inigualable. Extensos sabores y productos frescos para consentir y deleitar los paladares.</strong></p>
+          <p>La virtud de nuestro menú se distingue por la calidad, donde cuidamos la combinación perfecta entre olores, texturas, colores y sabores junto con una presentación excepcional.</p>
+          <p>La autenticidad de nuestra cocina es lo que nos hace únicos, en conjunto con el hermoso lugar y ambientación cuidado detalladamente para lograr una experiencia inigualable para nuestros comensales.</p>
 
           <a href="{{ route('gastro') }}" class="btn btn-primary">Conoce más</a>
         </div>
@@ -331,9 +340,9 @@
         </div>
         <div class="col-md-6 offset-md-3">
           <div class="title-group text-end">
-            <p class="wide">Catrina Insider</p>
-            <h2 class="display-3">Terraza Bar</h2>
-            <p class="decorative display-3">el lugar para ser</p>
+            <p class="wide">Bar Kahlo</p>
+            <h2 class="display-3">Hacienda Catrina</h2>
+            <p class="decorative display-3">es sabor</p>
           </div>
         </div>
       </div>
@@ -349,16 +358,16 @@
     <div class="container position-relative">
       <img class="event-image parallax" data-rellax-speed="2" src="{{ asset('img/index-event.png') }}" alt="">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-8 offset-md-2">
           <div class="display-title btm-mr">
-            <h4 class="display-3">Queremos ser parte de un</h4>
-            <h4 class="display-3 text-secondary-color text-end position-relative" style="z-index: 2;">Capitulo único de tu vida</h4>
+            <h4 class="display-3">¡Hacienda Catrina</h4>
+            <h4 class="display-3 text-secondary-color text-end position-relative" style="z-index: 2;">es Celebración!</h4>
           </div>
         </div>
 
         <div class="col-md-3 offset-md-2">
-          <p class="p"><strong>Hacienda Catrina ofrece a las parejas un refugio con encanto para evadirse, con jardines románticos y espacios íntimos.</strong></p>
-          <p>Ubicado en uno de los centros económicos más vibrantes del Bajío, nuestra Hacienda Catrina es una mezcla entre el estilo tradicional y contemporeaneo que hace de México un vibrante espacio para crear memorias.</p>
+          <p class="p"><strong>Nuestros espacios están diseñados para ser el marco perfecto de tu evento, sea social o empresarial  sorprenderás siempre a todos tus invitados.</strong></p>
+          <p>Contamos con espacios para todo tipo de eventos: desde cava privada, salones de negocios, amplios jardines con carpa y un magnífico ruedo para un escenario especial.</p>
         </div>
       </div>
       
@@ -391,15 +400,15 @@
 
           <div class="col-md-6">
             <div class="title-group btm-mr">
-              <p class="wide">Catrina Insider</p>
-              <h2 class="display-3">Exclusivo para miembros</h2>
-              <p class="decorative display-3">el lugar para ser</p>
+              <p class="wide">Social Club</p>
+              <h2 class="display-3">PERTENECE A NUESTRO PROGRAMA PARA CLIENTES PRIORITARIOS</h2>
+              <p class="decorative display-3">pre registro</p>
             </div>
 
             <div class="ps-5 pe-5">
-              <p class="title-p"><strong>Un escondite íntimo con un estilo e influencias profundamente arraigadas en su herencia cultural.</strong></p>
-              <p>Toma un descanso y recupera tu energía a través del relajante murmullo de agua, del contacto con nuestras raíces mexicanas y la calidez momento en familia, pareja o amigos.</p>
-              <a href="" class="btn-link mt-5">Este es un link de prueba ></a>
+              <p class="title-p"><strong>Forma parte de nuestro Social Club de Recompensas y Beneficios exclusivos para nuestros Clientes Prioritarios de Gastro & Resorts.</strong></p>
+              <p>Nuestro club te otorgará distintos beneficios para ti y tus invitados en todos nuestros servicios y espacios, estamos en etapa de pre registro. Con sólo compartirnos tu correo electrónico o número telefónico y tu nombre podrás entrar en la lista. </p>
+              <a href="" class="btn-link mt-5">Datos de contacto ></a>
             </div>
           </div>
       </div>
