@@ -83,15 +83,17 @@
 </section>
 
 <section class="section section-gallery position-relative std-p">
-    <div class="owl-carousel gallery-carousel">
-        @foreach($gallery as $g_img)
-        <div class="item">
-            <div class="gallery-card">
-                <img src="{{ asset('img/rooms/' . $slug . '/' . $g_img['img']) }}" alt="">
-                <p>{{ $g_img['title'] }}</p>
+    <div class="container">
+        <div class="owl-carousel gallery-carousel">
+            @foreach($gallery as $g_img)
+            <div class="item">
+                <div class="gallery-card">
+                    <img src="{{ asset('img/rooms/' . $slug . '/' . $g_img['img']) }}" alt="">
+                    <p>{{ $g_img['title'] }}</p>
+                </div>
             </div>
+            @endforeach
         </div>
-        @endforeach
     </div>
 </section>
 

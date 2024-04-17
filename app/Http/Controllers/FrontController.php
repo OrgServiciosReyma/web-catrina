@@ -85,17 +85,17 @@ class FrontController extends Controller
                 ];
 
                 $room_images = [
-                    ['img' => 'main_img_1.png'],
-                    ['img' => 'main_img_2.png'],  
+                    ['img' => 'main_img_1.jpg'],
+                    ['img' => 'main_img_2.jpg'],  
                 ];
 
                 $gallery = [
-                    ['title' => 'Cama King Size', 'img' => 'gallery_1.png'],
-                    ['title' => 'Sala Smart TV 65"', 'img' => 'gallery_2.png'],
-                    ['title' => 'Escritorio con iluminación', 'img' => 'gallery_3.png'],
-                    ['title' => 'Baño completo', 'img' => 'gallery_4.png'],
-                    ['title' => 'Tina personal con sales de baño.', 'img' => 'gallery_5.png'],
-                    ['title' => 'Terraza con sala', 'img' => 'gallery_6.png'],
+                    ['title' => 'Cama King Size', 'img' => 'gallery_1.jpg'],
+                    ['title' => 'Sala Smart TV 65"', 'img' => 'gallery_2.jpg'],
+                    ['title' => 'Escritorio con iluminación', 'img' => 'gallery_3.jpg'],
+                    ['title' => 'Baño completo', 'img' => 'gallery_4.jpg'],
+                    ['title' => 'Tina personal con sales de baño.', 'img' => 'gallery_5.jpg'],
+                    ['title' => 'Terraza con sala', 'img' => 'gallery_6.jpg'],
                 ];
 
                 break;
@@ -286,17 +286,17 @@ class FrontController extends Controller
                 ];
 
                 $room_images = [
-                    ['img' => 'main_img_1.png'],
-                    ['img' => 'main_img_2.png'],  
+                    ['img' => 'main_img_1.jpg'],
+                    ['img' => 'main_img_2.jpg'],  
                 ];
 
                 $gallery = [
-                    ['title' => 'Sala de TV y Comedor', 'img' => 'gallery_1.png'],
-                    ['title' => 'Habitación King Size', 'img' => 'gallery_2.png'],
-                    ['title' => 'Habitación Doble Queen Size', 'img' => 'gallery_3.png'],
-                    ['title' => 'Terraza con asador', 'img' => 'gallery_4.png'],
-                    ['title' => 'Alberca con camastros privados', 'img' => 'gallery_5.png'],
-                    ['title' => 'Residencia totalmente privada', 'img' => 'gallery_6.png'],
+                    ['title' => 'Sala de TV y Comedor', 'img' => 'gallery_1.jpg'],
+                    ['title' => 'Habitación King Size', 'img' => 'gallery_2.jpg'],
+                    ['title' => 'Habitación Doble Queen Size', 'img' => 'gallery_3.jpg'],
+                    ['title' => 'Terraza con asador', 'img' => 'gallery_4.jpg'],
+                    ['title' => 'Alberca con camastros privados', 'img' => 'gallery_5.jpg'],
+                    ['title' => 'Residencia totalmente privada', 'img' => 'gallery_6.jpg'],
                 ];
 
                 break;
