@@ -31,10 +31,10 @@
     <div class="post-footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <p class="mb-0">Todos los derechos reservados  {{ Carbon\Carbon::now()->format('Y') }}. Prohibida su reproducción total o parcial sin autorización.</p>
+                <div class="col-md-6">
+                    <p class="mb-0" style="opacity: .5">Todos los derechos reservados  {{ Carbon\Carbon::now()->format('Y') }}. Prohibida su reproducción total o parcial sin autorización.</p>
                 </div>
-                <div class="col-md-8 text-end">
+                <div class="col-md-6 text-end">
                     <ul class="list-inline">
                         <li class="list-inline-item"><a href="{{ route('privacy') }}">Aviso de Privacidad</a></li>
                         {{--  <li class="list-inline-item"><a href="{{ route('cookies') }}">Uso de Cookies</a></li> --}}

@@ -777,12 +777,12 @@ body.toggled .right-nav{
 
 .plate-1{
 	top: 40%;
-	left: 0px;
+	left: -10%;
 }
 
 .plate-2{
 	top: -10%;
-	right: 5%;
+	right: -7%;
 }
 
 .plate-3{
@@ -1056,6 +1056,61 @@ footer .address{
 	right: 0px;
 	top: -90%;
 	opacity: .2;
+}
+
+.section-boutique-detail{
+	position: relative;
+}
+
+.section-boutique-detail ul{
+	padding: 17px;
+}
+
+.section-boutique-detail .room-carousel img{
+	border-radius: 20px;
+	box-shadow: 0px 4px 14px 5px rgba(0, 0, 0, 0.25);
+}
+
+.room-carousel .gallery-card{
+	padding: 17px;
+}
+
+.section-boutique-detail .special-welcome{
+	position: absolute;
+	left: 10%;
+	bottom: 0px;
+	font-size: 60px;
+	width: 800px;
+	opacity: .2;
+	z-index: -1;
+	line-height: 1.2;
+	letter-spacing: -3px;
+}
+
+.gallery-card{
+	position: relative;
+}
+
+.gallery-card p{
+	color: #FFF;
+	text-align: center;
+	font-weight: 800;
+	line-height: 170%;
+	letter-spacing: -0.32px;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.section-boutique-detail .root-1{
+	top: -90px;
+}
+
+.section-boutique-detail .root-2{
+	bottom: -250px;
 }
 
 .section-places .special-welcome{

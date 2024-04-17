@@ -125,7 +125,7 @@
                         </div>
 
                         <div class="row align-items-center mt-5 position-relative">
-                            <a href="" class="btn btn-primary">Conoce más</a>
+                            <a href="{{ route('boutique.detail', 'master-suite-101') }}" class="btn btn-primary">Conoce más</a>
 
                             <div class="col-md-5">
                                 <p class="text-alt-color h5 mb-4"><strong>Lujo en cada detalle</strong></p>
@@ -191,7 +191,7 @@
                       </div>
 
                       <div class="row align-items-center mt-5 position-relative">
-                          <a href="" class="btn btn-primary">Conoce más</a>
+                          <a href="{{ route('boutique.detail', 'master-suite-201') }}" class="btn btn-primary">Conoce más</a>
 
                           <div class="col-md-5">
                               <p class="text-alt-color h5 mb-4"><strong>Una expresión del México contemporáneo.</strong></p>
@@ -257,7 +257,7 @@
                         </div>
 
                         <div class="row align-items-center mt-5 position-relative">
-                            <a href="" class="btn btn-primary">Conoce más</a>
+                            <a href="{{ route('boutique.detail', 'gran-class-king') }}" class="btn btn-primary">Conoce más</a>
 
                             <div class="col-md-5">
                                 <p class="text-alt-color h5 mb-4"><strong>Diseñada para un magnífico descanso</strong></p>
@@ -324,7 +324,8 @@
                         </div>
 
                         <div class="row align-items-center mt-5 position-relative">
-                            <a href="" class="btn btn-primary">Conoce más</a>
+                            <a href="{{ route('boutique.detail', 'gran-class-double-queen') }}" class="btn btn-primary">Conoce más</a>
+
                             <div class="col-md-5">
                                 <p class="text-alt-color h5 mb-4"><strong>El lujo también se comparte en familia</strong></p>
                                 <p>Habitación decorada con un hermoso estilo mexicano con aire acondicionado. Encontrarás dos cómodas camas Queen Size, un escritorio de trabajo, Pantalla de 55" con sistema SKY,  closet, baño completo con Regadera tipo lluvia. Amenidades de lujo: pantuflas, bata, toallas de cuerpo completo, de mano y faciales, así como plancha de vapor de mano, secadora de cabello, caja de seguridad electrónica, Nespresso y café de cápsula de cortesía. Teléfono con línea directa, Internet inalámbrico, Sistema de llaves electrónicas y servicio de minibar. Algunas habitaciones cuentan con blacón o con una pequeña sala de estar en terraza con vista a la alberca del hotel o hacia jardines y lago, de acuerdo a su configuración. Algunas de estas habitaciones cuentan con sofá cama adicional.</p>
@@ -390,7 +391,8 @@
                       </div>
 
                       <div class="row align-items-center mt-5 position-relative">
-                          <a href="" class="btn btn-primary">Conoce más</a>
+                          <a href="{{ route('boutique.detail', 'villa-catrina') }}" class="btn btn-primary">Conoce más</a>
+                          
                           <div class="col-md-5">
                               <p class="text-alt-color h5 mb-4"><strong>El corazón del lujo mexicano.</strong></p>
                               <p>Hermosa casa de campo decorada con un hermoso estilo tradicional mexicano totalmente privada. Encontrarás dos recámaras una con cama King Size y baño completo y otra con dos cómodas camas Queen Size con sus mesas lámparas de noche y baño completo. Cuenta con sala de estar con aire acondicionado, antalla de 55 pulgadas con sistema SKY, comedor completo para 6 personas, wc para invitados, cocineta completa con Nespresso con café de cápsula de cortesía y servicio de minibar. Las habitaciones cuentan con espacio de closets, baño completo con regadera tipo lluvia y exclusivas amenidades de lujo: pantuflas, bata de baño, toallas de cuerpo completo, de mano y faciales, así como plancha de vapor vertical de mano, secadora de cabello, caja de seguridad electrónica. La villa cuenta también con teléfono con línea directa, Internet inalámbrico, Sistema de llaves electrónicas. Cuenta con una amplia terraza con sala de estar, comedor completo con parrilla, alberca y solario con camastros rodeados de un hermoso jardín totalmente privado.</p>

@@ -10,11 +10,11 @@
 
                 <div class="hover-card">
                     <div class="hover-line">
-                        <a href="">Master Suite 101</a>
-                        <a href="">Master Suite 201</a>
-                        <a href="">Grand Class King</a>
-                        <a href="">Grand Class Queen</a>
-                        <a href="">Villa Catrina</a>
+                        <a href="{{ route('boutique.detail', 'master-suite-101') }}">Master Suite 101</a>
+                        <a href="{{ route('boutique.detail', 'master-suite-201') }}">Master Suite 201</a>
+                        <a href="{{ route('boutique.detail', 'gran-class-king') }}">Grand Class King</a>
+                        <a href="{{ route('boutique.detail', 'gran-class-double-queen') }}">Grand Class Queen</a>
+                        <a href="{{ route('boutique.detail', 'villa-catrina') }}">Villa Catrina</a>
                     </div>
                 </div>
             </div>
@@ -24,9 +24,9 @@
 
                 <div class="hover-card">
                     <div class="hover-line">
-                        <a href="">Amenidades</a>
-                        <a href="">Gimnasio</a>
-                        <a href="">Servicio Pick Up</a>
+                        <a href="{{ route('spa') }}">Amenidades</a>
+                        <a href="{{ route('spa') }}">Gimnasio</a>
+                        <a href="{{ route('spa') }}">Servicio Pick Up</a>
                     </div>
                 </div>
             </div>
@@ -36,10 +36,10 @@
 
                 <div class="hover-card">
                     <div class="hover-line">
-                        <a href="">Travesías</a>
-                        <a href="">Gimnasio</a>
-                        <a href="">Temazcal</a>
-                        <a href="">Productos</a>
+                        <a href="{{ route('gastro') }}">Travesías</a>
+                        <a href="{{ route('gastro') }}">Gimnasio</a>
+                        <a href="{{ route('gastro') }}">Temazcal</a>
+                        <a href="{{ route('gastro') }}">Productos</a>
                     </div>
                 </div>
             </div>
@@ -49,9 +49,9 @@
 
                 <div class="hover-card">
                     <div class="hover-line">
-                        <a href="">Gastronomía y Coctelería</a>
-                        <a href="">La Frida Restaurante</a>
-                        <a href="">Bar Kahlo</a>
+                        <a href="{{ route('gastro') }}">Gastronomía y Coctelería</a>
+                        <a href="{{ route('gastro') }}">La Frida Restaurante</a>
+                        <a href="{{ route('gastro') }}">Bar Kahlo</a>
                     </div>
                 </div>
             </div>
@@ -61,9 +61,9 @@
 
                 <div class="hover-card">
                     <div class="hover-line">
-                        <a href="">Empresariales</a>
-                        <a href="">Sociales</a>
-                        <a href="">Agenda una Cita</a>
+                        <a href="{{ route('events') }}">Empresariales</a>
+                        <a href="{{ route('events') }}">Sociales</a>
+                        <a href="{{ route('events') }}">Agenda una Cita</a>
                     </div>
                 </div>
             </div>
@@ -73,12 +73,12 @@
 
                 <div class="hover-card">
                     <div class="hover-line">
-                        <a href="">Convenios</a>
-                        <a href="">Eventos</a>
-                        <a href="">La Frida Restaurante</a>
-                        <a href="">Bar Kahlo</a>
-                        <a href="">Gimnasio</a>
-                        <a href="">La Vida Wellness Center</a>
+                        <a href="{{ route('business') }}">Convenios</a>
+                        <a href="{{ route('business') }}">Eventos</a>
+                        <a href="{{ route('business') }}">La Frida Restaurante</a>
+                        <a href="{{ route('business') }}">Bar Kahlo</a>
+                        <a href="{{ route('business') }}">Gimnasio</a>
+                        <a href="{{ route('business') }}">La Vida Wellness Center</a>
                     </div>
                 </div>
             </div>

@@ -44,6 +44,11 @@ Route::namespace('App\Http\Controllers')->group(function () {
         'as' => 'business',
     ]);
 
+    Route::get('/boutique/{slug}', [
+        'uses' => 'FrontController@boutiqueDetail',
+        'as' => 'boutique.detail'
+    ])->where('slug', '[\w\d\-\_]+');
+
     /* Pantallas Generales */
     Route::get('/terminos-y-condiciones', [
         'uses' => 'FrontController@terms',

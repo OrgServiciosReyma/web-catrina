@@ -61,42 +61,42 @@
       <div class="column-wrap">
         <div class="column parallax" data-rellax-speed="-4">
           <div class="column__item">
-            <div class="column__item-img" style="background-image:url(https://www.haciendacatrina.com.mx/assets/img/hc_r_room0.jpg)"></div>
+            <div class="column__item-img" style="background-image:url({{ asset('img/main-img-1.png') }})"></div>
           </div>
           <div class="column__item">
-            <div class="column__item-img" style="background-image:url(https://www.haciendacatrina.com.mx/assets/img/hc_r_room1.jpg)"></div>
+            <div class="column__item-img" style="background-image:url({{ asset('img/main-img-2.png') }})"></div>
           </div>
           <div class="column__item">
-            <div class="column__item-img" style="background-image:url(https://www.haciendacatrina.com.mx/assets/img/hc_r_room3.jpg)"></div>
+            <div class="column__item-img" style="background-image:url({{ asset('img/main-img-3.png') }})"></div>
           </div>
         </div>
       </div>
       <div class="column-wrap">
         <div class="column parallax" data-rellax-speed="4">
           <div class="column__item">
-            <div class="column__item-img" style="background-image:url(https://www.haciendacatrina.com.mx/assets/img/hc_r_room7.jpg)"></div>
+            <div class="column__item-img" style="background-image:url({{ asset('img/main-img-4.png') }})"></div>
           </div>
           <div class="column__item">
-            <div class="column__item-img" style="background-image:url(https://www.haciendacatrina.com.mx/assets/img/hc_r_room000.jpg)"></div>
+            <div class="column__item-img" style="background-image:url({{ asset('img/main-img-5.png') }})"></div>
           </div>
           <div class="column__item">
-            <div class="column__item-img" style="background-image:url(https://www.haciendacatrina.com.mx/assets/img/hc_g_img2.jpg)"></div>
+            <div class="column__item-img" style="background-image:url({{ asset('img/main-img-6.png') }})"></div>
           </div>
           <div class="column__item">
-            <div class="column__item-img" style="background-image:url(https://www.haciendacatrina.com.mx/assets/img/hc_g_img5.jpg)"></div>
+            <div class="column__item-img" style="background-image:url({{ asset('img/main-img-7.png') }})"></div>
           </div>
         </div>
       </div>
       <div class="column-wrap">
         <div class="column parallax" data-rellax-speed="-4">
           <div class="column__item">
-            <div class="column__item-img" style="background-image:url(https://www.haciendacatrina.com.mx/assets/img/hc_g_img9.jpg)"></div>
+            <div class="column__item-img" style="background-image:url({{ asset('img/main-img-8.png') }})"></div>
           </div>
           <div class="column__item">
-            <div class="column__item-img" style="background-image:url(https://www.haciendacatrina.com.mx/assets/img/hc_g_img12.jpg)"></div>
+            <div class="column__item-img" style="background-image:url({{ asset('img/main-img-9.png') }})"></div>
           </div>
           <div class="column__item">
-            <div class="column__item-img" style="background-image:url(https://www.haciendacatrina.com.mx/assets/img/hc_g_img10.jpg)"></div>
+            <div class="column__item-img" style="background-image:url({{ asset('img/main-img-10.png') }})"></div>
           </div>
         </div>
       </div>

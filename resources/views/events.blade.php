@@ -88,7 +88,7 @@
                     <p class="wide">Catrina Insider</p>
                     <h2 class="display-3">Restaurante <br>La Frida</h2>
                     <p class="decorative display-3">el lugar para ser</p>
-                  </div>
+                </div>
             </div>
             <div class="col-md-4 offset-md-1">
                 <p>Toma un descanso y recupera tu energía a través del relajante murmullo de agua, del contacto con nuestras raíces mexicanas y la calidez momento en familia, pareja o amigos.</p>
