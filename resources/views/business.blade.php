@@ -18,7 +18,7 @@
             </div>
 
             <div class="col-md-3">
-                <p class="ps-2 description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu ipsum at arcu aliquam dictum. Curabitur tincidunt mauris ac fringilla tempus. Curabitur eleifend, tellus ac condimentum suscipit, odio velit molestie neque, vitae rutrum nunc augue at ante. Donec vel tortor mauris</p>
+                <p class="ps-2 description">Contamos con espacios diseñados para tener una experiencia completa en comodidad, eficiencia en comunicación y la mejor calidad de alimentos y bebidas para tus colaboradores.</p>
             </div>
         </div>
     </div>

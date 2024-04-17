@@ -15,13 +15,13 @@
 	--color-link-hover: #A75E41;
 
 	/* Column/item variables */
-	--ratio: 1.3; 				/* image ratio */
-	--grid-item-width: 34vw;	/* image width */
+	--ratio: 1; 				/* image ratio */
+	--grid-item-width: 33vw;	/* image width */
 	--justify: space-between;	/* spread columns or center */
-	--gap: 30px;				/* column gap and margin for items */
+	--gap: 25px;				/* column gap and margin for items */
 	--rotation: 0deg;			/* section rotation */
 	--radius: 0px;				/* image border radius */
-	--offset: -30vh;			/* offset of even columns */
+	--offset: -25vh;			/* offset of even columns */
 	/* content section */
 	--radius-small: 4px; 		/* border radius of small images */
 }
@@ -62,12 +62,12 @@ h5, h6{
 
 p, label, span{
     font-family: "Poppins", sans-serif;
-	line-height: 170%; /* 27.2px */
-	letter-spacing: -0.32px;
+	line-height: 200%; /* 27.2px */
+	letter-spacing: -0.3px;
 }
 
 a {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif !important;
 	text-decoration: none;
 	color: var(--color-link);
 	outline: none;
@@ -113,7 +113,7 @@ a:focus-visible {
 }
 
 .list-attributes li{
-	margin: 10px 0px;
+	margin: 25px 0px;
 }
 /* Text Styles */
 
@@ -621,7 +621,6 @@ body.toggled .right-nav{
 
 .decorative-root{
 	position: absolute;
-	
 	z-index: 0;
 }
 
@@ -664,7 +663,7 @@ body.toggled .right-nav{
 	z-index: 1;
 	display: flex;
 	flex-direction: column;
-	padding: 5vh 0 15vh;
+	padding: 15vh 0 15vh;
 	will-change: transform;
 }
 
@@ -777,18 +776,18 @@ body.toggled .right-nav{
 }
 
 .plate-1{
-	top: 50%;
-	left: -30px;
+	top: 40%;
+	left: 0px;
 }
 
 .plate-2{
-	top: -25%;
-	right: 0px;
+	top: -10%;
+	right: 5%;
 }
 
 .plate-3{
-	bottom: -45%;
-	left: 30%;
+	bottom: -25%;
+	left: 10%;
 	/*transform: translateX(-50%);*/ /* No aplica al usar animación parallax */
 }
 
@@ -810,10 +809,41 @@ body.toggled .right-nav{
 
 .section-letters .event-image{
 	position: absolute;
-	right: 150px;
+	right: 100px;
 	top: 25%;
 	z-index: 1;
 	width: 320px;
+	opacity: .4;
+}
+
+.section-letters .table-details{
+	margin: 10px 0px;
+}
+
+.table-details .d-flex{
+	border-top: 2px solid #A75E41;
+	padding: 11px 0px;
+}
+
+.table-details p{
+	margin-bottom: 0px;
+	font-size: 16px;
+	color: #675132;
+}
+
+.table-details .h6{
+	font-family: "Libre Caslon Display", serif;
+	font-size: 20px;
+}
+
+.table-details .btn-box{
+	background-color: #A75E41;
+	padding: 15px 0px;
+	text-align: center;
+	display: block;
+	border: none;
+	border-radius: 0px;
+	color: #fff;
 }
 
 .falling-letter{
@@ -996,6 +1026,12 @@ footer .address{
 }
 
 /* Section Boutique */
+
+.section-boutique{
+	position: relative;
+	z-index: 4;
+}
+
 .section-boutique .display-title{
 	margin-bottom: -30px;
 }
@@ -1010,6 +1046,16 @@ footer .address{
 	z-index: 2;
 	line-height: 1.2;
 	letter-spacing: -5px;
+}
+
+.section-boutique-info{
+	z-index: 2;
+}
+
+.section-boutique-info .root-detail{
+	right: 0px;
+	top: -90%;
+	opacity: .2;
 }
 
 .section-places .special-welcome{
@@ -1040,7 +1086,7 @@ footer .address{
 
 .section-boutique .pickup-badge{
 	left: 0px;
-	bottom: -75px;
+	bottom: -90px;
 }
 
 .btn-collapse{
@@ -1056,9 +1102,19 @@ footer .address{
 	color: #675132;
 	letter-spacing: -4px;
 	transition: .2s ease-in-out all;
-	padding-right: 50%;
+	padding-right: 20%;
 	line-height: 1;
 	position: relative;
+}
+
+.btn-collapse span{
+	position: absolute;
+	color: #C69160;
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	margin-left: 20px;
+	top: 37px;
+	letter-spacing: -2px;
 }
 
 .btn-collapse:after{
@@ -1067,18 +1123,21 @@ footer .address{
 	right: 0px;
 	font-size: 200px;
 	line-height: 86px;
+	transition: .2s ease-in-out all;
 }
 
 .btn-collapse:hover{
 	background: #675132;
 	padding: 40px 20px;
-	padding-right: 50%;
+	padding-right: 20%;
 	color: #fff;
 }
 
-.btn-collapse:hover:after{
+
+.btn-collapse[aria-expanded="true"]:after{
 	content: '-';
 }
+
 
 .room-collapse .btn-primary{
 	position: absolute;
@@ -1198,6 +1257,10 @@ footer .address{
 	z-index: 1;
 }
 
+.event-image-responsive{
+	display: none;
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1600px) {
 
@@ -1218,13 +1281,73 @@ footer .address{
 		--grid-item-width: 50vw;
 	}
 
+	/* Text Styles */
 	.display-1{
 		font-size: 50px;
 	}
 
-	.display-3{
-		font-size: 45px;
+	.display-2{
+		font-size: 50px;
+		letter-spacing: -4px;
 	}
+
+	.display-3{
+		font-size: 35px;
+	}
+
+	.h1{
+		font-size: 48px;
+	}
+
+	.h2{
+		font-size: 40px;
+	}
+
+	.h3{
+		font-size: 33px;
+	}
+
+	.h4{
+		font-size: 27px;
+	}
+
+	.h5{
+		font-size: 23px;
+	}
+
+	.h6{
+		font-size: 20px;
+	}
+
+	.title-p{
+		font-size: 18px;
+	}
+
+	.p{
+		font-size: 16px;
+	}
+
+	.btn-collapse{
+		font-size: 35px;
+	}
+
+	.btn-collapse::after {
+		font-size: 80px;
+		line-height: 1;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.btn-collapse span {
+		position: relative;
+		font-size: 25px;
+		margin-left: 0px;
+		top: initial;
+		letter-spacing: -2px;
+		display: block;
+		margin-bottom: -20px;
+	  }
 
 	.display-title .decorative{
 		top: -30px;
@@ -1314,6 +1437,10 @@ footer .address{
 		font-size: 12px;
 	}
 
+	.section-intro{
+		margin-bottom: 50vh;
+	}
+
 	.section-intro .right-img{
 		width: 150px;
 	}
@@ -1329,6 +1456,10 @@ footer .address{
 
 	.section-intro .intro-description{
 		padding: 0px 40px 0px 80px;
+	}
+
+	.section-events .title-group{
+		text-align: center;
 	}
 
 	.column-wrap{
@@ -1374,12 +1505,12 @@ footer .address{
 
 	.plate-1 {
 		top: 35%;
-		left: -70px;
+		left: -40%;
 	}
 
 	.plate-2 {
 		top: -15%;
-		right: -100px;
+		right: -40%;
 	}
 
 	.plate-3 {
@@ -1422,9 +1553,20 @@ footer .address{
 	}
 
 	.section-letters .event-image {
-		right: -80px;
-		top: 50%;
-		width: 200px;
+		display: none;
+	}
+
+	.section-letters .event-image-responsive {
+		display: block;
+		position: relative;
+		width: 100%;
+		top: initial;
+		right: initial;
+		margin-bottom: 60px;
+	}
+
+	.section-boutique-info .offset-mr-top{
+		margin-top: 50px;
 	}
 
 	.letter-2{
@@ -1450,6 +1592,15 @@ footer .address{
 
 	footer .address{
 		width: 100%;
+	}
+
+	footer .text-end{
+		text-align: center !important;
+		margin-top: 40px;
+	}
+
+	footer .text-end img{
+		margin-bottom: 20px;
 	}
 
 	.post-footer .text-end{

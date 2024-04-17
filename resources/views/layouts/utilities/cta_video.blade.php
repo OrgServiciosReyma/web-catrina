@@ -5,10 +5,10 @@
                 <div class="text-center">
                     <div class="title-group">
                         {{--  <p class="decorative display-3">mejor momento de tu semana</p> --}}
-                        <h2 class="display-3">Un oasis de descanso en donde echar raices.</h2>
+                        <h2 class="display-3">Hacienda Catrina <br>es México.</h2>
                     </div>
 
-                    <p class="description">Toma un descanso y recupera tu energía a través del relajante murmullo de agua, del contacto con nuestras raíces mexicanas y la calidez momento en familia, pareja o amigos.</p>
+                    <p class="description">Es boutique, es sabor, es descanso, es celebración… Hacienda Catrina es México</p>
                 </div>
             </div>
         </div>

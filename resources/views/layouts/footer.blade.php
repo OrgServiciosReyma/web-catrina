@@ -8,11 +8,20 @@
 
             <div class="col-md-6 text-end">
                 <ul class="list-inline">
-                    <li class="list-inline-item me-4">
-                        <img height="70" src="{{ asset('img/logo-header-1.png') }}" alt="logo tesoros de méxico">
+                    <li class="list-inline-item">
+                        <img height="70" class="me-3" src="{{ asset('img/logo-header-1.png') }}" alt="logo tesoros de méxico">
                     </li>
                     <li class="list-inline-item">
-                        <img height="70" src="{{ asset('img/logo-header-2.png') }}" alt="logo gastro & resorts">
+                        <img height="70" class="me-3" src="{{ asset('img/logo-header-2.png') }}" alt="logo gastro & resorts">
+                    </li>
+                    <li class="list-inline-item">
+                        <img height="70" class="me-3" src="{{ asset('img/logo-header-3.png') }}" alt="logo gastro & resorts">
+                    </li>
+                    <li class="list-inline-item">
+                        <img height="70" class="me-3" src="{{ asset('img/logo-header-4.png') }}" alt="logo gastro & resorts">
+                    </li>
+                    <li class="list-inline-item">
+                        <img height="70" class="me-3" src="{{ asset('img/logo-header-5.png') }}" alt="logo gastro & resorts">
                     </li>
                 </ul>
             </div>

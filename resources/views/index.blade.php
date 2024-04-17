@@ -42,7 +42,7 @@
         </div>
 
         <div class="col-md-3">
-          <div class="d-flex align-items-center justify-content-end">
+          <div class="d-flex align-items-center justify-content-sm-center justify-content-end">
             <img class="me-5" src="{{ asset('img/logo-header-1.png') }}" alt="" height="70">
             <img src="{{ asset('img/logo-header-2.png') }}" alt="" height="70">
           </div>
@@ -357,13 +357,16 @@
 
     <div class="container position-relative">
       <img class="event-image parallax" data-rellax-speed="2" src="{{ asset('img/index-event.png') }}" alt="">
+
       <div class="row">
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-9 offset-md-1">
           <div class="display-title btm-mr">
-            <h4 class="display-3">¡Hacienda Catrina</h4>
-            <h4 class="display-3 text-secondary-color text-end position-relative" style="z-index: 2;">es Celebración!</h4>
+            <h4 class="display-2">¡Hacienda Catrina</h4>
+            <h4 class="display-2 text-secondary-color text-end position-relative" style="z-index: 2;">es Celebración!</h4>
           </div>
         </div>
+
+        <img class="event-image-responsive" data-rellax-speed="2" src="{{ asset('img/index-event.png') }}" alt="">
 
         <div class="col-md-3 offset-md-2">
           <p class="p"><strong>Nuestros espacios están diseñados para ser el marco perfecto de tu evento, sea social o empresarial  sorprenderás siempre a todos tus invitados.</strong></p>
@@ -371,19 +374,19 @@
         </div>
       </div>
       
-      <div class="row">
+      <div class="row table-details">
         <div class="col-md-5 offset-md-6">
-          <div class="d-flex">
+          <div class="d-flex align-items-center justify-content-between">
             <p>Eventos empresariales</p>
-            <p>50-100 Personas</p>
+            <p class="h6">50-100 Personas</p>
           </div>
-          <div class="d-flex">
+          <div class="d-flex align-items-center justify-content-between">
             <p>Eventos pequeños</p>
-            <p>50-100 Personas</p>
+            <p class="h6">50-100 Personas</p>
           </div>
-          <div class="d-flex">
+          <div class="d-flex align-items-center justify-content-between">
             <p>Bodas sociales</p>
-            <p>50-100 Personas</p>
+            <p class="h6">50-100 Personas</p>
           </div>
           <a href="" class="btn btn-block btn-box">¿Interesado en Reserva? Contáctanos</a>
         </div>
@@ -434,17 +437,19 @@
 
   $('.event-carousel').owlCarousel({
     loop:true,
-    margin:30,
     nav:true,
     responsive:{
         0:{
-            items:1
+            items:2,
+            margin:15,
         },
         600:{
-            items:3
+            items:2,
+            margin:15,
         },
         1000:{
-            items:4
+            items:4,
+            margin:30,
         }
     }
   });

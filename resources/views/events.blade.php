@@ -146,18 +146,18 @@
                 <p>Ubicado en uno de los centros económicos más vibrantes del Bajío, nuestra Hacienda Catrina es una mezcla entre el estilo tradicional y contemporeaneo que hace de México un vibrante espacio para crear memorias.</p>
             </div>
 
-            <div class="col-md-5 offset-md-3">
-                <div class="d-flex">
+            <div class="col-md-5 offset-md-3 table-details mt-5">
+                <div class="d-flex align-items-center justify-content-between">
                     <p>Eventos empresariales</p>
-                    <p>50-100 Personas</p>
+                    <p class="h6">50-100 Personas</p>
                 </div>
-                <div class="d-flex">
+                <div class="d-flex align-items-center justify-content-between">
                     <p>Eventos pequeños</p>
-                    <p>50-100 Personas</p>
+                    <p class="h6">50-100 Personas</p>
                 </div>
-                <div class="d-flex">
+                <div class="d-flex align-items-center justify-content-between">
                     <p>Bodas sociales</p>
-                    <p>50-100 Personas</p>
+                    <p class="h6">50-100 Personas</p>
                 </div>
                 <a href="" class="btn btn-block btn-box">¿Interesado en Reserva? Contáctanos</a>
             </div>
