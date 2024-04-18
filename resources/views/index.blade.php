@@ -259,8 +259,10 @@
                       <p>Nuestras espaciosas habitaciones están impecablemente diseñadas con comodidades residenciales y comodidades modernas.</p>
                     </div>
                     <div class="col-md-7 position-relative">
-                      <img src="{{ asset('img/boutique-placeholder.png') }}" class="img-fluid" alt="">
-                      <a href="" class="btn btn-primary">Conoce más</a>
+                      <div class="img-wrap">
+                        <img src="{{ asset('img/rooms/gran-class-double-queen/gallery_1.jpg') }}" class="img-fluid" alt="">
+                      </div>
+                      <a href="{{ route('boutique.detail', 'gran-class-double-queen') }}" class="btn btn-primary">Conoce más</a>
                     </div>
                   </div>
               </div>
@@ -277,8 +279,11 @@
                       <p>Nuestras espaciosas habitaciones están impecablemente diseñadas con comodidades residenciales y comodidades modernas.</p>
                     </div>
                     <div class="col-md-7 position-relative">
-                      <img src="{{ asset('img/boutique-placeholder.png') }}" class="img-fluid" alt="">
-                      <a href="" class="btn btn-primary">Conoce más</a>
+                      <div class="img-wrap">
+                        <img src="{{ asset('img/rooms/gran-class-king/gallery_6.jpg') }}" class="img-fluid" alt="">
+                      </div>
+                      
+                      <a href="{{ route('boutique.detail', 'gran-class-king') }}" class="btn btn-primary">Conoce más</a>
                     </div>
                   </div>
               </div>
@@ -290,13 +295,15 @@
                     <div class="col-md-5">
                       <div class="title-group">
                         <p class="wide">Hacienda Catrina</p>
-                        <h2 class="display-3">Master Suite</h2>
+                        <h2 class="display-3">Master Suite 101</h2>
                       </div>
                       <p>Nuestras espaciosas habitaciones están impecablemente diseñadas con comodidades residenciales y comodidades modernas.</p>
                     </div>
                     <div class="col-md-7 position-relative">
-                      <img src="{{ asset('img/boutique-placeholder.png') }}" class="img-fluid" alt="">
-                      <a href="" class="btn btn-primary">Conoce más</a>
+                      <div class="img-wrap">
+                        <img src="{{ asset('img/rooms/master-suite-101/gallery_6.jpg') }}" class="img-fluid" alt="">
+                      </div>
+                      <a href="{{ route('boutique.detail', 'master-suite-101') }}" class="btn btn-primary">Conoce más</a>
                     </div>
                   </div>
               </div>

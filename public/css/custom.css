@@ -740,6 +740,24 @@ body.toggled .right-nav{
 	margin-bottom: 30px;
 }
 
+.boutique-card .img-wrap{
+	padding: 17px;
+	position: relative;
+	min-height: 650px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.boutique-card img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease;
+}
+
 .boutique-carousel .owl-stage-outer{
 	overflow: initial;
 }
