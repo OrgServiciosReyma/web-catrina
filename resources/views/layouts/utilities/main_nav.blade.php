@@ -25,7 +25,7 @@
                 <div class="hover-card">
                     <div class="hover-line">
                         <a href="{{ route('spa') }}">Amenidades</a>
-                        <a href="{{ route('spa') }}">Gimnasio</a>
+                        <a href="{{ route('gym') }}">Gimnasio</a>
                         <a href="{{ route('spa') }}">Servicio Pick Up</a>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                 <div class="hover-card">
                     <div class="hover-line">
                         <a href="{{ route('gastro') }}">Travesías</a>
-                        <a href="{{ route('gastro') }}">Gimnasio</a>
+                        <a href="{{ route('gym') }}">Gimnasio</a>
                         <a href="{{ route('gastro') }}">Temazcal</a>
                         <a href="{{ route('gastro') }}">Productos</a>
                     </div>

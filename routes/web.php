@@ -44,6 +44,16 @@ Route::namespace('App\Http\Controllers')->group(function () {
         'as' => 'business',
     ]);
 
+    Route::get('/social-club', [
+        'uses' => 'FrontController@socialClub',
+        'as' => 'social.club',
+    ]);
+
+    Route::get('/gimnasio', [
+        'uses' => 'FrontController@gym',
+        'as' => 'gym',
+    ]);
+
     Route::get('/boutique/{slug}', [
         'uses' => 'FrontController@boutiqueDetail',
         'as' => 'boutique.detail'

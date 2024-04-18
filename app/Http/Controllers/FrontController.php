@@ -16,6 +16,16 @@ class FrontController extends Controller
         return view('about_us');
     }
 
+    public function socialClub()
+    {
+        return view('social_club');
+    }
+
+    public function gym()
+    {
+        return view('gym');
+    }
+
     public function boutique()
     {
         return view('boutique');
@@ -136,17 +146,17 @@ class FrontController extends Controller
                 ];
 
                 $room_images = [
-                    ['img' => 'main_img_1.png'],
-                    ['img' => 'main_img_2.png'],  
+                    ['img' => 'main_img_1.jpg'],
+                    ['img' => 'main_img_2.jpg'],  
                 ];
 
                 $gallery = [
-                    ['title' => 'Cama King Size', 'img' => 'gallery_1.png'],
-                    ['title' => 'Cómo Sala de TV', 'img' => 'gallery_2.png'],
-                    ['title' => 'Habitación para un magnífico descanso ', 'img' => 'gallery_3.png'],
-                    ['title' => 'Déjate llevar por la comodidad', 'img' => 'gallery_4.png'],
-                    ['title' => 'Amenidades de lujo', 'img' => 'gallery_5.png'],
-                    ['title' => 'Terraza de descanso', 'img' => 'gallery_6.png'],
+                    ['title' => 'Cama King Size', 'img' => 'gallery_1.jpg'],
+                    ['title' => 'Cómo Sala de TV', 'img' => 'gallery_2.jpg'],
+                    ['title' => 'Habitación para un magnífico descanso ', 'img' => 'gallery_3.jpg'],
+                    ['title' => 'Déjate llevar por la comodidad', 'img' => 'gallery_4.jpg'],
+                    ['title' => 'Amenidades de lujo', 'img' => 'gallery_5.jpg'],
+                    ['title' => 'Terraza de descanso', 'img' => 'gallery_6.jpg'],
                 ];
 
                 break;
@@ -186,17 +196,17 @@ class FrontController extends Controller
                 ];
 
                 $room_images = [
-                    ['img' => 'main_img_1.png'],
-                    ['img' => 'main_img_2.png'],  
+                    ['img' => 'main_img_1.jpg'],
+                    ['img' => 'main_img_2.jpg'],  
                 ];
 
                 $gallery = [
-                    ['title' => 'Cama King Size', 'img' => 'gallery_1.png'],
-                    ['title' => 'Escritorio de trabajo', 'img' => 'gallery_2.png'],
-                    ['title' => 'Smart TV 55" con SKY', 'img' => 'gallery_3.png'],
-                    ['title' => 'Amenidades de lujo', 'img' => 'gallery_4.png'],
-                    ['title' => 'Cuidamos todos los detalles del confort.', 'img' => 'gallery_5.png'],
-                    ['title' => 'Terraza con sala / Balcón', 'img' => 'gallery_6.png'],
+                    ['title' => 'Cama King Size', 'img' => 'gallery_1.jpg'],
+                    ['title' => 'Escritorio de trabajo', 'img' => 'gallery_2.jpg'],
+                    ['title' => 'Smart TV 55" con SKY', 'img' => 'gallery_3.jpg'],
+                    ['title' => 'Amenidades de lujo', 'img' => 'gallery_4.jpg'],
+                    ['title' => 'Cuidamos todos los detalles del confort.', 'img' => 'gallery_5.jpg'],
+                    ['title' => 'Terraza con sala / Balcón', 'img' => 'gallery_6.jpg'],
                 ];
 
                 break;
@@ -235,17 +245,17 @@ class FrontController extends Controller
                 ];
 
                 $room_images = [
-                    ['img' => 'main_img_1.png'],
-                    ['img' => 'main_img_2.png'],  
+                    ['img' => 'main_img_1.jpg'],
+                    ['img' => 'main_img_2.jpg'],  
                 ];
 
                 $gallery = [
-                    ['title' => 'Cómodas camas gemelas Quee Size', 'img' => 'gallery_1.png'],
-                    ['title' => 'Mini Bar a tu servicio', 'img' => 'gallery_2.png'],
-                    ['title' => 'Smart TV de 55"', 'img' => 'gallery_3.png'],
-                    ['title' => 'Amenidades de lujo', 'img' => 'gallery_4.png'],
-                    ['title' => 'Cuidamos cada detalle del confort.', 'img' => 'gallery_5.png'],
-                    ['title' => 'Cómoda terraza o balcón', 'img' => 'gallery_6.png'],
+                    ['title' => 'Cómodas camas gemelas Quee Size', 'img' => 'gallery_1.jpg'],
+                    ['title' => 'Mini Bar a tu servicio', 'img' => 'gallery_2.jpg'],
+                    ['title' => 'Smart TV de 55"', 'img' => 'gallery_3.jpg'],
+                    ['title' => 'Amenidades de lujo', 'img' => 'gallery_4.jpg'],
+                    ['title' => 'Cuidamos cada detalle del confort.', 'img' => 'gallery_5.jpg'],
+                    ['title' => 'Cómoda terraza o balcón', 'img' => 'gallery_6.jpg'],
                 ];
 
                 break;
@@ -287,7 +297,8 @@ class FrontController extends Controller
 
                 $room_images = [
                     ['img' => 'main_img_1.jpg'],
-                    ['img' => 'main_img_2.jpg'],  
+                    ['img' => 'main_img_2.jpg'],
+                    ['img' => 'main_img_3.jpg'],  
                 ];
 
                 $gallery = [
