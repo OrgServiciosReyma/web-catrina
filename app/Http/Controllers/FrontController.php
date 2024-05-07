@@ -8,52 +8,82 @@ class FrontController extends Controller
 {
     public function index()
     {
-        return view('index');
+        $video_link = 'footer-video-new.mp4';
+
+        return view('index')
+        ->with('video_link', $video_link);
     }
 
     public function aboutUs()
     {
-        return view('about_us');
+        $video_link = 'footer-video-new.mp4';
+
+        return view('about_us')
+        ->with('video_link', $video_link);
     }
 
     public function socialClub()
     {
-        return view('social_club');
+        $video_link = 'footer-video-new.mp4';
+
+        return view('social_club')
+        ->with('video_link', $video_link);
     }
 
     public function gym()
     {
-        return view('gym');
+        $video_link = 'footer-video-new.mp4';
+
+        return view('gym')
+        ->with('video_link', $video_link);
     }
 
     public function boutique()
     {
-        return view('boutique');
+        $video_link = 'footer-video-new.mp4';
+
+        return view('boutique')
+        ->with('video_link', $video_link);
     }
 
     public function business()
     {
-        return view('business');
+        $video_link = 'footer-video-new.mp4';
+
+        return view('business')
+        ->with('video_link', $video_link);
     }
 
     public function eventWedding()
     {
-        return view('events');
+        $video_link = 'footer-video-new.mp4';
+
+        return view('events')
+        ->with('video_link', $video_link);
     }
 
     public function eventGeneral()
     {
-        return view('events');
+        $video_link = 'footer-video-new.mp4';
+
+        return view('events')
+        ->with('video_link', $video_link);
     }
 
     public function spa()
     {
-        return view('spa');
+        $video_link = 'footer-video-new.mp4';
+
+        return view('spa')
+        ->with('video_link', $video_link);
     }
 
     public function gastro()
     {
-        return view('gastro');
+        $video_link = 'footer-video-new.mp4';
+
+        return view('gastro')
+        ->with('video_link', $video_link);
     }
 
     public function boutiqueDetail($name)
@@ -152,11 +182,11 @@ class FrontController extends Controller
 
                 $gallery = [
                     ['title' => 'Cama King Size', 'img' => 'gallery_1.jpg'],
-                    ['title' => 'Cómo Sala de TV', 'img' => 'gallery_2.jpg'],
-                    ['title' => 'Habitación para un magnífico descanso ', 'img' => 'gallery_3.jpg'],
-                    ['title' => 'Déjate llevar por la comodidad', 'img' => 'gallery_4.jpg'],
+                    ['title' => 'Terraza de descanso ', 'img' => 'gallery_2.jpg'],
+                    ['title' => 'Déjate llevar por la comodidad ', 'img' => 'gallery_3.jpg'],
+                    ['title' => 'Cómoda Sala de TV ', 'img' => 'gallery_4.jpg'],
                     ['title' => 'Amenidades de lujo', 'img' => 'gallery_5.jpg'],
-                    ['title' => 'Terraza de descanso', 'img' => 'gallery_6.jpg'],
+                    ['title' => 'Habitación para un magnífico descanso', 'img' => 'gallery_6.jpg'],
                 ];
 
                 break;
@@ -202,10 +232,10 @@ class FrontController extends Controller
 
                 $gallery = [
                     ['title' => 'Cama King Size', 'img' => 'gallery_1.jpg'],
-                    ['title' => 'Escritorio de trabajo', 'img' => 'gallery_2.jpg'],
+                    ['title' => 'Cuidamos todos los detalles del confort', 'img' => 'gallery_2.jpg'],
                     ['title' => 'Smart TV 55" con SKY', 'img' => 'gallery_3.jpg'],
-                    ['title' => 'Amenidades de lujo', 'img' => 'gallery_4.jpg'],
-                    ['title' => 'Cuidamos todos los detalles del confort.', 'img' => 'gallery_5.jpg'],
+                    ['title' => 'Escritorio de trabajo', 'img' => 'gallery_4.jpg'],
+                    ['title' => 'Amenidades de lujo', 'img' => 'gallery_5.jpg'],
                     ['title' => 'Terraza con sala / Balcón', 'img' => 'gallery_6.jpg'],
                 ];
 
@@ -251,10 +281,10 @@ class FrontController extends Controller
 
                 $gallery = [
                     ['title' => 'Cómodas camas gemelas Quee Size', 'img' => 'gallery_1.jpg'],
-                    ['title' => 'Mini Bar a tu servicio', 'img' => 'gallery_2.jpg'],
-                    ['title' => 'Smart TV de 55"', 'img' => 'gallery_3.jpg'],
-                    ['title' => 'Amenidades de lujo', 'img' => 'gallery_4.jpg'],
-                    ['title' => 'Cuidamos cada detalle del confort.', 'img' => 'gallery_5.jpg'],
+                    ['title' => 'Amenidades de lujo', 'img' => 'gallery_2.jpg'],
+                    ['title' => 'Mini Bar a tu servicio ', 'img' => 'gallery_3.jpg'],
+                    ['title' => 'Cuidamos cada detalle del confort.', 'img' => 'gallery_4.jpg'],
+                    ['title' => 'Smart TV de 55"', 'img' => 'gallery_5.jpg'],
                     ['title' => 'Cómoda terraza o balcón', 'img' => 'gallery_6.jpg'],
                 ];
 
@@ -302,12 +332,12 @@ class FrontController extends Controller
                 ];
 
                 $gallery = [
-                    ['title' => 'Sala de TV y Comedor', 'img' => 'gallery_1.jpg'],
-                    ['title' => 'Habitación King Size', 'img' => 'gallery_2.jpg'],
-                    ['title' => 'Habitación Doble Queen Size', 'img' => 'gallery_3.jpg'],
-                    ['title' => 'Terraza con asador', 'img' => 'gallery_4.jpg'],
-                    ['title' => 'Alberca con camastros privados', 'img' => 'gallery_5.jpg'],
-                    ['title' => 'Residencia totalmente privada', 'img' => 'gallery_6.jpg'],
+                    ['title' => 'Residencia totalmente privada', 'img' => 'gallery_1.jpg'],
+                    ['title' => 'Habitación Doble Queen Size', 'img' => 'gallery_2.jpg'],
+                    ['title' => 'Sala de TV y Comedor ', 'img' => 'gallery_3.jpg'],
+                    ['title' => 'Alberca con camastros privados', 'img' => 'gallery_4.jpg'],
+                    ['title' => 'Terraza con asador', 'img' => 'gallery_5.jpg'],
+                    ['title' => 'Habitación King Size ', 'img' => 'gallery_6.jpg'],
                 ];
 
                 break;
@@ -343,7 +373,7 @@ class FrontController extends Controller
     public function privacy()
     {
         $text = 'Aviso de Privacidad';
-
+        
         return view('legal')->with('text', $text);
     }
 

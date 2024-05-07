@@ -17,6 +17,6 @@
     </div>
 
     <video muted loop autoplay poster="https://www.haciendacatrina.com.mx/assets/img/hc_r_room3.jpg">
-        <source src="{{ asset('video/footer-video-new.mp4') }}" type="video/mp4">
+        <source src="{{ asset('video/' . $video_link) }}" type="video/mp4">
     </video> 
 </section>

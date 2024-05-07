@@ -101,6 +101,10 @@ a:focus-visible {
 	background: transparent;
 }
 
+::-webkit-scrollbar {
+    display: none !important;
+}
+
 /* Padding Estandar */
 
 .std-p{
@@ -365,7 +369,6 @@ nav .btn-menu{
 	color: #fff;
 	transition: 1s ease-in-out all;
 	z-index: 3000;
-	overflow-y: scroll;
 }
 
 .right-nav .d-flex{
@@ -377,6 +380,7 @@ nav .btn-menu{
 }
 
 .right-nav h4{
+	text-transform: initial;
 	margin-bottom: 30px;
 }
 
@@ -404,8 +408,15 @@ nav .btn-menu{
 }
 
 .social-icons a{
-	padding: 0px 15px;
+	padding: 0px 10px;
 	font-size: 1.5em;
+}
+
+.social-icons .custom-icon{
+	width: 21px;
+	height: 21px;
+	position: relative;
+	top: -3px;
 }
 
 .left-nav .close-btn{
@@ -524,6 +535,13 @@ body.toggled .right-nav{
 	border: none;
 	padding: 0px;
 	font-size: 20px;
+	transition: .2s ease-in-out all;
+}
+
+.btn-primary:hover{
+	background-color: #fff;
+	color: #A75E41;
+	transform: scale(1.1);
 }
 
 .btn-link{
@@ -1383,6 +1401,7 @@ footer .address{
 
 	.display-3{
 		font-size: 35px;
+		letter-spacing: -2px;
 	}
 
 	.h1{
@@ -1457,6 +1476,7 @@ footer .address{
 		width: 120px;
 		height: 120px;
 		line-height: 120px;
+		font-size: 1em;
 	}
 
 	.hide-res{
@@ -1604,10 +1624,10 @@ footer .address{
 	}
 
 	.plate-3 {
-		bottom: -35%;
-		left: -80px;
+		bottom: -120;
+		left: -100px;
 		transform: translateX(-50%);
-		width: 70%;
+		width: 80%;
 	}
 
 	.boutique-carousel .btn-primary {
@@ -1657,6 +1677,32 @@ footer .address{
 
 	.section-boutique-info .offset-mr-top{
 		margin-top: 50px;
+	}
+
+	.section-events .img-fluid{
+		margin-bottom: 40px;
+  		margin-top: 30px;
+	}
+
+	.section-enterprise .business-1 {
+		position: relative;
+		width: 100%;
+		top: 0px;
+		margin: 30px 0px;
+	}
+
+	.section-enterprise .business-2{
+		display: none;
+	}
+
+	.section-terraza,
+	.boutique-banner,
+	.business-banner{
+		background-attachment: initial;
+	}
+
+	.section-business .main-img{
+		display: none;
 	}
 
 	.letter-2{

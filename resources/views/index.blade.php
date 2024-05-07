@@ -8,7 +8,7 @@
 @section('content')
   <section class="section section-intro">
     <img class="left-img parallax" data-rellax-speed="2" src="{{ asset('img/section-img-1.png') }}" alt="">
-    <h5 class="special-welcome decorative parallax" data-rellax-speed="4">Bienvenido querido amigo. Preparate para el mejor momento de tu semana.</h5>
+    <h5 class="special-welcome decorative parallax" data-rellax-speed="4"> Bienvenido a Hacienda Catrina, todo el sabor, orgullo y tradición del auténtico lujo mexicano.</h5>
 
     <div class="container">
       <div class="row">
@@ -108,8 +108,8 @@
       <div class="row align-items-end btm-mr">
         <div class="col-md-6">
           <div class="title-group">
-            <p class="wide">Hacienda Catrina</p>
-            <h2 class="display-3">Experiencias</h2>
+            <p class="wide">Experiencias</p>
+            <h2 class="display-3">Hacienda Catrina</h2>
             <p class="decorative display-3">es celebración</p>
           </div>
         </div>
@@ -280,7 +280,7 @@
                     </div>
                     <div class="col-md-7 position-relative">
                       <div class="img-wrap">
-                        <img src="{{ asset('img/rooms/gran-class-king/gallery_6.jpg') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/rooms/gran-class-king/main_img_2.jpg') }}" class="img-fluid" alt="">
                       </div>
                       
                       <a href="{{ route('boutique.detail', 'gran-class-king') }}" class="btn btn-primary">Conoce más</a>
@@ -301,7 +301,7 @@
                     </div>
                     <div class="col-md-7 position-relative">
                       <div class="img-wrap">
-                        <img src="{{ asset('img/rooms/master-suite-101/gallery_6.jpg') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/rooms/master-suite-101/main_img_1.jpg') }}" class="img-fluid" alt="">
                       </div>
                       <a href="{{ route('boutique.detail', 'master-suite-101') }}" class="btn btn-primary">Conoce más</a>
                     </div>
@@ -343,7 +343,8 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-3">
-          <p>Toma un descanso y recupera tu energía a través del relajante murmullo de agua, del contacto con nuestras raíces mexicanas y la calidez momento en familia, pareja o amigos.</p>
+          <p>Nuestra carta de bebidas y destilados nacionales e importados harán de tu estancia un momento especial.</p>
+          <p>Prueba nuestra mixología de casa para disfrutar de la vista en la terraza del motor lobby.</p>
         </div>
         <div class="col-md-6 offset-md-3">
           <div class="title-group text-end">
@@ -380,22 +381,22 @@
           <p>Contamos con espacios para todo tipo de eventos: desde cava privada, salones de negocios, amplios jardines con carpa y un magnífico ruedo para un escenario especial.</p>
         </div>
       </div>
-      
+
       <div class="row table-details">
         <div class="col-md-5 offset-md-6">
           <div class="d-flex align-items-center justify-content-between">
-            <p>Eventos empresariales</p>
-            <p class="h6">50-100 Personas</p>
+            <p>Empresariales</p>
+            <p class="h6">15 a 100 invitados</p>
           </div>
           <div class="d-flex align-items-center justify-content-between">
-            <p>Eventos pequeños</p>
-            <p class="h6">50-100 Personas</p>
+            <p>Sociales</p>
+            <p class="h6">100 hasta 500 invitados</p>
           </div>
           <div class="d-flex align-items-center justify-content-between">
-            <p>Bodas sociales</p>
-            <p class="h6">50-100 Personas</p>
+            <p>Bodas&Corporativo</p>
+            <p class="h6">150 hasta 1000 invitados</p>
           </div>
-          <a href="" class="btn btn-block btn-box">¿Interesado en Reserva? Contáctanos</a>
+          <a href="" class="btn btn-block btn-box">Más Información +</a>
         </div>
       </div>
     </div>
@@ -418,7 +419,7 @@
             <div class="ps-5 pe-5">
               <p class="title-p"><strong>Forma parte de nuestro Social Club de Recompensas y Beneficios exclusivos para nuestros Clientes Prioritarios de Gastro & Resorts.</strong></p>
               <p>Nuestro club te otorgará distintos beneficios para ti y tus invitados en todos nuestros servicios y espacios, estamos en etapa de pre registro. Con sólo compartirnos tu correo electrónico o número telefónico y tu nombre podrás entrar en la lista. </p>
-              <a href="" class="btn-link mt-5">Datos de contacto ></a>
+              <a href="tel:4721450510" class="btn-link mt-5">Más Información +</a>
             </div>
           </div>
       </div>

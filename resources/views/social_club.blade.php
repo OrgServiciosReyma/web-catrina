@@ -92,16 +92,13 @@
                 <a href="" class="btn-link">Este es un link de prueba ></a>
             </div>
         </div>
-    </div>
-    
+    </div>    
 </section>
-
-
 
 <div class="section">
     @include('layouts.utilities.scroll_text')
     @include('layouts.utilities.cta_video')
-  </div>
+</div>
 @endsection
 
 @push('scripts')

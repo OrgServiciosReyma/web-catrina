@@ -24,20 +24,19 @@
 
                 <div class="hover-card">
                     <div class="hover-line">
-                        <a href="{{ route('spa') }}">Amenidades</a>
-                        <a href="{{ route('gym') }}">Gimnasio</a>
+                        <a href="{{ route('spa') }}">SPA</a>
                         <a href="{{ route('spa') }}">Servicio Pick Up</a>
                     </div>
                 </div>
             </div>
 
             <div class="sidebar-element">
-                <a href="{{ route('gastro') }}"><h4><span>III</span> La Vida</h4></a>
+                <a href="{{ route('life') }}"><h4><span>III</span> La Vida</h4></a>
 
                 <div class="hover-card">
                     <div class="hover-line">
                         <a href="{{ route('gastro') }}">Travesías</a>
-                        <a href="{{ route('gym') }}">Gimnasio</a>
+                        {{--<a href="{{ route('gym') }}">Gimnasio</a>--}}
                         <a href="{{ route('gastro') }}">Temazcal</a>
                         <a href="{{ route('gastro') }}">Productos</a>
                     </div>
@@ -62,8 +61,10 @@
                 <div class="hover-card">
                     <div class="hover-line">
                         <a href="{{ route('events') }}">Empresariales</a>
-                        <a href="{{ route('events') }}">Sociales</a>
+                        <a href="{{ route('bodas') }}">Bodas y Sociales</a>
+                        {{-- 
                         <a href="{{ route('events') }}">Agenda una Cita</a>
+                        --}}
                     </div>
                 </div>
             </div>
@@ -106,12 +107,11 @@
             <img class="logo-nav" src="{{ asset('img/logo-white.svg') }}" alt="">
 
             <div class="mt-auto mb-auto">
-                <h4>Hacienda Catrina <br>Hotel Boutique & Spa</h4>
+                <h4>Hacienda catrina <br>Hotel boutique & spa</h4>
                 <p>Blvd. Mineral de Peñafiel Sur #600, Col, Guanajuato Puerto Interior, 36275 Silao, Gto.</p>
     
                 <ul class="list-unstyled">
                     <li><a href="tel:4721450510">472 145 0510</a></li>
-                    <li><a href="mailto:contacto@haciendacatrina.com.mx">contacto@haciendacatrina.com.mx</a></li>
                     <li><a href="mailto:recepcion@haciendacatrina.com.mx">recepcion@haciendacatrina.com.mx</a></li>
                 </ul>
     
@@ -119,15 +119,14 @@
                     <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/haciendacatrina/"><ion-icon name="logo-facebook"></ion-icon></a></li>
                     <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/haciendacatrina/"><ion-icon name="logo-instagram"></ion-icon></a></li>
                     <li class="list-inline-item"><a target="_blank" href="https://www.tiktok.com/@haciendacatrina"><ion-icon name="logo-tiktok"></ion-icon></a></li>
-                    <li class="list-inline-item"><a target="_blank" href="https://www.booking.com/Share-cew7pZ"><ion-icon name="airplane-outline"></ion-icon></a></li>
-                    <li class="list-inline-item"><a target="_blank" href="https://www.expedia.mx/en/Silao-Hotels-HC-HACIENDA-CATRINA-HOTEL-BOUTIQUE.h82871460.Hotel-Information?recommendations-overlay=recommendations-overlay"><ion-icon name="airplane-outline"></ion-icon></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.booking.com/Share-cew7pZ"><img class="custom-icon" src="{{ asset('img/booking_icon.svg') }}" alt=""></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.expedia.mx/en/Silao-Hotels-HC-HACIENDA-CATRINA-HOTEL-BOUTIQUE.h82871460.Hotel-Information?recommendations-overlay=recommendations-overlay"><img class="custom-icon" src="{{ asset('img/expedia_icon.svg') }}" alt=""></a></li>
                 </ul>
             </div>
             
             <ul class="list-unstyled legal-list mt-auto">
                 <li><a href="{{ route('privacy') }}">Aviso de Privacidad</a></li>
                 <li><a href="{{ route('terms') }}">Términos y Condiciones</a></li>
-                <li><a href="{{ route('terms') }}">Facturación</a></li>
             </ul>
         </div>
     </div>

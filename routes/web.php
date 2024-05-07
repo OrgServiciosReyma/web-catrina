@@ -19,6 +19,11 @@ Route::namespace('App\Http\Controllers')->group(function () {
         'as' => 'spa',
     ]);
 
+    Route::get('/la-vida', [
+        'uses' => 'FrontController@life',
+        'as' => 'life',
+    ]);
+
     Route::get('/boutique', [
         'uses' => 'FrontController@boutique',
         'as' => 'boutique',
