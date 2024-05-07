@@ -146,6 +146,7 @@
 
 <div class="section">
     @include('layouts.utilities.scroll_text')
+    @include('layouts.utilities.cta_video')
 </div>
 @endsection
 

@@ -157,6 +157,11 @@
       </div>
     </div>
   </section>
+
+<div class="section">
+    @include('layouts.utilities.cta_video')
+</div>
+
 @endsection
 
 @push('scripts')

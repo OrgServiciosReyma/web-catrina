@@ -8,7 +8,7 @@ class FrontController extends Controller
 {
     public function index()
     {
-        $video_link = 'footer-video-new.mp4';
+        $video_link = 'footer-video.mp4';
 
         return view('index')
         ->with('video_link', $video_link);
@@ -16,7 +16,7 @@ class FrontController extends Controller
 
     public function aboutUs()
     {
-        $video_link = 'footer-video-new.mp4';
+        $video_link = 'footer-video.mp4';
 
         return view('about_us')
         ->with('video_link', $video_link);
@@ -24,7 +24,7 @@ class FrontController extends Controller
 
     public function socialClub()
     {
-        $video_link = 'footer-video-new.mp4';
+        $video_link = 'footer-video.mp4';
 
         return view('social_club')
         ->with('video_link', $video_link);
@@ -32,7 +32,7 @@ class FrontController extends Controller
 
     public function gym()
     {
-        $video_link = 'footer-video-new.mp4';
+        $video_link = 'footer-video.mp4';
 
         return view('gym')
         ->with('video_link', $video_link);
@@ -40,7 +40,7 @@ class FrontController extends Controller
 
     public function boutique()
     {
-        $video_link = 'footer-video-new.mp4';
+        $video_link = 'footer-boutique.mp4';
 
         return view('boutique')
         ->with('video_link', $video_link);
@@ -48,7 +48,7 @@ class FrontController extends Controller
 
     public function business()
     {
-        $video_link = 'footer-video-new.mp4';
+        $video_link = 'footer-video.mp4';
 
         return view('business')
         ->with('video_link', $video_link);
@@ -56,7 +56,7 @@ class FrontController extends Controller
 
     public function eventWedding()
     {
-        $video_link = 'footer-video-new.mp4';
+        $video_link = 'footer-celeb.mp4';
 
         return view('events')
         ->with('video_link', $video_link);
@@ -64,7 +64,7 @@ class FrontController extends Controller
 
     public function eventGeneral()
     {
-        $video_link = 'footer-video-new.mp4';
+        $video_link = 'footer-celeb.mp4';
 
         return view('events')
         ->with('video_link', $video_link);
@@ -72,7 +72,7 @@ class FrontController extends Controller
 
     public function spa()
     {
-        $video_link = 'footer-video-new.mp4';
+        $video_link = 'footer-hospi.mp4';
 
         return view('spa')
         ->with('video_link', $video_link);
@@ -80,7 +80,7 @@ class FrontController extends Controller
 
     public function life()
     {
-        $video_link = 'footer-video-new.mp4';
+        $video_link = 'footer-video.mp4';
 
         return view('life')
         ->with('video_link', $video_link);
@@ -88,7 +88,7 @@ class FrontController extends Controller
 
     public function gastro()
     {
-        $video_link = 'footer-video-new.mp4';
+        $video_link = 'footer-video.mp4';
 
         return view('gastro')
         ->with('video_link', $video_link);
