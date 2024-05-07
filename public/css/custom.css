@@ -327,6 +327,7 @@ nav .btn-menu{
 	width: 70%;
 	min-height: 830px;
 	height: 100vh;
+	top: 0px;
 	left: -70%;
 	padding: 80px 40px;
 	background: url(../img/catrina-bg.jpg);
@@ -364,6 +365,7 @@ nav .btn-menu{
 	min-height: 830px;
 	height: 100vh;
 	right: -30%;
+	top: 0px;
 	padding: 80px 50px;
 	background-color: #A75E41;
 	color: #fff;
@@ -836,6 +838,14 @@ body.toggled .right-nav{
 	overflow: hidden;
 	padding: 350px 0px 120px 0px;
 	color: #fff;
+}
+
+.alt-terraza{
+	background: url(../img/alt-terraza.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .section-letters{

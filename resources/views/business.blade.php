@@ -1,3 +1,4 @@
+
 @extends('layouts.main')
 
 @push('styles')
@@ -6,149 +7,159 @@
 @endpush
 
 @section('content')
-<section class="section section-business intro-section">
-    <div class="container">
-        <img src="{{ asset('img/business-title.svg') }}" class="img-fluid" alt="">
+<section class="section section-events intro-section">
+    <img class="decorative-root root-3 parallax" data-relax-speed="3" src="{{ asset('img/root-3.svg') }}" alt="">
+    <div class="container position-relative">
+        <p class="decorative special-welcome parallax" data-relax-speed="5">Bienvenido querido amigo. Preparate para el mejor momento de tu semana.</p>
         
-        <p class="special-welcome decorative parallax" data-rellax-speed="-3">Disfruta con nosotros el lujo del descanso</p>
-       
         <div class="row">
-            <div class="col-md-5 offset-md-1">
-                <img class="main-img img-fluid parallax" data-rellax-speed="4" src="{{ asset('img/business-img.png') }}" alt="">
+            <div class="col-md-3">
+                <img class="img-fluid parallax" data-relax-speed="4" src="{{ asset('img/business-box-1.png') }}" alt="">
+            </div>
+            <div class="col-md-6 ps-5">
+                <div class="title-group btm-mr">
+                    <h2 class="display-3">Hacienda Catrina</h2>
+                    <p class="decorative display-3">es negocios</p>
+                </div>
+
+                <p class="title-p mb-5">Espacios diseñados para tener la mejor experiencia en tu evento empresarial, directivo, operativo o de integració.</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4 offset-md-3 ps-5">
+                <p>Contamos con espacios diseñados para tener una experiencia completa en comodidad, eficiencia en comunicación y la mejor calidad de alimentos y bebidas para tus colaboradores.</p>
+                <p>Contamos con una cava privada, salones empresariales con proyección, terraza y salones privados y un ruedo con capacidad de hasta 500 invitados. Seremos tus coanfitriones para dejar en tus invitados un recuerdo inolvidable.</p>
             </div>
 
-            <div class="col-md-3">
-                <p class="ps-2 description">Contamos con espacios diseñados para tener una experiencia completa en comodidad, eficiencia en comunicación y la mejor calidad de alimentos y bebidas para tus colaboradores.</p>
+            <div class="col-md-5 ps-5">
+                <img src="{{ asset('img/business-box-2.png') }}" class="img-fluid parallax" data-relax-speed="-2" alt="">
             </div>
         </div>
     </div>
-    <img class="decorative-root root-3 parallax" data-rellax-speed="1" src="{{ asset('img/root-3.svg') }}" alt="">
+</section>
+
+<section class="section section-enterprise std-p offset-mr-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-4 mt-5 pt-5">
+                <div class="display-title btm-mr">
+                    <p class="display-3 decorative">Eventos</p>
+                    <h1 class="display-2">Empresariales</h1>
+                </div>
+            </div>
+
+            <div class="col-md-5 offset-md-4">
+                <p class="title-p">Nuestro servicio personalizado nos permite adaptarnos a las necesidades de tu evento. Contamos con un equipo profesional y humano que harán de tu evento la mejor presentación de tu marca.</p>
+                <p>Con distintos escenarios y una oferta amplia de menú complementarás la experiencia completa para tus invitados. Por favor contáctanos al (477) 724 7705 o déjanos tus datos en el formulario de contacto y con gusto le daremos seguimiento a tu solicitud y cotización.</p>
+            </div>
+        </div>
+
+        <img src="{{ asset('img/business-1.png') }}" class="business-image business-1 parallax" data-relax-speed="1" alt="imagen 1">
+    </div>
 </section>
 
 <section class="section std-p">
     <div class="container">
-        <div class="row btm-mr">
-            <div class="col-md-6">
-                <div class="title-group">
-                    <p class="wide">Salón de Eventos Empresariales</p>
-                    <h2 class="display-3">El espacio correcto para conferencias y congresos</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="owl-carousel restaurant-carousel">
+                    <div class="item">
+                        <div class="gallery-card">
+                            <img src="{{ asset('img/banner-business-1.png') }}" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="gallery-card">
+                            <img src="{{ asset('img/banner-business-2.png') }}" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="gallery-card">
+                            <img src="{{ asset('img/banner-business-3.png') }}" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="gallery-card">
+                            <img src="{{ asset('img/banner-business-4.png') }}" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="gallery-card">
+                            <img src="{{ asset('img/banner-business-5.png') }}" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="gallery-card">
+                            <img src="{{ asset('img/banner-business-6.png') }}" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="pickup-badge parallax" data-rellax-speed="3">
-        <p class="pickup-badge-title">Servicio de Pickup</p>
-        <p>Hotel - Aeropuerto - Hotel</p>
-    </div>
-
-    <div class="full-image-wrap business-banner"></div>
     
-    <div class="container std-p">
-        <div class="row">
-            <div class="col-md-3 offset-md-4">
-                <p>Hacienda Catrina es el lugar ideal donde el trabajo y la relajación se unen! Hacienda Catrina ofrece salas de conferencias bien equipadas, personal profesional, un hermoso ambiente hotelero y un maravilloso espacio y jardines.</p>
+        <div class="row align-items-center mt-5">
+            <div class="col-md-5 offset-md-1">
+                <div class="title-group">
+                    <p class="wide">Galería</p>
+                    <h2 class="display-3">Eventos</h2>
+                    <p class="decorative display-3">empresariales</p>
+                </div>
             </div>
-
-            <div class="col-md-3 offset-md-1">
-                <ul class="list-unstyled list-attributes">
-                    <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Salas de conferencias modernizadas y ampliadas con luz natural, adecuadas para los expositores durante las conferencias y para la prestación de servicios de catering.</li>
-                    <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> 4 supercargadores rápidos Tesla</li>
-                    <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Restaurante bonito, elegante y con estilo.</li>
-                    <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Menú de temporada sabroso y saludable.</li>
-                    <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Almacenamiento de su equipaje.</li>
-                    <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Posibilidad de colocar en el salón de congresos un producto grande (por ejemplo, un coche).</li>
-                </ul>
+            <div class="col-md-4 offset-md-1">
+                <p>Nuestra cocina nos permite servir desde un grupo de 15 personas, hasta un evento para 500 comensales. Verifica la disponibilidad de agenda con nuestras asesoras.</p>
+                <a href="" class="btn-link">Agendar tu cita ></a>
             </div>
         </div>
     </div>
 </section>
 
-<section class="section section-gastro">
-    <img class="decorative-root root-1" src="{{ asset('img/root-1.svg') }}" alt="">
-    <img class="gastro-plate plate-1 parallax" data-rellax-speed="2" src="{{ asset('img/gastro-1.png') }}" alt="">
-    <img class="gastro-plate plate-2 parallax" data-rellax-speed="-2" src="{{ asset('img/gastro-2.png') }}" alt="">
-    <img class="gastro-plate plate-3 parallax" data-rellax-speed="2"src="{{ asset('img/gastro-3.png') }}" alt="">
-    
+<section class="section-terraza alt-terraza">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="display-title btm-mr text-center">
-            <h1 class="display-1">Restaurante</h1>
-            <p class="display-3 decorative">el mayor regalo del día</p>
-          </div>
+      <div class="row align-items-center">
+        <div class="col-md-4">
+            <p>Nuestra gastronomía es un honor a la tierra mexicana.</p>
+            <p>Cocina tradicional y regional, cocina de autor y de temporada preparada desde nuestro horno y parilla para una experiencia inigualable. Extensos sabores y productos frescos para consentir y deleitar los paladares.</p>
         </div>
 
-        <div class="col-md-3 offset-md-6 position-relative">
-          <p><strong>Un destino para los amantes de la gastronomía dirigido por el chef con dos estrellas Michelin Leondres Lour’d du León. Esta hacienda ofrece 2 restaurantes y 2 bares.</strong></p>
-          <p>El arte culinario es parte importante de la experiencia inolvidable preparada para cada uno de ustedes.</p>
-          <p>El mundo del sabor pleno es una inspiración infinita para nuestro chef y su equipo. Recetas tradicionales. Productos de temporada de calidad. Ver. Sentir. Disfrútala. Y déjate mimar.</p>
-
-          <a href="" class="btn btn-primary">Conoce más</a>
+        <div class="col-md-6 offset-md-2">
+          <div class="title-group text-end">
+            <p class="wide">Hacienda Catrina es Sabor</p>
+            <h2 class="display-3">La Frida</h2>
+            <p class="decorative display-3">cocina creativa con tradición.</p>
+          </div>
         </div>
       </div>
     </div>
 </section>
 
-<section class="section section-places position-relative std-p offset-mr-top">
+<section class="section section-social">
     <div class="container">
-        <p class="special-welcome decorative parallax" data-rellax-speed="4">Bienvenido querido amigo. Preparate para el mejor momento de tu semana.</p>
-
-        <div class="row align-items-end">
-            <div class="col-md-4">
-                <div class="title-group btm-mr">
-                    <p class="wide">Hacienda Catrina</p>
-                    <h2 class="display-3">Espacios ideales para crear</h2>
-                </div>
-        
-                <ul class="list-unstyled list-attributes pe-5">
-                    <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Salas de conferencias modernizadas y ampliadas con luz natural, adecuadas para los expositores durante las conferencias y para la prestación de servicios de catering.</li>
-                    <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> 4 supercargadores rápidos Tesla</li>
-                    <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Restaurante bonito, elegante y con estilo.</li>
-                    <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Menú de temporada sabroso y saludable.</li>
-                    <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Almacenamiento de su equipaje.</li>
-                    <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Posibilidad de colocar en el salón de congresos un producto grande (por ejemplo, un coche).</li>
-                </ul>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="{{ asset('img/wellness-1.png') }}" class="img-fluid social-1 parallax" data-relax-speed="-1" alt="">
             </div>
-        
-            <div class="col-md-7 offset-md-1">
-                <div class="owl-carousel gallery-carousel">
-                    <div class="item">
-                      <div class="gallery-card">
-                          <img src="{{ asset('img/spaces-1.png') }}" alt="">
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="gallery-card">
-                          <img src="{{ asset('img/spaces-2.png') }}" alt="">
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="gallery-card">
-                          <img src="{{ asset('img/spaces-1.png') }}" alt="">
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="gallery-card">
-                          <img src="{{ asset('img/spaces-2.png') }}" alt="">
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="gallery-card">
-                          <img src="{{ asset('img/spaces-1.png') }}" alt="">
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="gallery-card">
-                          <img src="{{ asset('img/spaces-1.png') }}" alt="">
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="gallery-card">
-                          <img src="{{ asset('img/spaces-2.png') }}" alt="">
-                      </div>
-                    </div>
+
+            <div class="col-md-5 offset-md-1 mt-5 ps-3">
+                <div class="display-title btm-mr">
+                    <p class="display-3 decorative">La Vida</p>
+                    <h1 class="display-2">Wellness Center</h1>
                 </div>
+
+                <p class="title-p pe-5">La Vida Wellness Center by Hacienda Catrina Hotel Boutique & Spa es el espacio de bienestar que necesitas para recargar de energía, realiza tus rutinas de entrenamiento en nuestro gimnasio y enfrenta los retos del día a día con tu mejor versión.</p>
+            </div>
+
+            <div class="col-md-3 mt-auto">
+                <img src="{{ asset('img/wellness-2.png') }}" class="img-fluid social-2 parallax" data-relax-speed="-3" alt="">
+            </div>
+        </div>
+
+        <div class="row align-items-end std-p">
+            <div class="col-md-3 offset-md-1" style="z-index: 2;">
+                <p><strong>El trabajo no será jamás un pretexto para no estar en forma. Consulta nuestros horarios de servicio y reserva tu visita. </strong></p>
+                <p>Conoce todos los servicios que La Vida Wellness Center by Hacienda Catrina Hotel Boutique & Spa tiene para ti.</p>
+
+                <a href="{{ route('spa') }}" class="btn btn-primary" style="position: relative; right:-180px;">Más información</a>
             </div>
         </div>
     </div>
@@ -156,28 +167,19 @@
 
 <div class="section">
     @include('layouts.utilities.scroll_text')
-</div>
+    @include('layouts.utilities.cta_video_alt')
+  </div>
 @endsection
 
 @push('scripts')
 <script src="{{ asset('vendor/owl-carousel/dist/owl.carousel.min.js') }}"></script>
 
 <script>
-  $('.gallery-carousel').owlCarousel({
+  $('.restaurant-carousel').owlCarousel({
     loop:true,
     margin:30,
     nav:true,
-    responsive:{
-        0:{
-            items:2,
-        },
-        600:{
-            items:2,
-        },
-        1000:{
-            items:3,
-        }
-    }
+    items:1,
   });
 </script>
 @endpush

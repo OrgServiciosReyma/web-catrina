@@ -78,6 +78,14 @@ class FrontController extends Controller
         ->with('video_link', $video_link);
     }
 
+    public function life()
+    {
+        $video_link = 'footer-video-new.mp4';
+
+        return view('life')
+        ->with('video_link', $video_link);
+    }
+
     public function gastro()
     {
         $video_link = 'footer-video-new.mp4';
