@@ -38,7 +38,7 @@
                     <div class="hover-line">
                         <a href="{{ route('life') }}/#travesias">Travesías</a>
                         <a href="{{ route('life') }}/#gimnasio">Gimnasio</a>
-                        <a href="{{ route('life') }}/#temzcal">Temazcal</a>
+                        <a href="{{ route('life') }}/#temazcal">Temazcal</a>
                         <a href="{{ route('life') }}/#productos">Productos</a>
                     </div>
                 </div>
