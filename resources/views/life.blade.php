@@ -16,6 +16,13 @@
 
     nav .logo{
         mix-blend-mode:difference;
+        display: none;
+    }
+
+
+    nav .logo-white{
+        display: block !important;
+        mix-blend-mode:difference;
     }
 
     nav a{
@@ -67,7 +74,7 @@
 
     <div class="display-title text-center">
         <h1 class="display-3">La Vida <br>Wellness Center</h1>
-        <p>by Hacienda Catrina Hotel Boutique & SPA</p>
+        <p>by Hacienda Catrina Hotel Boutique & Spa</p>
     </div>
 </section>
 

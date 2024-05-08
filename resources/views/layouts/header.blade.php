@@ -8,7 +8,14 @@
                 <div class="d-flex justify-content-center align-items-center">
                     <a class="hide-res" href="{{ route('nosotros') }}">Acerca de nosotros</a>
 
-                    <a href="{{ route('index') }}"><img class="logo" src="{{ asset('img/logo.svg') }}" alt="Logo"></a>
+                    <a href="{{ route('index') }}">
+                        <img class="logo" src="{{ asset('img/logo.svg') }}" alt="Logo">
+                    </a>
+
+                    <a href="{{ route('index') }}">
+                        <img class="logo-white" src="{{ asset('img/logo-white.svg') }}" alt="Logo">
+                    </a>
+
                     <a href="{{ route('index') }}"><img class="logo-sm" src="{{ asset('img/logo-sm.svg') }}" alt="Logo"></a>
 
                     <a class="hide-res" href="{{ route('social.club') }}"><ion-icon name="star"></ion-icon> Social Club</a>

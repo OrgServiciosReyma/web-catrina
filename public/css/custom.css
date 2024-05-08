@@ -263,14 +263,23 @@ nav .logo{
 	margin-right: 80px;
 }
 
+nav .logo-white{
+	display: none;
+	width: 170px;
+	padding-top: 30px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
 nav.scroll{
 	background: var(--color-bg);
 	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.2);
 	height: 80px;
 }
 
-nav.scroll .logo{
-	display: none;
+nav.scroll .logo,
+nav.scroll .logo-white{
+	display: none !important;
 }
 
 nav.scroll .logo-sm{
@@ -1259,8 +1268,8 @@ footer .address{
 
 .room-collapse .btn-primary{
 	position: absolute;
-	top: -220px;
-	right: 35%;
+	top: -150px;
+	right: 15%;
 	z-index: 2;
 }
 

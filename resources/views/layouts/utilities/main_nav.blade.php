@@ -24,8 +24,9 @@
 
                 <div class="hover-card">
                     <div class="hover-line">
-                        <a href="{{ route('spa') }}">SPA</a>
-                        <a href="{{ route('spa') }}">Servicio Pick Up</a>
+                        <a href="{{ route('spa') }}/#amenidades">Amenidades</a>
+                        <a href="{{ route('life') }}/#gimnasio">Gimnasio</a>
+                        {{-- <a href="{{ route('spa') }}">Servicio Pick Up</a> --}}
                     </div>
                 </div>
             </div>
@@ -35,10 +36,10 @@
 
                 <div class="hover-card">
                     <div class="hover-line">
-                        <a href="{{ route('gastro') }}">Travesías</a>
-                        {{--<a href="{{ route('gym') }}">Gimnasio</a>--}}
-                        <a href="{{ route('gastro') }}">Temazcal</a>
-                        <a href="{{ route('gastro') }}">Productos</a>
+                        <a href="{{ route('life') }}/#travesias">Travesías</a>
+                        <a href="{{ route('life') }}/#gimnasio">Gimnasio</a>
+                        <a href="{{ route('life') }}/#temzcal">Temazcal</a>
+                        <a href="{{ route('life') }}/#productos">Productos</a>
                     </div>
                 </div>
             </div>
@@ -49,8 +50,9 @@
                 <div class="hover-card">
                     <div class="hover-line">
                         <a href="{{ route('gastro') }}">Gastronomía y Coctelería</a>
-                        <a href="{{ route('gastro') }}">La Frida Restaurante</a>
-                        <a href="{{ route('gastro') }}">Bar Kahlo</a>
+                        <a href="{{ route('gastro') }}/#la-frida">La Frida Restaurante</a>
+                        <a href="{{ route('gastro') }}/#bar-kahlo">Bar Kahlo</a>
+                        
                     </div>
                 </div>
             </div>
@@ -60,8 +62,8 @@
 
                 <div class="hover-card">
                     <div class="hover-line">
-                        <a href="{{ route('events') }}">Empresariales</a>
-                        <a href="{{ route('bodas') }}">Bodas y Sociales</a>
+                        <a href="{{ route('business') }}/#eventos">Empresariales</a>
+                        <a href="{{ route('bodas') }}">Sociales</a>
                         {{-- 
                         <a href="{{ route('events') }}">Agenda una Cita</a>
                         --}}
@@ -74,12 +76,11 @@
 
                 <div class="hover-card">
                     <div class="hover-line">
-                        <a href="{{ route('business') }}">Convenios</a>
-                        <a href="{{ route('business') }}">Eventos</a>
-                        <a href="{{ route('business') }}">La Frida Restaurante</a>
-                        <a href="{{ route('business') }}">Bar Kahlo</a>
-                        <a href="{{ route('business') }}">Gimnasio</a>
-                        <a href="{{ route('business') }}">La Vida Wellness Center</a>
+                        <a href="{{ route('business') }}/#eventos">Eventos</a>
+                        <a href="{{ route('business') }}/#la-frida">La Frida Restaurante</a>
+                        <a href="{{ route('business') }}/#bar-kahlo">Bar Kahlo</a>
+                        <a href="{{ route('life') }}/#gimnasio">Gimnasio</a>
+                        <a href="{{ route('life') }}">La Vida Wellness Center</a>
                     </div>
                 </div>
             </div>
@@ -107,7 +108,7 @@
             <img class="logo-nav" src="{{ asset('img/logo-white.svg') }}" alt="">
 
             <div class="mt-auto mb-auto">
-                <h4>Hacienda catrina <br>Hotel boutique & spa</h4>
+                <h4>Hacienda catrina <br>Hotel Boutique & Spa</h4>
                 <p>Blvd. Mineral de Peñafiel Sur #600, Col, Guanajuato Puerto Interior, 36275 Silao, Gto.</p>
     
                 <ul class="list-unstyled">
