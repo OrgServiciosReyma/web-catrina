@@ -33,7 +33,7 @@
 
 <div class="full-image-wrap business-banner" style="margin-top: -100px; z-index:2;"></div>
 
-<section class="section std-p">
+<section id="la-frida" class="section std-p">
   <div class="container">
       <div class="row btm-mr">
           <div class="col-md-6">
@@ -73,7 +73,7 @@
   </div>
 </section>
 
-<section class="section std-p">
+<section id="bar-kahlo" class="section std-p">
   <div class="container">
       <div class="row">
           <div class="col-md-12">

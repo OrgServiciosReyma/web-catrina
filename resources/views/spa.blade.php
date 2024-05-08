@@ -56,7 +56,7 @@
     <img class="decorative-root root-2 parallax" data-rellax-speed="-2" src="{{ asset('img/root-2.svg') }}" alt="">
   </section>
 
-  <section class="section section-places position-relative std-p pb-5" style="margin-bottom: 100vh;">
+  <section id="amenidades" class="section section-places position-relative std-p pb-5" style="margin-bottom: 100vh;">
     <div class="container">
         <p class="special-welcome decorative parallax" data-rellax-speed="4">Bienvenido querido amigo. Preparate para el mejor momento de tu semana.</p>
 
