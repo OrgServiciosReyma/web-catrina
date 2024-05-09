@@ -71,6 +71,52 @@
     </div>
 </section>
 
+@php
+    $gallery_ms_101 = [
+        ['title' => 'Cama King Size', 'img' => 'gallery_1.jpg'],
+        ['title' => 'Sala Smart TV 65"', 'img' => 'gallery_2.jpg'],
+        ['title' => 'Escritorio con iluminación', 'img' => 'gallery_3.jpg'],
+        ['title' => 'Baño completo', 'img' => 'gallery_4.jpg'],
+        ['title' => 'Tina personal con sales de baño.', 'img' => 'gallery_5.jpg'],
+        ['title' => 'Terraza con sala', 'img' => 'gallery_6.jpg'],
+    ];
+
+    $gallery_ms_201 = [
+        ['title' => 'Cama King Size', 'img' => 'gallery_1.jpg'],
+        ['title' => 'Terraza de descanso ', 'img' => 'gallery_2.jpg'],
+        ['title' => 'Déjate llevar por la comodidad ', 'img' => 'gallery_3.jpg'],
+        ['title' => 'Cómoda Sala de TV ', 'img' => 'gallery_4.jpg'],
+        ['title' => 'Amenidades de lujo', 'img' => 'gallery_5.jpg'],
+        ['title' => 'Habitación para un magnífico descanso', 'img' => 'gallery_6.jpg'],
+    ];
+
+    $gallery_gck = [
+        ['title' => 'Cama King Size', 'img' => 'gallery_1.jpg'],
+        ['title' => 'Cuidamos todos los detalles del confort', 'img' => 'gallery_2.jpg'],
+        ['title' => 'Smart TV 55" con SKY', 'img' => 'gallery_3.jpg'],
+        ['title' => 'Escritorio de trabajo', 'img' => 'gallery_4.jpg'],
+        ['title' => 'Amenidades de lujo', 'img' => 'gallery_5.jpg'],
+        ['title' => 'Terraza con sala / Balcón', 'img' => 'gallery_6.jpg'],
+    ];
+
+    $gallery_gcdq = [
+        ['title' => 'Cómodas camas gemelas Quee Size', 'img' => 'gallery_1.jpg'],
+        ['title' => 'Amenidades de lujo', 'img' => 'gallery_2.jpg'],
+        ['title' => 'Mini Bar a tu servicio ', 'img' => 'gallery_3.jpg'],
+        ['title' => 'Cuidamos cada detalle del confort.', 'img' => 'gallery_4.jpg'],
+        ['title' => 'Smart TV de 55"', 'img' => 'gallery_5.jpg'],
+        ['title' => 'Cómoda terraza o balcón', 'img' => 'gallery_6.jpg'],
+    ];
+
+    $gallery_vc = [
+        ['title' => 'Residencia totalmente privada', 'img' => 'gallery_1.jpg'],
+        ['title' => 'Habitación Doble Queen Size', 'img' => 'gallery_2.jpg'],
+        ['title' => 'Sala de TV y Comedor ', 'img' => 'gallery_3.jpg'],
+        ['title' => 'Alberca con camastros privados', 'img' => 'gallery_4.jpg'],
+        ['title' => 'Terraza con asador', 'img' => 'gallery_5.jpg'],
+        ['title' => 'Habitación King Size ', 'img' => 'gallery_6.jpg'],
+    ];
+@endphp
 <section class="section std-p">
     <div class="container">
         <div class="row">
@@ -84,44 +130,18 @@
                     
                     <div class="collapse" id="masterSuite101">
                         <div class="row">
-                            <div class="col-md-12">
-                              <div class="owl-carousel gallery-carousel">
-                                <div class="item">
+                          <div class="col-md-12">
+                            <div class="owl-carousel gallery-carousel">
+                              @foreach($gallery_ms_101 as $g_img)
+                              <div class="item">
                                   <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-1.png') }}" alt="">
+                                      <img src="{{ asset('img/rooms/master-suite-101/' . $g_img['img']) }}" alt="">
+                                      <p>{{ $g_img['title'] }}</p>
                                   </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-2.png') }}" alt="">
-                                  </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-3.png') }}" alt="">
-                                  </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-4.png') }}" alt="">
-                                  </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-1.png') }}" alt="">
-                                  </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-3.png') }}" alt="">
-                                  </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-2.png') }}" alt="">
-                                  </div>
-                                </div>
                               </div>
+                              @endforeach
+                          </div>
+                        </div>
                         </div>
 
                         <div class="row align-items-center mt-5 position-relative">
@@ -152,44 +172,17 @@
                       <div class="row">
                           <div class="col-md-12">
                             <div class="owl-carousel gallery-carousel">
+                              @foreach($gallery_ms_201 as $g_img)
                               <div class="item">
-                                <div class="gallery-card">
-                                    <img src="{{ asset('img/banner-1.png') }}" alt="">
-                                </div>
+                                  <div class="gallery-card">
+                                      <img src="{{ asset('img/rooms/master-suite-201/' . $g_img['img']) }}" alt="">
+                                      <p>{{ $g_img['title'] }}</p>
+                                  </div>
                               </div>
-                              <div class="item">
-                                <div class="gallery-card">
-                                    <img src="{{ asset('img/banner-2.png') }}" alt="">
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="gallery-card">
-                                    <img src="{{ asset('img/banner-3.png') }}" alt="">
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="gallery-card">
-                                    <img src="{{ asset('img/banner-4.png') }}" alt="">
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="gallery-card">
-                                    <img src="{{ asset('img/banner-1.png') }}" alt="">
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="gallery-card">
-                                    <img src="{{ asset('img/banner-3.png') }}" alt="">
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="gallery-card">
-                                    <img src="{{ asset('img/banner-2.png') }}" alt="">
-                                </div>
-                              </div>
+                              @endforeach
                             </div>
+                          </div>
                       </div>
-
                       <div class="row align-items-center mt-5 position-relative">
                           <a href="{{ route('boutique.detail', 'master-suite-201') }}" class="btn btn-primary">Conoce más</a>
 
@@ -218,42 +211,16 @@
                         <div class="row">
                             <div class="col-md-12">
                               <div class="owl-carousel gallery-carousel">
+                                @foreach($gallery_gck as $g_img)
                                 <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-1.png') }}" alt="">
-                                  </div>
+                                    <div class="gallery-card">
+                                        <img src="{{ asset('img/rooms/gran-class-king/' . $g_img['img']) }}" alt="">
+                                        <p>{{ $g_img['title'] }}</p>
+                                    </div>
                                 </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-2.png') }}" alt="">
-                                  </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-3.png') }}" alt="">
-                                  </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-4.png') }}" alt="">
-                                  </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-1.png') }}" alt="">
-                                  </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-3.png') }}" alt="">
-                                  </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-2.png') }}" alt="">
-                                  </div>
-                                </div>
+                                @endforeach
                               </div>
+                            </div>
                         </div>
 
                         <div class="row align-items-center mt-5 position-relative">
@@ -284,41 +251,14 @@
                         <div class="row">
                             <div class="col-md-12">
                               <div class="owl-carousel gallery-carousel">
+                                @foreach($gallery_gcdq as $g_img)
                                 <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-1.png') }}" alt="">
-                                  </div>
+                                    <div class="gallery-card">
+                                        <img src="{{ asset('img/rooms/gran-class-double-queen/' . $g_img['img']) }}" alt="">
+                                        <p>{{ $g_img['title'] }}</p>
+                                    </div>
                                 </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-2.png') }}" alt="">
-                                  </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-3.png') }}" alt="">
-                                  </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-4.png') }}" alt="">
-                                  </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-1.png') }}" alt="">
-                                  </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-3.png') }}" alt="">
-                                  </div>
-                                </div>
-                                <div class="item">
-                                  <div class="gallery-card">
-                                      <img src="{{ asset('img/banner-2.png') }}" alt="">
-                                  </div>
-                                </div>
+                                @endforeach
                               </div>
                             </div>
                         </div>
@@ -351,41 +291,14 @@
                       <div class="row">
                           <div class="col-md-12">
                             <div class="owl-carousel gallery-carousel">
-                              <div class="item">
-                                <div class="gallery-card">
-                                    <img src="{{ asset('img/banner-1.png') }}" alt="">
+                              @foreach($gallery_vc as $g_img)
+                                <div class="item">
+                                    <div class="gallery-card">
+                                        <img src="{{ asset('img/rooms/villa-catrina/' . $g_img['img']) }}" alt="">
+                                        <p>{{ $g_img['title'] }}</p>
+                                    </div>
                                 </div>
-                              </div>
-                              <div class="item">
-                                <div class="gallery-card">
-                                    <img src="{{ asset('img/banner-2.png') }}" alt="">
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="gallery-card">
-                                    <img src="{{ asset('img/banner-3.png') }}" alt="">
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="gallery-card">
-                                    <img src="{{ asset('img/banner-4.png') }}" alt="">
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="gallery-card">
-                                    <img src="{{ asset('img/banner-1.png') }}" alt="">
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="gallery-card">
-                                    <img src="{{ asset('img/banner-3.png') }}" alt="">
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="gallery-card">
-                                    <img src="{{ asset('img/banner-2.png') }}" alt="">
-                                </div>
-                              </div>
+                                @endforeach
                             </div>
                           </div>
                       </div>
