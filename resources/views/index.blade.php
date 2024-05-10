@@ -254,6 +254,26 @@
                     <div class="col-md-5">
                       <div class="title-group">
                         <p class="wide">Hacienda Catrina</p>
+                        <h2 class="display-3">Villa Catrina</h2>
+                      </div>
+                      <p>Hermosa casa de campo decorada con un estilo tradicional mexicano totalmente privada. Encontrarás dos recámaras una con cama King Size y baño completo y otra con dos cómodas camas Queen Size con sus mesas lámparas de noche y baño completo.</p>
+                    </div>
+                    <div class="col-md-7 position-relative">
+                      <div class="img-wrap">
+                        <img src="{{ asset('img/rooms/villa-catrina/gallery_1.jpg') }}" class="img-fluid" alt="">
+                      </div>
+                      <a href="{{ route('boutique.detail', 'villa-catrina') }}" class="btn btn-primary">Conoce más</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="boutique-card">
+                  <div class="row align-items-center">
+                    <div class="col-md-5">
+                      <div class="title-group">
+                        <p class="wide">Hacienda Catrina</p>
                         <h2 class="display-3">Doble Queen Suite</h2>
                       </div>
                       <p>Nuestras espaciosas habitaciones están impecablemente diseñadas con comodidades residenciales y comodidades modernas.</p>
