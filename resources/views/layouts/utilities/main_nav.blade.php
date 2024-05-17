@@ -108,7 +108,7 @@
             <img class="logo-nav" src="{{ asset('img/logo-white.svg') }}" alt="">
 
             <div class="mt-auto mb-auto">
-                <h4>Hacienda catrina <br>Hotel Boutique & Spa</h4>
+                <h4>Hacienda Catrina <br>Hotel Boutique & Spa</h4>
                 <p>Blvd. Mineral de Peñafiel Sur #600, Col, Guanajuato Puerto Interior, 36275 Silao, Gto.</p>
     
                 <ul class="list-unstyled">

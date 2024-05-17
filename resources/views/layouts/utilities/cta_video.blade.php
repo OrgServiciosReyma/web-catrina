@@ -5,10 +5,10 @@
                 <div class="text-center">
                     <div class="title-group">
                         {{--  <p class="decorative display-3">mejor momento de tu semana</p> --}}
-                        <h2 class="display-3">Hacienda Catrina <br> es México.</h2>
+                        <h2 class="display-3">{{ $video_title }}</h2>
                     </div>
 
-                    <p class="description">Es boutique, es sabor, es descanso, es celebración… Hacienda Catrina es México.</p>
+                    <p class="description">{{ $video_subtitle }}</p>
                 </div>
             </div>
         </div>

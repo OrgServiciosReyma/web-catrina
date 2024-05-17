@@ -3,6 +3,12 @@
 @push('styles')
 <link rel="stylesheet" href="{{ asset('vendor/owl-carousel/dist/assets/owl.carousel.min.css') }}">
 <link rel="stylesheet" href="{{ asset('vendor/owl-carousel/dist/assets/owl.theme.default.min.css') }}">
+
+<style>
+  .gallery-card{
+    min-height: 720px !important;
+  }
+</style>
 @endpush
 
 @section('content')
@@ -77,23 +83,38 @@
   <div class="container">
       <div class="row">
           <div class="col-md-12">
-              <div class="owl-carousel restaurant-carousel">
-                  <div class="item">
-                      <div class="gallery-card">
-                          <img src="{{ asset('img/banner-restaurant.png') }}" alt="">
-                      </div>
-                  </div>
-                  <div class="item">
-                      <div class="gallery-card">
-                          <img src="{{ asset('img/banner-restaurant.png') }}" alt="">
-                      </div>
-                  </div>
-                  <div class="item">
-                      <div class="gallery-card">
-                          <img src="{{ asset('img/banner-restaurant.png') }}" alt="">
-                      </div>
-                  </div>
+            <div class="owl-carousel gallery-carousel mb-5">
+              <div class="item">
+                <div class="gallery-card">
+                    <img src="{{ asset('img/sabor-1.jpg') }}" alt="">
+                </div>
               </div>
+              <div class="item">
+                <div class="gallery-card">
+                    <img src="{{ asset('img/sabor-2.jpg') }}" alt="">
+                </div>
+              </div>
+              <div class="item">
+                <div class="gallery-card">
+                    <img src="{{ asset('img/sabor-3.jpg') }}" alt="">
+                </div>
+              </div>
+              <div class="item">
+                <div class="gallery-card">
+                    <img src="{{ asset('img/sabor-4.jpg') }}" alt="">
+                </div>
+              </div>
+              <div class="item">
+                <div class="gallery-card">
+                    <img src="{{ asset('img/sabor-5.jpg') }}" alt="">
+                </div>
+              </div>
+              <div class="item">
+                <div class="gallery-card">
+                    <img src="{{ asset('img/sabor-6.jpg') }}" alt="">
+                </div>
+              </div>
+          </div>
           </div>
       </div>
   
@@ -106,8 +127,8 @@
               </div>
           </div>
           <div class="col-md-4 offset-md-1">
-              <p>Nuestra carta de bebidas y destilados nacionales e importados harán de tu estancia un momento especial. Prueba nuestra mixología de casa para disfrutar de la vista en la terraza del motor lobby.</p>
-              <a href="" class="btn-link">Descarga el Menú ></a>
+              <p>En Bar Kahlo contamos con una variedad de destilados y vinos nacionales e importados premium para todos tus invitados, aquí mismo, en Puerto Interior.</p>
+              <p>Reserva y permítenos atenderte con nuestra hospitalidad para una estancia excepcional. Todas las amenidades fueron seleccionadas para darte una magnífica experiencia con un toque de auténtico lujo mexicano.</p>
           </div>
       </div>
   </div>  
@@ -123,11 +144,21 @@
 <script src="{{ asset('vendor/owl-carousel/dist/owl.carousel.min.js') }}"></script>
 
 <script>
-  $('.restaurant-carousel').owlCarousel({
+  $('.gallery-carousel').owlCarousel({
     loop:true,
     margin:30,
     nav:true,
-    items:1,
+    responsive:{
+        0:{
+            items:2,
+        },
+        600:{
+            items:2,
+        },
+        1000:{
+            items:3,
+        }
+    }
   });
 </script>
 @endpush

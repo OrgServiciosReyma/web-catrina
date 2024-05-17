@@ -9,89 +9,134 @@ class FrontController extends Controller
     public function index()
     {
         $video_link = 'footer-video.mp4';
+        $video_title = 'Hacienda Catrina es México';
+        $video_subtitle = 'Es boutique, es sabor, es descanso, es celebración… Hacienda Catrina es México.';
 
         return view('index')
-        ->with('video_link', $video_link);
+        ->with('video_link', $video_link)
+        ->with('video_title', $video_title)
+        ->with('video_subtitle', $video_subtitle);
     }
 
     public function aboutUs()
     {
         $video_link = 'footer-video.mp4';
+        $video_title = 'Hacienda Catrina es México';
+        $video_subtitle = 'Es boutique, es sabor, es descanso, es celebración… Hacienda Catrina es México.';
 
         return view('about_us')
-        ->with('video_link', $video_link);
+        ->with('video_link', $video_link)
+        ->with('video_title', $video_title)
+        ->with('video_subtitle', $video_subtitle);
     }
 
     public function socialClub()
     {
         $video_link = 'footer-video.mp4';
+        $video_title = 'Hacienda Catrina es México';
+        $video_subtitle = 'Es boutique, es sabor, es descanso, es celebración… Hacienda Catrina es México.';
 
         return view('social_club')
-        ->with('video_link', $video_link);
+        ->with('video_link', $video_link)
+        ->with('video_title', $video_title)
+        ->with('video_subtitle', $video_subtitle);
     }
 
     public function gym()
     {
         $video_link = 'footer-video.mp4';
+        $video_title = 'Hacienda Catrina es México';
+        $video_subtitle = 'Es boutique, es sabor, es descanso, es celebración… Hacienda Catrina es México.';
 
         return view('gym')
-        ->with('video_link', $video_link);
+        ->with('video_link', $video_link)
+        ->with('video_title', $video_title)
+        ->with('video_subtitle', $video_subtitle);
     }
 
     public function boutique()
     {
         $video_link = 'footer-boutique.mp4';
+        $video_title = 'Hacienda Catrina es México';
+        $video_subtitle = 'Es boutique, es sabor, es descanso, es celebración… Hacienda Catrina es México.';
 
         return view('boutique')
-        ->with('video_link', $video_link);
+        ->with('video_link', $video_link)
+        ->with('video_title', $video_title)
+        ->with('video_subtitle', $video_subtitle);
     }
 
     public function business()
     {
         $video_link = 'footer-video.mp4';
+        $video_title = 'Hacienda Catrina es México';
+        $video_subtitle = 'Es boutique, es sabor, es descanso, es celebración… Hacienda Catrina es Negocios.';
 
         return view('business')
-        ->with('video_link', $video_link);
+        ->with('video_link', $video_link)
+        ->with('video_title', $video_title)
+        ->with('video_subtitle', $video_subtitle);
     }
 
     public function eventWedding()
     {
         $video_link = 'footer-celeb.mp4';
+        $video_title = 'Hacienda Catrina es México';
+        $video_subtitle = 'Es boutique, es descanso, es hospitalidad… Hacienda Catrina es Celebración.';
 
         return view('events')
-        ->with('video_link', $video_link);
+        ->with('video_link', $video_link)
+        ->with('video_title', $video_title)
+        ->with('video_subtitle', $video_subtitle);
     }
 
     public function eventGeneral()
     {
         $video_link = 'footer-celeb.mp4';
+        $video_title = 'Hacienda Catrina es México';
+        $video_subtitle = 'Es boutique, es sabor, es descanso, es celebración… Hacienda Catrina es México.';
 
         return view('events')
-        ->with('video_link', $video_link);
+        ->with('video_link', $video_link)
+        ->with('video_title', $video_title)
+        ->with('video_subtitle', $video_subtitle);
     }
 
     public function spa()
     {
+        /* Hospitalidad */
         $video_link = 'footer-hospi.mp4';
+        $video_title = 'Hacienda Catrina es Hospitalidad';
+        $video_subtitle = 'Es boutique, es sabor, es descanso, es celebración… Hacienda Catrina es México.';
 
         return view('spa')
-        ->with('video_link', $video_link);
+        ->with('video_link', $video_link)
+        ->with('video_title', $video_title)
+        ->with('video_subtitle', $video_subtitle);
     }
 
     public function life()
     {
         $video_link = 'footer-video.mp4';
+        $video_title = 'Hacienda Catrina es Origen';
+        $video_subtitle = 'Es boutique, es sabor, es descanso, es reconexión… Hacienda Catrina es México.';
 
         return view('life')
-        ->with('video_link', $video_link);
+        ->with('video_link', $video_link)
+        ->with('video_title', $video_title)
+        ->with('video_subtitle', $video_subtitle);
     }
 
     public function gastro()
     {
         $video_link = 'footer-video.mp4';
-
+        $video_title = 'Hacienda Catrina es Sabor';
+        $video_subtitle = 'Es boutique, es descanso, es celebración... Hacienda Catrina es México.';
+        
         return view('gastro')
-        ->with('video_link', $video_link);
+        ->with('video_link', $video_link)
+        ->with('video_title', $video_title)
+        ->with('video_subtitle', $video_subtitle);
     }
 
     public function boutiqueDetail($name)

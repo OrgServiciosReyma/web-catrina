@@ -42,7 +42,7 @@
         <p>Hotel - Aeropuerto - Hotel</p>
     </div>
 
-    <div class="full-image-wrap business-banner"></div>
+    <div class="full-image-wrap wedding-banner"></div>
     
     <div class="container std-p">
         <div class="row">
@@ -56,7 +56,7 @@
                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Ruedo con capacidad de 500 personas</li>
                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Jadines con capacidad de hasta 600 personas.</li>
                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Lago para ceremonia civil.</li>
-                    <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Villa catrina privada para novios.</li>
+                    <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> Villa Catrina privada para novios.</li>
                     <li><ion-icon name="checkmark-circle-outline" class="me-3"></ion-icon> 28 habitaciones para tus invitados más íntimos</li>
                 </ul>
             </div>

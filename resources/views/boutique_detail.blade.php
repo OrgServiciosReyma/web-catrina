@@ -30,7 +30,9 @@
             </div>
         </div>
         <div class="row mt-5">
-            <div class="col-md-4 offset-md-4">
+            <div class="col-md-4 offset-md-4 position-relative">
+                <a href="http://127.0.0.1:8000/boutique/villa-catrina" data-bs-toggle="modal" data-bs-target="#videoModal" class="btn btn-primary btn-video">Ver Video</a>
+
                 <div class="owl-carousel room-carousel">
                     @foreach($room_images as $room_img)
                     <div class="item">
@@ -54,6 +56,23 @@
         <p class="special-welcome decorative parallax" data-rellax-speed="-1">Permítenos consentirte con nuestra hospitalidad para una estancia excepcional. Todas las amenidades fueron seleccionadas para darte una magnífica experiencia de descaso con un toque de auténtico lujo mexicano.</p>
     </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+            <video poster="https://www.haciendacatrina.com.mx/assets/img/hc_r_room3.jpg">
+                <source src="{{ asset('video/footer-video-og.mp4') }}" type="video/mp4">
+            </video> 
+        </div>
+      </div>
+    </div>
+</div>
+  
 
 <section class="section std-p">
     <div class="container">

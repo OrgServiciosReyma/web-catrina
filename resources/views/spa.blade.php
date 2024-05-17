@@ -44,6 +44,7 @@
         <div class="col-md-3">
           <div class="d-flex align-items-center justify-content-sm-center justify-content-end">
             <img class="me-5" src="{{ asset('img/logo-header-1.png') }}" alt="" height="70">
+            <img class="me-5" src="{{ asset('img/logo-header-6.png') }}" alt="" height="70">
             <img src="{{ asset('img/logo-header-2.png') }}" alt="" height="70">
           </div>
         </div>

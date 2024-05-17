@@ -76,11 +76,6 @@
                     </div>
                     <div class="item">
                         <div class="gallery-card">
-                            <img src="{{ asset('img/banner-business-3.png') }}" alt="">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="gallery-card">
                             <img src="{{ asset('img/banner-business-4.png') }}" alt="">
                         </div>
                     </div>
@@ -142,8 +137,8 @@
 
             <div class="col-md-5 offset-md-1 mt-5 ps-3">
                 <div class="display-title btm-mr">
-                    <p class="display-3 decorative">La Vida</p>
-                    <h1 class="display-2">Wellness Center</h1>
+                    <p class="display-3 decorative">Wellness Center</p>
+                    <h1 class="display-2">La Vida</h1>
                 </div>
 
                 <p class="title-p pe-5">La Vida Wellness Center by Hacienda Catrina Hotel Boutique & Spa es el espacio de bienestar que necesitas para recargar de energía, realiza tus rutinas de entrenamiento en nuestro gimnasio y enfrenta los retos del día a día con tu mejor versión.</p>
@@ -170,16 +165,6 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="owl-carousel restaurant-carousel">
-                    <div class="item">
-                        <div class="gallery-card">
-                            <img src="{{ asset('img/banner-restaurant.png') }}" alt="">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="gallery-card">
-                            <img src="{{ asset('img/banner-restaurant.png') }}" alt="">
-                        </div>
-                    </div>
                     <div class="item">
                         <div class="gallery-card">
                             <img src="{{ asset('img/banner-restaurant.png') }}" alt="">
@@ -216,7 +201,7 @@
 
 <script>
   $('.restaurant-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     margin:30,
     nav:true,
     items:1,

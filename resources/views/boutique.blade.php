@@ -65,7 +65,6 @@
                   <h4 class="display-3 mb-0 mt-4">Check-in: 3:00 PM</h4>
                   <h4 class="display-3">Check-out: 12:00 PM</h4>
               </div>
-                
             </div>
         </div>
     </div>

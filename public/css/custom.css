@@ -206,6 +206,11 @@ a:focus-visible {
 	margin-bottom: -60px;
 }
 
+.video-cta .display-3{
+	width: 70%;
+	margin: 0 auto;
+}
+
 .display-title{
 	position: relative;
 }
@@ -728,6 +733,61 @@ body.toggled .right-nav{
 	will-change: transform;
 }
 
+.event-card{
+	position: relative;
+}
+
+.event-image{
+	position: relative;
+	height: 450px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.event-image .overlay{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #000;
+	opacity: .4;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+
+.event-image img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 100%;
+	width: auto !important;
+}
+
+.event-date{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	z-index: 3;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+.event-date p{
+	margin-bottom: 0px;
+}
+
+.event-info{
+	padding-top: 25px;
+}
+
+.event-info p:first-child{
+	font-size: 1.3em;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin-bottom: 0px;
+}
+
 .boutique-carousel{
 	position: relative;
 }
@@ -996,7 +1056,6 @@ footer .address{
 }
 
 /* CTA Video */
-
 .video-cta{
 	position: relative;
 	padding: 180px 0px;
@@ -1010,7 +1069,7 @@ footer .address{
 }
 
 .video-cta .description{
-	width: 35vw;
+	width: 25vw;
 	display: block;
 	margin: 20px auto;
 }
@@ -1080,6 +1139,14 @@ footer .address{
 	margin-top: 130px;
 }
 
+.wedding-banner{
+	background: url(../img/wedding_bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	margin-top: 130px;
+}
+
 /* Section Boutique */
 
 .section-boutique{
@@ -1119,6 +1186,17 @@ footer .address{
 
 .section-boutique-detail ul{
 	padding: 17px;
+}
+
+.section-boutique-detail ul li{
+	padding-bottom: 5px;
+}
+
+.section-boutique-detail .btn-video{
+	position: absolute;
+	bottom: -60px;
+	right: -80px;
+	z-index: 2;
 }
 
 .gallery-card{
@@ -1703,6 +1781,7 @@ footer .address{
 
 	.falling-letter{
 		width: 70%;
+		opacity: .4;
 	}
 
 	.section-letters .event-image {

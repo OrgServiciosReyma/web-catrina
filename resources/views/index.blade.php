@@ -44,6 +44,7 @@
         <div class="col-md-3">
           <div class="d-flex align-items-center justify-content-sm-center justify-content-end">
             <img class="me-5" src="{{ asset('img/logo-header-1.png') }}" alt="" height="70">
+            <img class="me-5" src="{{ asset('img/logo-header-6.png') }}" alt="" height="70">
             <img src="{{ asset('img/logo-header-2.png') }}" alt="" height="70">
           </div>
         </div>
@@ -125,112 +126,71 @@
             <div class="item">
               <div class="event-card">
                 <div class="event-image">
-                  <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                  <div class="overlay"></div>
+                  <img src="{{ asset('img/event-1.jpg') }}" alt="">
                   <div class="event-date">
-                    <h4>25/04</h4>
-                    <p>25 de Febrero</p>
-                    <p><ion-icon name="time-outline"></ion-icon> 10:00am</p>
+                    <h4>10-May</h4>
+                    <p>Día de las madres</p>
+                    <p>Menú Especial</p>
                   </div>
                 </div>
                 <div class="event-info">
-                  <p>Abierto de Polo FMP 2024</p>
-                  <p>Los equipos Gonzalina v San Acasio se enfrentarán próximamente en las explanadas jardinadas de la Hacienda</p>
+                  <p>Celebra a mamá en La Frida Restaurante</p>
+                  <p>Reserva este viernes 10 de mayo, tendremos menú especial.</p>
                 </div>
               </div>
             </div>
+
             <div class="item">
               <div class="event-card">
                 <div class="event-image">
-                  <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                  <div class="overlay"></div>
+                  <img src="{{ asset('img/event-2.jpg') }}" alt="">
                   <div class="event-date">
-                    <h4>25/04</h4>
-                    <p>25 de Febrero</p>
-                    <p><ion-icon name="time-outline"></ion-icon> 10:00am</p>
+                    <h4>14-Feb</h4>
+                    <p>San Valentín</p>
+                    <p>Comparte en pareja</p>
                   </div>
                 </div>
                 <div class="event-info">
-                  <p>Abierto de Polo FMP 2024</p>
-                  <p>Los equipos Gonzalina v San Acasio se enfrentarán próximamente en las explanadas jardinadas de la Hacienda</p>
+                  <p>San Valentín</p>
+                  <p>Ven a disfrutar de un día especial con quien más amas.</p>
                 </div>
               </div>
             </div>
+
             <div class="item">
               <div class="event-card">
                 <div class="event-image">
-                  <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                  <div class="overlay"></div>
+                  <img src="{{ asset('img/event-3.jpg') }}" alt="">
                   <div class="event-date">
-                    <h4>25/04</h4>
-                    <p>25 de Febrero</p>
-                    <p><ion-icon name="time-outline"></ion-icon> 10:00am</p>
+                    <h4>31-Dec</h4>
+                    <p>¡Bienvenido 2024!</p>
+                    <p>Celebra Año Nuevo</p>
                   </div>
                 </div>
                 <div class="event-info">
-                  <p>Abierto de Polo FMP 2024</p>
-                  <p>Los equipos Gonzalina v San Acasio se enfrentarán próximamente en las explanadas jardinadas de la Hacienda</p>
+                  <p>Bienvenido 2024</p>
+                  <p>Dale la bienvenida al 2024 con nuestro evento especial en La Frida Restaurante.</p>
                 </div>
               </div>
             </div>
+
             <div class="item">
               <div class="event-card">
                 <div class="event-image">
-                  <img src="{{ asset('img/event-placeholder.png') }}" alt="">
+                  <div class="overlay"></div>
+                  <img src="{{ asset('img/event-4.jpg') }}" alt="">
                   <div class="event-date">
-                    <h4>25/04</h4>
-                    <p>25 de Febrero</p>
-                    <p><ion-icon name="time-outline"></ion-icon> 10:00am</p>
+                    <h4>2-Nov</h4>
+                    <p>Primer Aniversario</p>
+                    <p>Ven y celebra con nosotros</p>
                   </div>
                 </div>
                 <div class="event-info">
-                  <p>Abierto de Polo FMP 2024</p>
-                  <p>Los equipos Gonzalina v San Acasio se enfrentarán próximamente en las explanadas jardinadas de la Hacienda</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="event-card">
-                <div class="event-image">
-                  <img src="{{ asset('img/event-placeholder.png') }}" alt="">
-                  <div class="event-date">
-                    <h4>25/04</h4>
-                    <p>25 de Febrero</p>
-                    <p><ion-icon name="time-outline"></ion-icon> 10:00am</p>
-                  </div>
-                </div>
-                <div class="event-info">
-                  <p>Abierto de Polo FMP 2024</p>
-                  <p>Los equipos Gonzalina v San Acasio se enfrentarán próximamente en las explanadas jardinadas de la Hacienda</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="event-card">
-                <div class="event-image">
-                  <img src="{{ asset('img/event-placeholder.png') }}" alt="">
-                  <div class="event-date">
-                    <h4>25/04</h4>
-                    <p>25 de Febrero</p>
-                    <p><ion-icon name="time-outline"></ion-icon> 10:00am</p>
-                  </div>
-                </div>
-                <div class="event-info">
-                  <p>Abierto de Polo FMP 2024</p>
-                  <p>Los equipos Gonzalina v San Acasio se enfrentarán próximamente en las explanadas jardinadas de la Hacienda</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="event-card">
-                <div class="event-image">
-                  <img src="{{ asset('img/event-placeholder.png') }}" alt="">
-                  <div class="event-date">
-                    <h4>25/04</h4>
-                    <p>25 de Febrero</p>
-                    <p><ion-icon name="time-outline"></ion-icon> 10:00am</p>
-                  </div>
-                </div>
-                <div class="event-info">
-                  <p>Abierto de Polo FMP 2024</p>
-                  <p>Los equipos Gonzalina v San Acasio se enfrentarán próximamente en las explanadas jardinadas de la Hacienda</p>
+                  <p>Nuestro primer aniversario</p>
+                  <p>Tendremos un evento especial para celebrar nuestro primer aniversario y el tradicional encendido de altar de muertos. Reserva Ahora.</p>
                 </div>
               </div>
             </div>
@@ -256,7 +216,7 @@
                         <p class="wide">Hacienda Catrina</p>
                         <h2 class="display-3">Villa Catrina</h2>
                       </div>
-                      <p>Hermosa casa de campo decorada con un estilo tradicional mexicano totalmente privada. Encontrarás dos recámaras una con cama King Size y baño completo y otra con dos cómodas camas Queen Size con sus mesas lámparas de noche y baño completo.</p>
+                      <p>Hermosa casa de campo decorada con un estilo tradicional mexicano totalmente privada. 2 habitaciones, Sala comedor, terraza con asador y alberca privada.</p>
                     </div>
                     <div class="col-md-7 position-relative">
                       <div class="img-wrap">

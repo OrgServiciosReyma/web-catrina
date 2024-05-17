@@ -73,7 +73,19 @@
                     @break
                     
                     @case('Terminos y Condiciones')
-                        
+                    <p>T&eacute;rminos y condiciones Certificado de Regalo.&nbsp;<br />El uso de la Tarjeta constituye la aceptaci&oacute;n de los siguientes t&eacute;rminos y condiciones:&nbsp;<br /> &nbsp;</p>
+                    <ol>
+                    <li>Por ning&uacute;n motivo y bajo ninguna circunstancia el saldo de esta TARJETA podr&aacute; ser canjeado por dinero en efectivo, ni podr&aacute; ser abonado a ninguna cuenta de cr&eacute;dito.</li>
+                    <li>El saldo de esta TARJETA &uacute;nicamente podr&aacute; ser utilizado para la adquisici&oacute;n de bienes y/o servicios dentro de las unidades de negocio marcadas en la tarjeta.</li>
+                    <li>El saldo de esta TARJETA corresponde al valor comprado y activado en pesos mexicanos del que se dejar&aacute; constancia en el ticket de compra.</li>
+                    <li>El saldo de esta no tiene caducidad.</li>
+                    <li>El uso y resguardo de esta TARJETA es responsabilidad de EL CLIENTE, por lo tanto, por su forma de circulaci&oacute;n y poder liberatorio, esta TARJETA no ser&aacute; repuesta en caso de robo o extrav&iacute;o una vez que haya sido activada y entregada a EL CLIENTE.</li>
+                    <li>La TARJETA solo tiene valor al activarla en una de las cajas registradoras del establecimiento espec&iacute;fico en d&oacute;nde se haya adquirido, al momento de su compra, por lo que EL CLIENTE deber&aacute; conservar su ticket para cualquier aclaraci&oacute;n.</li>
+                    <li>El establecimiento no asumir&aacute; responsabilidad alguna por el mal uso que se le d&eacute; a la TARJETA una vez que haya sido activada y entregada a EL CLIENTE.</li>
+                    <li>El certificado no incluye servicio.&nbsp;</li>
+                    <li>Para el cobro en restaurantes no se requiere reservaci&oacute;n, sin embargo, es sujeto a esperar pro el servicio en horas o d&iacute;as con lleno total de establecimiento.</li>
+                    <li>Aclaraciones y atenci&oacute;n al tel&eacute;fono del establecimiento con Gerencia Administrativa.&nbsp;<br />&nbsp;</li>
+                    </ol>
                         @break
 
                     @case('Uso de Cookies')

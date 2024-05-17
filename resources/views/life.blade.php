@@ -388,6 +388,7 @@
 
 <div class="section white-scroll-text">
     @include('layouts.utilities.scroll_text')
+    @include('layouts.utilities.cta_video')
 </div>
 @endsection
 
