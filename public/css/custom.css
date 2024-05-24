@@ -907,6 +907,23 @@ body.toggled .right-nav{
 	overflow: hidden;
 	padding: 350px 0px 120px 0px;
 	color: #fff;
+	position: relative;
+}
+
+.section-terraza .container{
+	position: relative;
+	z-index: 2;
+}
+
+.section-terraza .overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #000;
+	opacity: .5;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
 }
 
 .alt-terraza{

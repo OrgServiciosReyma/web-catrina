@@ -110,6 +110,7 @@
 </section>
 
 <section id="la-frida" class="section-terraza alt-terraza">
+    <div class="overlay"></div>
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
@@ -126,6 +127,36 @@
         </div>
       </div>
     </div>
+</section>
+
+<section id="bar-kahlo" class="section std-p">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="owl-carousel restaurant-carousel">
+                    <div class="item">
+                        <div class="gallery-card">
+                            <img src="{{ asset('img/banner-restaurant.png') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row align-items-center mt-5">
+            <div class="col-md-5 offset-md-1">
+                <div class="title-group">
+                    <p class="wide">Hacienda Catrina</p>
+                    <h2 class="display-3">Bar Kahlo</h2>
+                    <p class="decorative display-3">es sabor</p>
+                </div>
+            </div>
+            <div class="col-md-4 offset-md-1">
+                <p>Nuestra carta de bebidas y destilados nacionales e importados harán de tu estancia un momento especial. Prueba nuestra mixología de casa para disfrutar de la vista en la terraza del motor lobby.</p>
+                <a href="" class="btn-link">Descarga el Menú ></a>
+            </div>
+        </div>
+    </div>  
 </section>
 
 <section class="section section-social">
@@ -160,35 +191,7 @@
     </div>
 </section>
 
-<section id="bar-kahlo" class="section std-p">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="owl-carousel restaurant-carousel">
-                    <div class="item">
-                        <div class="gallery-card">
-                            <img src="{{ asset('img/banner-restaurant.png') }}" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-        <div class="row align-items-center mt-5">
-            <div class="col-md-5 offset-md-1">
-                <div class="title-group">
-                    <p class="wide">Hacienda Catrina</p>
-                    <h2 class="display-3">Bar Kahlo</h2>
-                    <p class="decorative display-3">es sabor</p>
-                </div>
-            </div>
-            <div class="col-md-4 offset-md-1">
-                <p>Nuestra carta de bebidas y destilados nacionales e importados harán de tu estancia un momento especial. Prueba nuestra mixología de casa para disfrutar de la vista en la terraza del motor lobby.</p>
-                <a href="" class="btn-link">Descarga el Menú ></a>
-            </div>
-        </div>
-    </div>  
-  </section>
+
   
 <div class="section">
     @include('layouts.utilities.scroll_text')
