@@ -69,7 +69,7 @@ class FrontController extends Controller
     public function business()
     {
         $video_link = 'footer-video.mp4';
-        $video_title = 'Hacienda Catrina es México';
+        $video_title = 'Hacienda Catrina es Negocios';
         $video_subtitle = 'Es boutique, es sabor, es descanso, es celebración… Hacienda Catrina es Negocios.';
 
         return view('business')
