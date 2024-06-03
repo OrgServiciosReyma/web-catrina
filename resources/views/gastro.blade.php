@@ -31,11 +31,41 @@
           <p>Cocina tradicional y regional, cocina de autor y de temporada preparada desde nuestro horno y parilla para una experiencia inigualable. Extensos sabores y productos frescos para consentir y deleitar los paladares.</p>
           <p>La virtud de nuestro menú se distingue por la calidad, donde cuidamos la combinación perfecta entre olores, texturas, colores y sabores junto con una presentación excepcional.</p>
 
-          <a href="" class="btn btn-primary">Conoce más</a>
+          <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#menuModal" class="btn btn-primary">Ver el Menú</a>
         </div>
       </div>
     </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 h5" id="menuModalLabel">Selecciona el Menú</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+        <div class="modal-body">
+          <div class="table-details">
+            <div class="d-flex align-items-center justify-content-between">
+              <p>Desayunos</p>
+              <a class="h6" href="{{ asset('files/menu_desayunos.pdf') }}" target="_blank">Descargar PDF <ion-icon name="cloud-download-outline"></ion-icon></a>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <p>Bebidas</p>
+              <a class="h6"  href="{{ asset('files/menu_bebidas.pdf') }}" target="_blank">Descargar PDF <ion-icon name="cloud-download-outline"></ion-icon></a>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <p>Comidas y Cenas</p>
+              <a class="h6"  href="{{ asset('files/menu_comidas.pdf') }}" target="_blank">Descargar PDF <ion-icon name="cloud-download-outline"></ion-icon></a>
+            </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div class="full-image-wrap business-banner" style="margin-top: -100px; z-index:2;"></div>
 
@@ -62,17 +92,17 @@
             <div class="table-details">
                 <div class="d-flex align-items-center justify-content-between">
                   <p>Desayunos</p>
-                  <p class="h6">Ver Menú</p>
+                  <a class="h6" style="font-size: .9em;" href="{{ asset('files/menu_desayunos.pdf') }}" target="_blank">Descargar PDF <ion-icon name="cloud-download-outline"></ion-icon></a>
                 </div>
                 <div class="d-flex align-items-center justify-content-between">
                   <p>Bebidas</p>
-                  <p class="h6">Ver Menú</p>
+                  <a class="h6" style="font-size: .9em;"  href="{{ asset('files/menu_bebidas.pdf') }}" target="_blank">Descargar PDF <ion-icon name="cloud-download-outline"></ion-icon></a>
                 </div>
                 <div class="d-flex align-items-center justify-content-between">
                   <p>Comidas y Cenas</p>
-                  <p class="h6">Ver Menú</p>
+                  <a class="h6" style="font-size: .9em;"  href="{{ asset('files/menu_comidas.pdf') }}" target="_blank">Descargar PDF <ion-icon name="cloud-download-outline"></ion-icon></a>
                 </div>
-                <a href="" class="btn btn-block btn-box">Más Información +</a>
+                <a href="{{ route('gastro') }}" class="btn btn-block btn-box">Más Información +</a>
             </div>
           </div>
       </div>
