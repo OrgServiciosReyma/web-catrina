@@ -112,53 +112,6 @@
     </div>
 </section>
 
-<section class="section-columns">
-    <div class="columns">
-      <div class="column-wrap">
-        <div class="column parallax" data-rellax-speed="-4">
-          <div class="column__item">
-            <div class="column__item-img" style="background-image:url({{ asset('img/spa-img-1.jpg') }})"></div>
-          </div>
-          <div class="column__item">
-            <div class="column__item-img" style="background-image:url({{ asset('img/spa-img-2.jpg') }})"></div>
-          </div>
-          <div class="column__item">
-            <div class="column__item-img" style="background-image:url({{ asset('img/spa-img-3.jpg') }})"></div>
-          </div>
-        </div>
-      </div>
-      <div class="column-wrap">
-        <div class="column parallax" data-rellax-speed="4">
-          <div class="column__item">
-            <div class="column__item-img" style="background-image:url({{ asset('img/spa-img-4.jpg') }})"></div>
-          </div>
-          <div class="column__item">
-            <div class="column__item-img" style="background-image:url({{ asset('img/spa-img-5.jpg') }})"></div>
-          </div>
-          <div class="column__item">
-            <div class="column__item-img" style="background-image:url({{ asset('img/spa-img-6.jpg') }})"></div>
-          </div>
-          <div class="column__item">
-            <div class="column__item-img" style="background-image:url({{ asset('img/spa-img-7.jpg') }})"></div>
-          </div>
-        </div>
-      </div>
-      <div class="column-wrap">
-        <div class="column parallax" data-rellax-speed="-4">
-          <div class="column__item">
-            <div class="column__item-img" style="background-image:url({{ asset('img/spa-img-8.jpg') }})"></div>
-          </div>
-          <div class="column__item">
-            <div class="column__item-img" style="background-image:url({{ asset('img/spa-img-9.jpg') }})"></div>
-          </div>
-          <div class="column__item">
-            <div class="column__item-img" style="background-image:url({{ asset('img/spa-img-10.jpg') }})"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-</section>
-
 <div class="section">
     @include('layouts.utilities.cta_video')
 </div>
