@@ -61,7 +61,7 @@
     }
 
     .falling-letter{
-        position: absolute;
+        positionabsolute;
         z-index: 0;
         width: auto !important;
     }
@@ -135,7 +135,7 @@
 
 <section class="section intro-section">
     <div class="container">
-        <div class="row position-relative">
+        <div class="row offset-md position-relative">
             <img class="gold-branch branch-1 parallaxos" data-rellax-speed="2" src="{{ asset('img/gold-branch-2.svg') }}" alt="">
             
             <div class="col-md-3 parallaxos" data-rellax-speed="1">
@@ -151,9 +151,9 @@
             </div>
         </div>
 
-        <div class="row position-relative">
-            <img class="falling-letter letter-1 parallaxos" data-rellax-speed="4" src="{{ asset('img/letter-1.png') }}" alt="">
-            <img class="falling-letter letter-2 parallaxos" data-rellax-speed="-2" src="{{ asset('img/letter-2.png') }}" alt="">
+        <div class="row offset-md position-relative">
+            <img class="falling-letter letter-1 parallax" data-rellax-speed="4" src="{{ asset('img/letter-1.png') }}" alt="">
+            <img class="falling-letter letter-2 parallax" data-rellax-speed="-2" src="{{ asset('img/letter-2.png') }}" alt="">
 
             <div class="col-md-6 parallaxos" data-rellax-speed="4">
                 <img class="content-img" src="{{ asset('img/la_vida/center/albercas/alberca-3.jpg') }}" alt="" width="100%" class="mb-3">
@@ -164,21 +164,21 @@
             </div>
         </div>
 
-        <div class="row position-relative">
+        <div class="row offset-md position-relative">
             <div class="col-md-8 offset-md-2 parallaxos" data-rellax-speed="1">
                 <img class="content-img" src="{{ asset('img/la_vida/center/albercas/alberca-1.jpg') }}" alt="" width="100%" class="mb-3">
             </div>
 
-            <div class="col-md-8 offset-md-1 parallaxos" data-rellax-speed="-4">
+            <div class="col-md-8 offset-md offset-md-1 parallaxos" data-rellax-speed="-4">
                 <img class="content-img" src="{{ asset('img/la_vida/center/albercas/alberca-4.jpg') }}" alt="" width="100%" class="mb-3">
             </div>
 
             <img class="gold-branch branch-2 parallaxos" data-rellax-speed="2" src="{{ asset('img/gold-branch-1.svg') }}" alt="">
         </div>
 
-        <div class="row position-relative">
-            <img class="falling-letter letter-3 parallaxos" data-rellax-speed="2" src="{{ asset('img/letter-3.png') }}" alt="">
-            <img class="falling-letter letter-4 parallaxos" data-rellax-speed="1" src="{{ asset('img/letter-4.png') }}" alt="">
+        <div class="row offset-md position-relative">
+            <img class="falling-letter letter-3 parallax" data-rellax-speed="2" src="{{ asset('img/letter-3.png') }}" alt="">
+            <img class="falling-letter letter-4 parallax" data-rellax-speed="1" src="{{ asset('img/letter-4.png') }}" alt="">
 
             <div class="col-md-6 parallaxos" data-rellax-speed="1">
                 <img class="content-img" src="{{ asset('img/la_vida/center/regaderas/regadera-1.jpg') }}" alt="" width="100%" class="mb-3">
@@ -205,7 +205,7 @@
 
 <section class="section intro-section">
     <div class="container">
-        <div class="row position-relative">
+        <div class="row offset-md position-relative">
             {{--  
             <img class="gold-branch branch-1 parallaxos" data-rellax-speed="2" src="{{ asset('img/gold-branch-2.svg') }}" alt="">
             --}}
@@ -223,9 +223,9 @@
             </div>
         </div>
 
-        <div class="row position-relative">
-            <img class="falling-letter letter-3 parallaxos" data-rellax-speed="2" src="{{ asset('img/letter-3.png') }}" alt="">
-            <img class="falling-letter letter-4 parallaxos" data-rellax-speed="1" src="{{ asset('img/letter-4.png') }}" alt="">
+        <div class="row offset-md position-relative">
+            <img class="falling-letter letter-3 parallax" data-rellax-speed="2" src="{{ asset('img/letter-3.png') }}" alt="">
+            <img class="falling-letter letter-4 parallax" data-rellax-speed="1" src="{{ asset('img/letter-4.png') }}" alt="">
 
             <div class="col-md-3 parallaxos" data-rellax-speed="1">
                 <img class="content-img" src="{{ asset('img/la_vida/travesias/masajes/masaje-6.jpg') }}" alt="" width="100%" class="mb-3">
@@ -236,7 +236,7 @@
             </div>
         </div>
 
-        <div class="row position-relative">
+        <div class="row offset-md position-relative">
             <img class="gold-branch branch-1 parallaxos" data-rellax-speed="2" src="{{ asset('img/gold-branch-2.svg') }}" alt="">
             
             <div class="col-md-3 parallaxos" data-rellax-speed="1">
@@ -268,7 +268,7 @@
 
 <section class="section intro-section">
     <div class="container">
-        <div class="row position-relative">
+        <div class="row offset-md position-relative">
             <img class="gold-branch branch-1 parallaxos" data-rellax-speed="2" src="{{ asset('img/gold-branch-2.svg') }}" alt="">
             
             <div class="col-md-3 parallaxos" data-rellax-speed="1">
@@ -285,8 +285,8 @@
         </div>
 
         <div class="row offset-md position-relative">
-            <img class="falling-letter letter-3 parallaxos" data-rellax-speed="2" src="{{ asset('img/letter-3.png') }}" alt="">
-            <img class="falling-letter letter-4 parallaxos" data-rellax-speed="1" src="{{ asset('img/letter-4.png') }}" alt="">
+            <img class="falling-letter letter-3 parallax" data-rellax-speed="2" src="{{ asset('img/letter-3.png') }}" alt="">
+            <img class="falling-letter letter-4 parallax" data-rellax-speed="1" src="{{ asset('img/letter-4.png') }}" alt="">
 
             <div class="col-md-3 parallaxos" data-rellax-speed="1">
                 <img class="content-img" src="{{ asset('img/la_vida/gimnasio/gimnasio/gimnasio-2.jpg') }}" alt="" width="100%" class="mb-3">
@@ -329,9 +329,9 @@
             </div>
         </div>
 
-        <div class="row position-relative">
-            <img class="falling-letter letter-3 parallaxos" data-rellax-speed="2" src="{{ asset('img/letter-3.png') }}" alt="">
-            <img class="falling-letter letter-4 parallaxos" data-rellax-speed="1" src="{{ asset('img/letter-4.png') }}" alt="">
+        <div class="row offset-md position-relative">
+            <img class="falling-letter letter-3 parallax" data-rellax-speed="2" src="{{ asset('img/letter-3.png') }}" alt="">
+            <img class="falling-letter letter-4 parallax" data-rellax-speed="1" src="{{ asset('img/letter-4.png') }}" alt="">
 
             <div class="col-md-3 parallaxos" data-rellax-speed="1">
                 <img class="content-img" src="{{ asset('img/la_vida/temazcal/temazcal-5.jpg') }}" alt="" width="100%" class="mb-3">
@@ -360,7 +360,7 @@
 
 <section class="section intro-section">
     <div class="container">
-        <div class="row position-relative">
+        <div class="row offset-md position-relative">
             <img class="gold-branch branch-1 parallaxos" data-rellax-speed="2" src="{{ asset('img/gold-branch-2.svg') }}" alt="">
             
 
@@ -380,8 +380,8 @@
         </div>
 
         <div class="row offset-big position-relative">
-            <img class="falling-letter letter-3 parallaxos" data-rellax-speed="2" src="{{ asset('img/letter-3.png') }}" alt="">
-            <img class="falling-letter letter-4 parallaxos" data-rellax-speed="1" src="{{ asset('img/letter-4.png') }}" alt="">
+            <img class="falling-letter letter-3 parallax" data-rellax-speed="2" src="{{ asset('img/letter-3.png') }}" alt="">
+            <img class="falling-letter letter-4 parallax" data-rellax-speed="1" src="{{ asset('img/letter-4.png') }}" alt="">
 
             <div class="col-md-3 parallaxos" data-rellax-speed="1">
                 <img class="content-img" src="{{ asset('img/spa-7.jpg') }}" alt="" width="100%" class="mb-3">
