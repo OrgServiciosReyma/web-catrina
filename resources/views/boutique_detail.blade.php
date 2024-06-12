@@ -3,6 +3,9 @@
 @push('styles')
 <link rel="stylesheet" href="{{ asset('vendor/owl-carousel/dist/assets/owl.carousel.min.css') }}">
 <link rel="stylesheet" href="{{ asset('vendor/owl-carousel/dist/assets/owl.theme.default.min.css') }}">
+
+<link rel="stylesheet" href="{{ asset('vendor/lite-yt/lite-yt-embed.css') }}">
+
 @endpush
 
 @section('content')
@@ -59,15 +62,13 @@
 
 <!-- Modal -->
 <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 1280px">
       <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body p-0">
-            <video poster="https://www.haciendacatrina.com.mx/assets/img/hc_r_room3.jpg">
-                <source src="{{ asset('video/footer-video-og.mp4') }}" type="video/mp4">
-            </video> 
+        <div class="modal-body">
+          <!--<div id="firstV" style="aspect-ratio:1.8"></div>-->
+          <lite-youtube videoid="UXwdfKAqfrs"
+            style="background-image: url('https://i.ytimg.com/vi/UXwdfKAqfrs/hqdefault.jpg'); max-width: 100%; aspect-ratio:1.8"
+            params="modestbranding=1&rel=0&enablejsapi=1"></lite-youtube>
         </div>
       </div>
     </div>
@@ -138,4 +139,7 @@
     items:1,
   });
 </script>
+
+<script src="{{ asset('vendor/lite-yt/lite-yt-embed.js') }}"></script>
+
 @endpush
