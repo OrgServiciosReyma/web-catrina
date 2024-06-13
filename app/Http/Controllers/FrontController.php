@@ -191,6 +191,8 @@ class FrontController extends Controller
                     ['title' => 'Terraza con sala', 'img' => 'gallery_6.jpg'],
                 ];
 
+                $video_link = 'Tr0E5K58UbA';
+
                 break;
 
             case 'master-suite-201':
@@ -242,6 +244,8 @@ class FrontController extends Controller
                     ['title' => 'Habitación para un magnífico descanso', 'img' => 'gallery_6.jpg'],
                 ];
 
+                $video_link = 'kfb8P7rkOa4';
+
                 break;
             
             case 'gran-class-king':
@@ -292,6 +296,8 @@ class FrontController extends Controller
                     ['title' => 'Terraza con sala / Balcón', 'img' => 'gallery_6.jpg'],
                 ];
 
+                $video_link = 'NJ2KPZFjCtE';
+
                 break;
             
             case 'gran-class-double-queen':
@@ -340,6 +346,8 @@ class FrontController extends Controller
                     ['title' => 'Smart TV de 55"', 'img' => 'gallery_5.jpg'],
                     ['title' => 'Cómoda terraza o balcón', 'img' => 'gallery_6.jpg'],
                 ];
+
+                $video_link = 'Vq-tK8MJR2w';
 
                 break;
             
@@ -393,6 +401,8 @@ class FrontController extends Controller
                     ['title' => 'Habitación King Size ', 'img' => 'gallery_6.jpg'],
                 ];
 
+                $video_link = 'PDP3Sw4hQJY';
+
                 break;
                 
             default:
@@ -413,7 +423,8 @@ class FrontController extends Controller
         ->with('descriptive_p', $descriptive_p)
         ->with('characteristics', $characteristics)
         ->with('room_images', $room_images)
-        ->with('gallery', $gallery);
+        ->with('gallery', $gallery)
+        ->with('video_link', $video_link);
     }
 
     public function terms()

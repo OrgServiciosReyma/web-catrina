@@ -66,8 +66,8 @@
       <div class="modal-content">
         <div class="modal-body">
           <!--<div id="firstV" style="aspect-ratio:1.8"></div>-->
-          <lite-youtube videoid="UXwdfKAqfrs"
-            style="background-image: url('https://i.ytimg.com/vi/UXwdfKAqfrs/hqdefault.jpg'); max-width: 100%; aspect-ratio:1.8"
+          <lite-youtube videoid="{{ $video_link ?? 'UXwdfKAqfrs' }}"
+            style="background-image: url('https://i.ytimg.com/vi/{{ $video_link ?? 'UXwdfKAqfrs' }}/hqdefault.jpg'); max-width: 100%; aspect-ratio:1.8"
             params="modestbranding=1&rel=0&enablejsapi=1"></lite-youtube>
         </div>
       </div>
