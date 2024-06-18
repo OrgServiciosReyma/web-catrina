@@ -169,6 +169,7 @@
         <div class="row offset-md position-relative">
             <div class="col-md-8 offset-md-2 parallaxos" data-rellax-speed="1">
                 <img class="content-img" src="{{ asset('img/la_vida/center/albercas/alberca-1.jpg') }}" alt="" width="100%" class="mb-3">
+                <p>Travesías que promuevan el reprogramar el cuerpo y la mente</p>
             </div>
 
             <div class="col-md-8 offset-md offset-md-1 parallaxos" data-rellax-speed="-4">
@@ -184,6 +185,7 @@
 
             <div class="col-md-6 parallaxos" data-rellax-speed="1">
                 <img class="content-img" src="{{ asset('img/la_vida/center/regaderas/regadera-1.jpg') }}" alt="" width="100%" class="mb-3">
+                <p>En La Vida Wellness Center podrás tener disfrutar de travesías para relajar, reconectar y energizar  con guía y respaldo de profesionales de la salud que impactarán de manera positiva en tus hábitos y estilo de vida para volver al origen y recuperar la conciencia que dia a dia vamos olvidando en el ajetreo de nuestros tiempos. </p>
             </div>
 
             <div class="col-md-6 parallaxos" data-rellax-speed="4">
