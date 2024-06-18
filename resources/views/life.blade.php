@@ -140,6 +140,7 @@
             
             <div class="col-md-3 parallaxos" data-rellax-speed="1">
                 <img class="content-img" src="{{ asset('img/la_vida/center/lobby/lobby-4.jpg') }}" alt="" width="100%" class="mb-3">
+                <p>Recupera consciencia desde el centro y el sentido de LA VIDA</p>
             </div>
 
             <div class="col-md-5 parallaxos" data-rellax-speed="2">
@@ -157,6 +158,7 @@
 
             <div class="col-md-6 parallaxos" data-rellax-speed="4">
                 <img class="content-img" src="{{ asset('img/la_vida/center/albercas/alberca-3.jpg') }}" alt="" width="100%" class="mb-3">
+                <p>Somos anfitriones de bienestar para sensibilizar.</p>
             </div>
 
             <div class="col-md-3 parallaxos" data-rellax-speed="-2">
@@ -220,6 +222,7 @@
 
             <div class="col-md-3 parallaxos" data-rellax-speed="2">
                 <img class="content-img" src="{{ asset('img/la_vida/travesias/hidroterapia/hidro-17.jpg') }}" alt="" width="100%" class="mb-3">
+                <p>Generamos un verdadero cambio para relajar, reconectar y energizar</p>
             </div>
         </div>
 
@@ -245,6 +248,7 @@
 
             <div class="col-md-3 offset-md-3 parallaxos" data-rellax-speed="2">
                 <img class="content-img" src="{{ asset('img/la_vida/travesias/tunel/tunel-2.jpg') }}" alt="" width="100%" class="mb-3">
+                <p>para alcanzar el máximo potencial emocional.</p>
             </div>
 
             <div class="col-md-3 parallaxos" data-rellax-speed="2">
@@ -277,6 +281,7 @@
 
             <div class="col-md-3 offset-md-3 parallaxos" data-rellax-speed="2">
                 <img class="content-img" src="{{ asset('img/la_vida/gimnasio/barberia/barberia-2.jpg') }}" alt="" width="100%" class="mb-3">
+                <p>Toda una travesía para el alma, cuerpo y mente.</p>
             </div>
 
             <div class="col-md-3 parallaxos" data-rellax-speed="2">
