@@ -25,8 +25,9 @@
                     --}}
                 </div>
             </div>
+
             <div class="col-md-2">
-                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#bookingModal" class="booking-btn"><ion-icon name="bookmark-outline"></ion-icon> Reserva</a>
+                <a target="_blank" href="https://direct-book.com/properties/HCHaciendaCatrinaDIRECT?locale=es&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=MXN&checkInDate={{ Carbon\Carbon::now()->format('Y-m-d') }}&checkOutDate={{ Carbon\Carbon::now()->addDay()->format('Y-m-d') }}&trackPage=yes" {{--  data-bs-toggle="modal" data-bs-target="#bookingModal" --}} class="booking-btn"><ion-icon name="bookmark-outline"></ion-icon> Reserva</a>
             </div>
         </div>
     </div>
